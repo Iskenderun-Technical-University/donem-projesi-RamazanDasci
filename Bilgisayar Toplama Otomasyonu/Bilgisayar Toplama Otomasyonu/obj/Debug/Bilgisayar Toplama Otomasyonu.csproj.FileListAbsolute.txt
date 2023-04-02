@@ -24,3 +24,5 @@ C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-Rama
 C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar Toplama Otomasyonu.csproj.CoreCompileInputs.cache
 C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar Toplama Otomasyonu.exe
 C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar Toplama Otomasyonu.pdb
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar_Toplama_Otomasyonu.Form1.resources
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar_Toplama_Otomasyonu.Bakim_Toplama_ayrimi.resources

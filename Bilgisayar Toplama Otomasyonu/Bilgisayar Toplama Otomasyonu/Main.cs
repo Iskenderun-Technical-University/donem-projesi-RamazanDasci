@@ -17,23 +17,22 @@ namespace Bilgisayar_Toplama_Otomasyonu
             InitializeComponent();
         }
 
-        private void btn_bakim_yap_Click(object sender, EventArgs e)
+
+        private void btn_misafirGiris_Click(object sender, EventArgs e)
         {
-            Bilgisayar_bakim_main Formbakim = new Bilgisayar_bakim_main();
-            Formbakim.Show();
+            Bakim_Toplama_ayrimi ayrimNesnesi = new Bakim_Toplama_ayrimi();
+            ayrimNesnesi.Show();
             this.Hide();
         }
 
-        private void btn_bilgisayar_topla_Click(object sender, EventArgs e)
+        private void Main_Load(object sender, EventArgs e)
         {
-            Bilgisayar_topla_main formPC= new Bilgisayar_topla_main();
-            formPC.Show();
-            this.Hide();
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Main_FormClosed(object sender, FormClosedEventArgs e)
         {
-            
+            Application.Exit();
         }
     }
 }

@@ -28,5 +28,11 @@ namespace Bilgisayar_Toplama_Otomasyonu
             anaMain.Show();
             this.Hide();
         }
+
+        private void btn_robotclstr_Click(object sender, EventArgs e)
+        {
+            String text = cmbox_anaIstek.Text;
+            
+        }
     }
 }
