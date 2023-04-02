@@ -11,3 +11,16 @@ C:\Users\Ramazan\source\repos\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama O
 C:\Users\Ramazan\source\repos\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar_Toplama_Otomasyonu.Bilgisayar_bakim_main.resources
 C:\Users\Ramazan\source\repos\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar_Toplama_Otomasyonu.Bilgisayar_topla_main.resources
 C:\Users\Ramazan\source\repos\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar_Toplama_Otomasyonu.Main.resources
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\bin\Debug\Bilgisayar Toplama Otomasyonu.exe.config
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\bin\Debug\Bilgisayar Toplama Otomasyonu.exe
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\bin\Debug\Bilgisayar Toplama Otomasyonu.pdb
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar Toplama Otomasyonu.csproj.AssemblyReference.cache
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar Toplama Otomasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar_Toplama_Otomasyonu.Bilgisayar_bakim_main.resources
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar_Toplama_Otomasyonu.Bilgisayar_topla_main.resources
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar_Toplama_Otomasyonu.Main.resources
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar_Toplama_Otomasyonu.Properties.Resources.resources
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar Toplama Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar Toplama Otomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar Toplama Otomasyonu.exe
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar Toplama Otomasyonu.pdb

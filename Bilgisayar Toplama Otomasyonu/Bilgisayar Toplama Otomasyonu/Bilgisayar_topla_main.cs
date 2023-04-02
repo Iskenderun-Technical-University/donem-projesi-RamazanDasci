@@ -21,5 +21,12 @@ namespace Bilgisayar_Toplama_Otomasyonu
         {
             Application.Exit();
         }
+
+        private void btn_mainButton_Click(object sender, EventArgs e)
+        {
+            Main anaMain = new Main();
+            anaMain.Show();
+            this.Hide();
+        }
     }
 }

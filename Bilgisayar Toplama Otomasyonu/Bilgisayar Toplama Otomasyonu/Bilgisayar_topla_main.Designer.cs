@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.btn_mainButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -40,11 +41,22 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Bilgisayar Toplama Ana Sayfa";
             // 
+            // btn_mainButton
+            // 
+            this.btn_mainButton.Location = new System.Drawing.Point(733, 9);
+            this.btn_mainButton.Name = "btn_mainButton";
+            this.btn_mainButton.Size = new System.Drawing.Size(55, 45);
+            this.btn_mainButton.TabIndex = 1;
+            this.btn_mainButton.Text = "Ana Sayfa";
+            this.btn_mainButton.UseVisualStyleBackColor = true;
+            this.btn_mainButton.Click += new System.EventHandler(this.btn_mainButton_Click);
+            // 
             // Bilgisayar_topla_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_mainButton);
             this.Controls.Add(this.label1);
             this.Name = "Bilgisayar_topla_main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -58,5 +70,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btn_mainButton;
     }
 }
