@@ -40,5 +40,12 @@ namespace Bilgisayar_Toplama_Otomasyonu
         {
             Application.Exit();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Main main = new Main();
+            main.Show();
+            this.Hide();
+        }
     }
 }

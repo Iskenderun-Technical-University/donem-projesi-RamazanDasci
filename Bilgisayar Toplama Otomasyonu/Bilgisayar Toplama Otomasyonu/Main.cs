@@ -34,5 +34,24 @@ namespace Bilgisayar_Toplama_Otomasyonu
         {
             Application.Exit();
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == false)
+            {
+                txt_password.UseSystemPasswordChar = true;
+            }
+            else
+            {
+                txt_password.UseSystemPasswordChar= false;
+            }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            kayit_form kayitNesnesi = new kayit_form();
+            kayitNesnesi.Show();
+            this.Hide();
+        }
     }
 }

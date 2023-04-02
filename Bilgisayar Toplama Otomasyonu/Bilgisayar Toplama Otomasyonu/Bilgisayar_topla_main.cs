@@ -24,8 +24,8 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         private void btn_mainButton_Click(object sender, EventArgs e)
         {
-            Main anaMain = new Main();
-            anaMain.Show();
+            Bakim_Toplama_ayrimi ayrimNesne= new Bakim_Toplama_ayrimi();
+            ayrimNesne.Show();
             this.Hide();
         }
 
