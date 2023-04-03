@@ -77,6 +77,7 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 SqlDataAdapter adapter = new SqlDataAdapter(command);
                 DataTable dt = new DataTable();
                 adapter.Fill(dt);
+                String a = adapter.ToString();
                 if(dt.Rows.Count > 0)
                 {
                     MessageBox.Show("Başarıyla Giriş Yapıldı");
