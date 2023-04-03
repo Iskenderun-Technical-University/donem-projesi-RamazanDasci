@@ -47,7 +47,7 @@
             this.btn_misafirGiris.Location = new System.Drawing.Point(561, 329);
             this.btn_misafirGiris.Name = "btn_misafirGiris";
             this.btn_misafirGiris.Size = new System.Drawing.Size(93, 57);
-            this.btn_misafirGiris.TabIndex = 0;
+            this.btn_misafirGiris.TabIndex = 4;
             this.btn_misafirGiris.Text = "Misafir Olarak Devam Et";
             this.btn_misafirGiris.UseVisualStyleBackColor = true;
             this.btn_misafirGiris.Click += new System.EventHandler(this.btn_misafirGiris_Click);
@@ -58,7 +58,7 @@
             this.button1.Location = new System.Drawing.Point(332, 329);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(169, 57);
-            this.button1.TabIndex = 1;
+            this.button1.TabIndex = 3;
             this.button1.Text = "Giriş Yap";
             this.button1.UseVisualStyleBackColor = true;
             // 
@@ -73,6 +73,7 @@
             this.checkBox1.Text = "Parolayı Göster";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            
             // 
             // txt_password
             // 
@@ -80,7 +81,7 @@
             this.txt_password.Location = new System.Drawing.Point(318, 251);
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(197, 26);
-            this.txt_password.TabIndex = 3;
+            this.txt_password.TabIndex = 1;
             this.txt_password.UseSystemPasswordChar = true;
             // 
             // txt_userName
@@ -89,7 +90,7 @@
             this.txt_userName.Location = new System.Drawing.Point(318, 200);
             this.txt_userName.Name = "txt_userName";
             this.txt_userName.Size = new System.Drawing.Size(197, 26);
-            this.txt_userName.TabIndex = 4;
+            this.txt_userName.TabIndex = 0;
             // 
             // label1
             // 
@@ -128,7 +129,7 @@
             this.linkLabel1.Location = new System.Drawing.Point(413, 425);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(88, 13);
-            this.linkLabel1.TabIndex = 8;
+            this.linkLabel1.TabIndex = 5;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Hemen Kaydolun";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);

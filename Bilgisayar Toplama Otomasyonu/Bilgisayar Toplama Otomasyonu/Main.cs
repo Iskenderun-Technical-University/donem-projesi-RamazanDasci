@@ -53,5 +53,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
             kayitNesnesi.Show();
             this.Hide();
         }
+
     }
 }

@@ -127,6 +127,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Proje hakkında aklımdan geçenler.txt" />
+    <None Include="Resources\pngwing.com %282%29.png" />
+    <None Include="Resources\pngwing.com %281%291.png" />
+    <None Include="Resources\pngwing.com %281%29.png" />
+    <None Include="Resources\pngwing.com.png" />
     <None Include="Resources\USER_PHOTO.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
