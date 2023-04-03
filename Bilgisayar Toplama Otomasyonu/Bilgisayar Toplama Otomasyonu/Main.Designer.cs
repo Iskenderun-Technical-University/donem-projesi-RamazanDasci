@@ -46,7 +46,7 @@
             this.btn_misafirGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_misafirGiris.Location = new System.Drawing.Point(561, 329);
             this.btn_misafirGiris.Name = "btn_misafirGiris";
-            this.btn_misafirGiris.Size = new System.Drawing.Size(93, 57);
+            this.btn_misafirGiris.Size = new System.Drawing.Size(119, 57);
             this.btn_misafirGiris.TabIndex = 4;
             this.btn_misafirGiris.Text = "Misafir Olarak Devam Et";
             this.btn_misafirGiris.UseVisualStyleBackColor = true;
@@ -61,6 +61,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "Giriş Yap";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // checkBox1
             // 
@@ -73,7 +74,6 @@
             this.checkBox1.Text = "Parolayı Göster";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            
             // 
             // txt_password
             // 
@@ -137,7 +137,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(314, 425);
+            this.label3.Location = new System.Drawing.Point(315, 425);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(102, 13);
             this.label3.TabIndex = 9;

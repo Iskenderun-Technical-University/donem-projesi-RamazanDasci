@@ -31,7 +31,14 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         private void btn_robotclstr_Click(object sender, EventArgs e)
         {
-            String text = cmbox_anaIstek.Text;
+            if(cmbox_anaIstek.Text.Equals("Lütfen Bir Seçim Yapınız...") || cmbox_monitorSecim.Text.Equals("Lütfen Bir Seçim Yapınız...") || cmbox_seviyeBelirt.Text.Equals("Lütfen Bir Seçim Yapınız..."))
+            {
+                MessageBox.Show("Çoklu Seçimleri Lütfen Doldurunuz","Dikkat",MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+
+            }
             
         }
     }

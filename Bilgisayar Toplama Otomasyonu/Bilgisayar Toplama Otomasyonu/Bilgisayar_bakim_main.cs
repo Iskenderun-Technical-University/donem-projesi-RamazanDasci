@@ -28,5 +28,17 @@ namespace Bilgisayar_Toplama_Otomasyonu
             ayrimNesne.Show();
             this.Hide();
         }
+
+        private void btn_sorunBul_Click(object sender, EventArgs e)
+        {
+            if(cmbox_anaSorun.Text.Equals("") || cmbox_kacYil.Text.Equals("") || cmbox_nasilBasladi.Text.Equals(""))
+            {
+                MessageBox.Show("Lutfen Kutucukların Tamamını Doldurun","Dikkat",MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+
+            }
+        }
     }
 }

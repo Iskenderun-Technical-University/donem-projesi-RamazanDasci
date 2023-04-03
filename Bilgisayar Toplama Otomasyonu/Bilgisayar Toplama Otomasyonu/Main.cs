@@ -49,10 +49,23 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            //Kayıt Ekranına Atar
             kayit_form kayitNesnesi = new kayit_form();
             kayitNesnesi.Show();
             this.Hide();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Giriş Bilgileri Kontrolünü Sağlar
+            if(txt_password.Text.Equals("") || txt_userName.Text.Equals(""))
+            {
+                MessageBox.Show("Lütfen Kutucukları Boş Bırakmayınız","Dikkat",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            }
+            else
+            {
+                //SQL Bağlantısı Sağlanacak
+            }
+        }
     }
 }

@@ -36,17 +36,17 @@
             this.btn_robotclstr = new System.Windows.Forms.Button();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.label3 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbox_seviyeBelirt = new System.Windows.Forms.ComboBox();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.label4 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.cmbox_monitorSecim = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -92,11 +92,11 @@
             this.cmbox_anaIstek.ForeColor = System.Drawing.Color.Black;
             this.cmbox_anaIstek.FormattingEnabled = true;
             this.cmbox_anaIstek.Items.AddRange(new object[] {
-            "Offis İşlerinde Kullanmak İstiyorum",
-            "Eğitim İçin Kullanmak İstiyorum",
-            "Oyun Amaçlı Kullanmak İstiyorum",
-            "Sunucu Olarak Kullanmak İstiyorum",
-            "Grafik-Render Tasarımları İçin İstiyorum"});
+            "1- Offis İşlerinde Kullanmak İstiyorum",
+            "2- Eğitim İçin Kullanmak İstiyorum",
+            "3- Oyun Amaçlı Kullanmak İstiyorum",
+            "4- Sunucu Olarak Kullanmak İstiyorum",
+            "5- Grafik-Render Tasarımları İçin İstiyorum"});
             this.cmbox_anaIstek.Location = new System.Drawing.Point(499, 112);
             this.cmbox_anaIstek.Name = "cmbox_anaIstek";
             this.cmbox_anaIstek.Size = new System.Drawing.Size(362, 28);
@@ -130,20 +130,20 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Hangi Seviyede Bir Bilgisayar Düşünüyorsunuz?\r\n";
             // 
-            // comboBox1
+            // cmbox_seviyeBelirt
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.comboBox1.ForeColor = System.Drawing.Color.Black;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Her Şeyi En Üst Seviye İstiyorum",
-            "Orta Segment Bir Bilgisayar İstiyorum",
-            "Bütçe Dostu Bir Bilgisayar İstiyorum"});
-            this.comboBox1.Location = new System.Drawing.Point(499, 190);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(362, 28);
-            this.comboBox1.TabIndex = 6;
-            this.comboBox1.Text = "Lütfen Bir Seçim Yapınız...";
+            this.cmbox_seviyeBelirt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_seviyeBelirt.ForeColor = System.Drawing.Color.Black;
+            this.cmbox_seviyeBelirt.FormattingEnabled = true;
+            this.cmbox_seviyeBelirt.Items.AddRange(new object[] {
+            "1- Her Şeyi En Üst Seviye İstiyorum",
+            "2- Orta Segment Bir Bilgisayar İstiyorum",
+            "3- Bütçe Dostu Bir Bilgisayar İstiyorum"});
+            this.cmbox_seviyeBelirt.Location = new System.Drawing.Point(499, 190);
+            this.cmbox_seviyeBelirt.Name = "cmbox_seviyeBelirt";
+            this.cmbox_seviyeBelirt.Size = new System.Drawing.Size(362, 28);
+            this.cmbox_seviyeBelirt.TabIndex = 6;
+            this.cmbox_seviyeBelirt.Text = "Lütfen Bir Seçim Yapınız...";
             // 
             // splitContainer1
             // 
@@ -154,8 +154,8 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.comboBox2);
-            this.splitContainer1.Panel1.Controls.Add(this.comboBox1);
+            this.splitContainer1.Panel1.Controls.Add(this.cmbox_monitorSecim);
+            this.splitContainer1.Panel1.Controls.Add(this.cmbox_seviyeBelirt);
             this.splitContainer1.Panel1.Controls.Add(this.label2);
             this.splitContainer1.Panel1.Controls.Add(this.btn_mainButton);
             this.splitContainer1.Panel1.Controls.Add(this.label5);
@@ -177,37 +177,30 @@
             this.splitContainer1.SplitterDistance = 385;
             this.splitContainer1.TabIndex = 7;
             // 
-            // label4
+            // cmbox_monitorSecim
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(39, 28);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(291, 20);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Bilgisayarınızı Biraz Detaylandıralım";
+            this.cmbox_monitorSecim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_monitorSecim.ForeColor = System.Drawing.Color.Black;
+            this.cmbox_monitorSecim.FormattingEnabled = true;
+            this.cmbox_monitorSecim.Items.AddRange(new object[] {
+            "1- Sistemde Üst Seviye Bir Monitör İstiyorum",
+            "2- Sistemde Normal Bir Monitör İstiyorum",
+            "3- Sistemde Monitör İstemiyorum"});
+            this.cmbox_monitorSecim.Location = new System.Drawing.Point(499, 267);
+            this.cmbox_monitorSecim.Name = "cmbox_monitorSecim";
+            this.cmbox_monitorSecim.Size = new System.Drawing.Size(362, 28);
+            this.cmbox_monitorSecim.TabIndex = 6;
+            this.cmbox_monitorSecim.Text = "Lütfen Bir Seçim Yapınız...";
             // 
-            // checkBox1
+            // label5
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.checkBox1.Location = new System.Drawing.Point(108, 247);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(193, 24);
-            this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Sıvı Soğutucu İstiyorum";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.checkBox2.Location = new System.Drawing.Point(454, 247);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(184, 24);
-            this.checkBox2.TabIndex = 6;
-            this.checkBox2.Text = "Müzik ile İlgileneceğim";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(147, 270);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(244, 20);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Sisteme Monitör Dahil Olsun mu?";
             // 
             // pictureBox3
             // 
@@ -250,30 +243,37 @@
             this.checkBox3.Text = "RGB Işıklandırma İstiyorum";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
-            // label5
+            // checkBox2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(147, 270);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(244, 20);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Sisteme Monitör Dahil Olsun mu?";
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.checkBox2.Location = new System.Drawing.Point(454, 247);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(184, 24);
+            this.checkBox2.TabIndex = 6;
+            this.checkBox2.Text = "Müzik ile İlgileneceğim";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // comboBox2
+            // checkBox1
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.comboBox2.ForeColor = System.Drawing.Color.Black;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Sistemde Üst Seviye Bir Monitör İstiyorum",
-            "Sistemde Normal Bir Monitör İstiyorum",
-            "Sistemde Monitör İstemiyorum"});
-            this.comboBox2.Location = new System.Drawing.Point(499, 267);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(362, 28);
-            this.comboBox2.TabIndex = 6;
-            this.comboBox2.Text = "Lütfen Bir Seçim Yapınız...";
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.checkBox1.Location = new System.Drawing.Point(108, 247);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(193, 24);
+            this.checkBox1.TabIndex = 6;
+            this.checkBox1.Text = "Sıvı Soğutucu İstiyorum";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(39, 28);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(291, 20);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Bilgisayarınızı Biraz Detaylandıralım";
             // 
             // Bilgisayar_topla_main
             // 
@@ -307,7 +307,7 @@
         private System.Windows.Forms.Button btn_robotclstr;
         private System.Windows.Forms.ImageList ımageList1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbox_seviyeBelirt;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.CheckBox checkBox1;
@@ -316,7 +316,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cmbox_monitorSecim;
         private System.Windows.Forms.Label label5;
     }
 }
