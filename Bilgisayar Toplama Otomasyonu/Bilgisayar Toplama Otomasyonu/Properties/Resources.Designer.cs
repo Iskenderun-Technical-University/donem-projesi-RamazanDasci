@@ -93,6 +93,26 @@ namespace Bilgisayar_Toplama_Otomasyonu.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap pngwing_com__3_ {
+            get {
+                object obj = ResourceManager.GetObject("pngwing.com (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngwing_com__4_ {
+            get {
+                object obj = ResourceManager.GetObject("pngwing.com (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap pngwing1 {
             get {
                 object obj = ResourceManager.GetObject("pngwing1", resourceCulture);
