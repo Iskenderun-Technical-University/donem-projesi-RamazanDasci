@@ -90,7 +90,7 @@
             this.txt_kullaniciAdi.Location = new System.Drawing.Point(274, 188);
             this.txt_kullaniciAdi.Name = "txt_kullaniciAdi";
             this.txt_kullaniciAdi.Size = new System.Drawing.Size(225, 26);
-            this.txt_kullaniciAdi.TabIndex = 1;
+            this.txt_kullaniciAdi.TabIndex = 0;
             // 
             // txt_parola
             // 
@@ -107,7 +107,7 @@
             this.txt_parolaYeniden.Location = new System.Drawing.Point(274, 250);
             this.txt_parolaYeniden.Name = "txt_parolaYeniden";
             this.txt_parolaYeniden.Size = new System.Drawing.Size(225, 26);
-            this.txt_parolaYeniden.TabIndex = 1;
+            this.txt_parolaYeniden.TabIndex = 2;
             this.txt_parolaYeniden.UseSystemPasswordChar = true;
             // 
             // txt_ePosta
@@ -116,14 +116,14 @@
             this.txt_ePosta.Location = new System.Drawing.Point(274, 281);
             this.txt_ePosta.Name = "txt_ePosta";
             this.txt_ePosta.Size = new System.Drawing.Size(225, 26);
-            this.txt_ePosta.TabIndex = 1;
+            this.txt_ePosta.TabIndex = 3;
             // 
             // btn_kayitOl
             // 
             this.btn_kayitOl.Location = new System.Drawing.Point(274, 407);
             this.btn_kayitOl.Name = "btn_kayitOl";
             this.btn_kayitOl.Size = new System.Drawing.Size(155, 45);
-            this.btn_kayitOl.TabIndex = 3;
+            this.btn_kayitOl.TabIndex = 5;
             this.btn_kayitOl.Text = "Kayıt Ol";
             this.btn_kayitOl.UseVisualStyleBackColor = true;
             this.btn_kayitOl.Click += new System.EventHandler(this.btn_kayitOl_Click);
