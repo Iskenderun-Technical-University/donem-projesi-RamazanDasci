@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data;
+using System.Data.SqlClient;
+using Bilgisayar_Toplama_Otomasyonu.Sql_degiskenleri;
 
 namespace Bilgisayar_Toplama_Otomasyonu
 {
@@ -64,7 +67,27 @@ namespace Bilgisayar_Toplama_Otomasyonu
             }
             else
             {
+
                 //SQL Bağlantısı Sağlanacak
+                SqlCommand command = new SqlCommand("Select * from KullaniciGirisBilgileri WHERE mail=@pmail and password=@pPassword",Sql_operation.sqlConnect);
+                Sql_operation.checkedConnection(Sql_operation.sqlConnect);
+                command.Parameters.AddWithValue("@pmail",txt_userName.Text);
+                command.Parameters.AddWithValue("@pPassword", txt_password.Text);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                if(dt.Rows.Count > 0)
+                {
+                    MessageBox.Show("Başarıyla Giriş Yapıldı");
+                }
+                else
+                {
+                    MessageBox.Show("Kullanıcı Adı Veya Parola Hatalı");
+                }
+
+
+
             }
         }
     }

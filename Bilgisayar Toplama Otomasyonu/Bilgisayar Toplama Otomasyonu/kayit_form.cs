@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using Bilgisayar_Toplama_Otomasyonu.Sql_degiskenleri;
 
 namespace Bilgisayar_Toplama_Otomasyonu
 {
@@ -41,7 +43,17 @@ namespace Bilgisayar_Toplama_Otomasyonu
             //Kullanıcıyı Veri Tabanına Kayıt Eder
             else
             {
-                
+                SqlCommand CommandRegister = new SqlCommand("INSERT INTO KullaniciGirisBilgileri (name, password, mail) VALUES (@pKullaniciAdi,@pPassword,@pmail)",Sql_operation.sqlConnect);
+
+                Sql_operation.checkedConnection(Sql_operation.sqlConnect);
+                CommandRegister.Parameters.AddWithValue("@pKullaniciAdi", txt_kullaniciAdi.Text);
+                CommandRegister.Parameters.AddWithValue("@pPassword", txt_parola.Text);
+                CommandRegister.Parameters.AddWithValue("@pmail", txt_ePosta.Text);
+
+                CommandRegister.ExecuteNonQuery();
+                MessageBox.Show("Kullanıcı Başarıyla Kayıt Edildi", "Tebrikler", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
             }
         }
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
