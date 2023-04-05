@@ -24,9 +24,19 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         private void btn_mainButon_Click(object sender, EventArgs e)
         {
-            Bakim_Toplama_ayrimi ayrimNesne = new Bakim_Toplama_ayrimi();
-            ayrimNesne.Show();
-            this.Hide();
+            if (Main.girisYapildiMi == 1)
+            {
+                Bakim_Toplama_ayrimi ayrimNesne = new Bakim_Toplama_ayrimi();
+                ayrimNesne.lbl_hesapInfo.Text = Main.Kullanici_eposta;
+                ayrimNesne.Show();
+                this.Hide();
+            }
+            else
+            {
+                Bakim_Toplama_ayrimi ayrimNesne = new Bakim_Toplama_ayrimi();
+                ayrimNesne.Show();
+                this.Hide();
+            }
         }
 
         private void btn_sorunBul_Click(object sender, EventArgs e)

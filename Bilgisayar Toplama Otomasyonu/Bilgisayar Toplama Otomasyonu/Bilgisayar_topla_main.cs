@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using Bilgisayar_Toplama_Otomasyonu.Sql_degiskenleri;
 
 namespace Bilgisayar_Toplama_Otomasyonu
 {
@@ -24,9 +26,22 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         private void btn_mainButton_Click(object sender, EventArgs e)
         {
-            Bakim_Toplama_ayrimi ayrimNesne= new Bakim_Toplama_ayrimi();
-            ayrimNesne.Show();
-            this.Hide();
+            if(Main.girisYapildiMi==1)
+            {
+                
+                
+                Bakim_Toplama_ayrimi ayrimNesne = new Bakim_Toplama_ayrimi();
+                ayrimNesne.lbl_hesapInfo.Text = Main.Kullanici_eposta;
+                ayrimNesne.Show();
+                this.Hide();
+            }
+            else
+            {
+                Bakim_Toplama_ayrimi ayrimNesne = new Bakim_Toplama_ayrimi();
+                ayrimNesne.Show();
+                this.Hide();
+            }
+            
         }
 
         private void btn_robotclstr_Click(object sender, EventArgs e)
@@ -46,7 +61,28 @@ namespace Bilgisayar_Toplama_Otomasyonu
         {
             if(Main.girisYapildiMi==1)
             {
-                //SQL BAĞLANTIIS SAĞLANACAK
+                SqlCommand sqlCommand = new SqlCommand("SELECT * FROM table_kullaniciSistem WHERE Kullanici_eposta = @Email", Sql_operation.sqlConnect);
+                Sql_operation.checkedConnection(Sql_operation.sqlConnect);
+                sqlCommand.Parameters.AddWithValue("@Email", Main.Kullanici_eposta );
+
+                SqlDataAdapter adapter = new SqlDataAdapter(sqlCommand);
+                DataSet dt = new DataSet();
+                adapter.Fill(dt);
+
+
+                if (dt.Tables[0].Rows.Count == 0)
+                {
+                    MessageBox.Show("Veriler boş!", Main.Kullanici_eposta, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    ToplananPcGetir toplananPcGetir = new ToplananPcGetir();
+                    toplananPcGetir.datagrid_toplananPC.AutoGenerateColumns = true;
+                    toplananPcGetir.datagrid_toplananPC.DataSource = dt.Tables[0];
+                    toplananPcGetir.Show();
+                    this.Hide();
+                }
+
             }
             else
             {

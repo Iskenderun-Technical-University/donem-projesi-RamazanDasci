@@ -32,7 +32,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.txt_password = new System.Windows.Forms.TextBox();
-            this.txt_userName = new System.Windows.Forms.TextBox();
+            this.txt_userEposta = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -84,13 +84,13 @@
             this.txt_password.TabIndex = 1;
             this.txt_password.UseSystemPasswordChar = true;
             // 
-            // txt_userName
+            // txt_userEposta
             // 
-            this.txt_userName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_userName.Location = new System.Drawing.Point(318, 200);
-            this.txt_userName.Name = "txt_userName";
-            this.txt_userName.Size = new System.Drawing.Size(197, 26);
-            this.txt_userName.TabIndex = 0;
+            this.txt_userEposta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_userEposta.Location = new System.Drawing.Point(318, 200);
+            this.txt_userEposta.Name = "txt_userEposta";
+            this.txt_userEposta.Size = new System.Drawing.Size(197, 26);
+            this.txt_userEposta.TabIndex = 0;
             // 
             // label1
             // 
@@ -153,7 +153,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txt_userName);
+            this.Controls.Add(this.txt_userEposta);
             this.Controls.Add(this.txt_password);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button1);
@@ -175,12 +175,12 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.TextBox txt_password;
-        private System.Windows.Forms.TextBox txt_userName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label3;
+        public System.Windows.Forms.TextBox txt_userEposta;
     }
 }
 
