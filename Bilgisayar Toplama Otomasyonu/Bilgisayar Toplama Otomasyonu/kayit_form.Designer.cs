@@ -40,6 +40,7 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_girisEkrani = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -159,11 +160,22 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // btn_girisEkrani
+            // 
+            this.btn_girisEkrani.Location = new System.Drawing.Point(12, 439);
+            this.btn_girisEkrani.Name = "btn_girisEkrani";
+            this.btn_girisEkrani.Size = new System.Drawing.Size(81, 41);
+            this.btn_girisEkrani.TabIndex = 6;
+            this.btn_girisEkrani.Text = "Giriş Ekranına Dön";
+            this.btn_girisEkrani.UseVisualStyleBackColor = true;
+            this.btn_girisEkrani.Click += new System.EventHandler(this.btn_girisEkrani_Click);
+            // 
             // kayit_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(663, 492);
+            this.Controls.Add(this.btn_girisEkrani);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.btn_kayitOl);
@@ -201,5 +213,6 @@
         private System.Windows.Forms.Button btn_kayitOl;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btn_girisEkrani;
     }
 }

@@ -74,15 +74,9 @@ namespace Bilgisayar_Toplama_Otomasyonu
                         this.Hide();
 
                     }
-
-                }
-            
-
+                }      
         }
 
-        
-            
-        
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             //Parolayı Görünür veya Gizlemeye Yarar
@@ -96,6 +90,13 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 txt_parolaYeniden.UseSystemPasswordChar = false;
                 txt_parola.UseSystemPasswordChar = false;
             }
+        }
+
+        private void btn_girisEkrani_Click(object sender, EventArgs e)
+        {
+            Main main = new Main();
+            main.Show();
+            this.Hide();
         }
     }
 }

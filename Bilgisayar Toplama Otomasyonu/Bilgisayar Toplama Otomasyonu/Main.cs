@@ -15,6 +15,8 @@ namespace Bilgisayar_Toplama_Otomasyonu
 {
     public partial class Main : Form
     {
+        public static int girisYapildiMi = 0;
+
         public Main()
         {
             InitializeComponent();
@@ -80,11 +82,18 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 String a = adapter.ToString();
                 if(dt.Rows.Count > 0)
                 {
-                    MessageBox.Show("Başarıyla Giriş Yapıldı");
+                    MessageBox.Show("Başarıyla Giriş Yapıldı","Tebrikler",MessageBoxButtons.OK,MessageBoxIcon.Question);
+                    girisYapildiMi = 1;
+                    
+                    Bakim_Toplama_ayrimi bakim_Toplama_Ayrimi = new Bakim_Toplama_ayrimi();
+                    bakim_Toplama_Ayrimi.lbl_hesapInfo.Text = txt_userName.Text;
+                    bakim_Toplama_Ayrimi.Show();
+                    this.Hide();
                 }
                 else
                 {
-                    MessageBox.Show("Kullanıcı Adı Veya Parola Hatalı");
+                    MessageBox.Show("Kullanıcı Adı Veya Parola Hatalı","Dikkat",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+
                 }
 
 

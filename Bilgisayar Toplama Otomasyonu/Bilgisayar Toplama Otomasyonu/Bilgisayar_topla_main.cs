@@ -41,5 +41,17 @@ namespace Bilgisayar_Toplama_Otomasyonu
             }
             
         }
+
+        private void btn_toplananPCgetir_Click(object sender, EventArgs e)
+        {
+            if(Main.girisYapildiMi==1)
+            {
+                //SQL BAĞLANTIIS SAĞLANACAK
+            }
+            else
+            {
+                MessageBox.Show("Bu Özelliği Kullanabilmek İçin Giriş Yapmalısınız", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
     }
 }

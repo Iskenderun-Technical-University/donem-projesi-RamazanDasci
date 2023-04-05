@@ -47,6 +47,7 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.btn_toplananPCgetir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -165,6 +166,7 @@
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.Controls.Add(this.btn_toplananPCgetir);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox3);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox2);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox1);
@@ -275,6 +277,16 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Bilgisayarınızı Biraz Detaylandıralım";
             // 
+            // btn_toplananPCgetir
+            // 
+            this.btn_toplananPCgetir.Location = new System.Drawing.Point(40, 370);
+            this.btn_toplananPCgetir.Name = "btn_toplananPCgetir";
+            this.btn_toplananPCgetir.Size = new System.Drawing.Size(119, 42);
+            this.btn_toplananPCgetir.TabIndex = 10;
+            this.btn_toplananPCgetir.Text = "Topladığım Bilgisayarları Göster";
+            this.btn_toplananPCgetir.UseVisualStyleBackColor = true;
+            this.btn_toplananPCgetir.Click += new System.EventHandler(this.btn_toplananPCgetir_Click);
+            // 
             // Bilgisayar_topla_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -318,5 +330,6 @@
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.ComboBox cmbox_monitorSecim;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btn_toplananPCgetir;
     }
 }

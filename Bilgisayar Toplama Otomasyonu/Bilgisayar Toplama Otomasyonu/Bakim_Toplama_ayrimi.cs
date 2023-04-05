@@ -15,7 +15,10 @@ namespace Bilgisayar_Toplama_Otomasyonu
         public Bakim_Toplama_ayrimi()
         {
             InitializeComponent();
+
+
         }
+        
         
         private void btn_bilgisayar_topla_Click(object sender, EventArgs e)
         {
@@ -44,8 +47,30 @@ namespace Bilgisayar_Toplama_Otomasyonu
         private void button1_Click(object sender, EventArgs e)
         {
             Main main = new Main();
-            main.Show();
-            this.Hide();
+            if (Main.girisYapildiMi == 1)
+            {
+                
+                if (MessageBox.Show("Hesaptan Çıkış Yapılacaktır Onaylıyor Musunuz", "Dikkat", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                {
+                    Main.girisYapildiMi = 0;
+                    Bakim_Toplama_ayrimi bakim_Toplama_Ayrimi = new Bakim_Toplama_ayrimi();
+                    bakim_Toplama_Ayrimi.lbl_hesapInfo.Text = "Hesap Bilgileri İçin Giriş Yapınız";
+                    
+                    main.Show();
+                    this.Hide();
+                }
+            }
+            else
+            {
+                
+                main.Show();
+                this.Hide();
+
+            }
+            
+            
         }
+
+
     }
 }
