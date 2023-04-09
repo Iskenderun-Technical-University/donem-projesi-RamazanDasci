@@ -73,19 +73,24 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 DataSet dt = new DataSet();
                 adapter.Fill(dt);
 
-                
+                ToplananPcGetir toplananPcGetir = new ToplananPcGetir();
+                toplananPcGetir.txt_eposta.Text = Main.Kullanici_eposta;
+
                 if (dt.Tables[0].Rows.Count == 0)
                 {
                     //Kayıtlı Eposta Adına Bilgisayar Yoksa Uyarı Verir
-                    MessageBox.Show("Kayıtlı Herhangi Bir Bilgisayar Bulunamamıştır!!!", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    toplananPcGetir.Show();
+                    this.Hide();
+                    MessageBox.Show("Kayıtlı Herhangi Bir Bilgisayar Bulunamamıştır!!!", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    
                 }
                 else
                 {
                     //Kayıtlı Epostada Bilgisayar Varsa Onları DataGride Aktarır
-                    ToplananPcGetir toplananPcGetir = new ToplananPcGetir();
+                    
                     toplananPcGetir.datagrid_toplananPC.AutoGenerateColumns = true;
                     toplananPcGetir.datagrid_toplananPC.DataSource = dt.Tables[0];
-                    toplananPcGetir.txt_eposta.Text=Main.Kullanici_eposta;
+                    
                     toplananPcGetir.Show();
                     this.Hide();
                 }

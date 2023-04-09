@@ -97,14 +97,14 @@ namespace Bilgisayar_Toplama_Otomasyonu
         private void datagrid_toplananPC_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             int secilen = datagrid_toplananPC.SelectedCells[0].RowIndex;
-            txt_anakart.Text = datagrid_toplananPC.Rows[secilen].Cells[1].Value.ToString();
-            txt_islemci.Text = datagrid_toplananPC.Rows[secilen].Cells[2].Value.ToString();
-            txt_ekranK.Text = datagrid_toplananPC.Rows[secilen].Cells[3].Value.ToString();
-            txt_ram.Text = datagrid_toplananPC.Rows[secilen].Cells[4].Value.ToString();
-            txt_power.Text = datagrid_toplananPC.Rows[secilen].Cells[5].Value.ToString();
-            txt_kasa.Text = datagrid_toplananPC.Rows[secilen].Cells[6].Value.ToString();
-            txt_sound.Text = datagrid_toplananPC.Rows[secilen].Cells[7].Value.ToString();
-            txt_sivi.Text = datagrid_toplananPC.Rows[secilen].Cells[8].Value.ToString();
+            txt_anakart.Text = datagrid_toplananPC.Rows[secilen].Cells[2].Value.ToString();
+            txt_islemci.Text = datagrid_toplananPC.Rows[secilen].Cells[3].Value.ToString();
+            txt_ekranK.Text = datagrid_toplananPC.Rows[secilen].Cells[4].Value.ToString();
+            txt_ram.Text = datagrid_toplananPC.Rows[secilen].Cells[5].Value.ToString();
+            txt_power.Text = datagrid_toplananPC.Rows[secilen].Cells[6].Value.ToString();
+            txt_kasa.Text = datagrid_toplananPC.Rows[secilen].Cells[7].Value.ToString();
+            txt_sound.Text = datagrid_toplananPC.Rows[secilen].Cells[8].Value.ToString();
+            txt_sivi.Text = datagrid_toplananPC.Rows[secilen].Cells[9].Value.ToString();
         }
 
         private void btn_kayitSil_Click(object sender, EventArgs e)
