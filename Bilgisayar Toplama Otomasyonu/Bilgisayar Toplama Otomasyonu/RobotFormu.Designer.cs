@@ -28,164 +28,226 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.cmbox_islemci = new System.Windows.Forms.ComboBox();
+            this.picture_islemci = new System.Windows.Forms.PictureBox();
+            this.cmbox_anakart = new System.Windows.Forms.ComboBox();
+            this.picture_anakart = new System.Windows.Forms.PictureBox();
+            this.cmbox_ram = new System.Windows.Forms.ComboBox();
+            this.picture_ram = new System.Windows.Forms.PictureBox();
+            this.cmbox_seskarti = new System.Windows.Forms.ComboBox();
+            this.picture_seskarti = new System.Windows.Forms.PictureBox();
+            this.cmbox_sivisogutucu = new System.Windows.Forms.ComboBox();
+            this.picture_sivisogutucu = new System.Windows.Forms.PictureBox();
+            this.cmbox_monitor = new System.Windows.Forms.ComboBox();
+            this.picture_monitor = new System.Windows.Forms.PictureBox();
+            this.cmbox_ekrankarti = new System.Windows.Forms.ComboBox();
+            this.picture_ekrankarti = new System.Windows.Forms.PictureBox();
+            this.cmbox_kasa = new System.Windows.Forms.ComboBox();
+            this.picture_kasa = new System.Windows.Forms.PictureBox();
+            this.deneme = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_islemci)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_anakart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_ram)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_seskarti)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_sivisogutucu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_monitor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_ekrankarti)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_kasa)).BeginInit();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // cmbox_islemci
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(26, 225);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(260, 21);
-            this.comboBox1.TabIndex = 0;
+            this.cmbox_islemci.FormattingEnabled = true;
+            this.cmbox_islemci.Location = new System.Drawing.Point(37, 240);
+            this.cmbox_islemci.Name = "cmbox_islemci";
+            this.cmbox_islemci.Size = new System.Drawing.Size(260, 21);
+            this.cmbox_islemci.TabIndex = 0;
             // 
-            // pictureBox1
+            // picture_islemci
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(26, 45);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(260, 165);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.picture_islemci.Location = new System.Drawing.Point(37, 60);
+            this.picture_islemci.Name = "picture_islemci";
+            this.picture_islemci.Size = new System.Drawing.Size(260, 165);
+            this.picture_islemci.TabIndex = 1;
+            this.picture_islemci.TabStop = false;
             // 
-            // comboBox2
+            // cmbox_anakart
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(325, 225);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(260, 21);
-            this.comboBox2.TabIndex = 0;
+            this.cmbox_anakart.FormattingEnabled = true;
+            this.cmbox_anakart.Location = new System.Drawing.Point(336, 240);
+            this.cmbox_anakart.Name = "cmbox_anakart";
+            this.cmbox_anakart.Size = new System.Drawing.Size(260, 21);
+            this.cmbox_anakart.TabIndex = 0;
             // 
-            // pictureBox2
+            // picture_anakart
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(325, 45);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(260, 165);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.picture_anakart.Location = new System.Drawing.Point(336, 60);
+            this.picture_anakart.Name = "picture_anakart";
+            this.picture_anakart.Size = new System.Drawing.Size(260, 165);
+            this.picture_anakart.TabIndex = 1;
+            this.picture_anakart.TabStop = false;
             // 
-            // comboBox3
+            // cmbox_ram
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(659, 225);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(260, 21);
-            this.comboBox3.TabIndex = 0;
+            this.cmbox_ram.FormattingEnabled = true;
+            this.cmbox_ram.Location = new System.Drawing.Point(646, 240);
+            this.cmbox_ram.Name = "cmbox_ram";
+            this.cmbox_ram.Size = new System.Drawing.Size(260, 21);
+            this.cmbox_ram.TabIndex = 0;
             // 
-            // pictureBox3
+            // picture_ram
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(659, 45);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(260, 165);
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
+            this.picture_ram.Location = new System.Drawing.Point(646, 60);
+            this.picture_ram.Name = "picture_ram";
+            this.picture_ram.Size = new System.Drawing.Size(260, 165);
+            this.picture_ram.TabIndex = 1;
+            this.picture_ram.TabStop = false;
             // 
-            // comboBox4
+            // cmbox_seskarti
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(26, 479);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(260, 21);
-            this.comboBox4.TabIndex = 0;
+            this.cmbox_seskarti.FormattingEnabled = true;
+            this.cmbox_seskarti.Location = new System.Drawing.Point(37, 515);
+            this.cmbox_seskarti.Name = "cmbox_seskarti";
+            this.cmbox_seskarti.Size = new System.Drawing.Size(260, 21);
+            this.cmbox_seskarti.TabIndex = 0;
             // 
-            // pictureBox4
+            // picture_seskarti
             // 
-            this.pictureBox4.Location = new System.Drawing.Point(26, 299);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(260, 165);
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
+            this.picture_seskarti.Location = new System.Drawing.Point(37, 335);
+            this.picture_seskarti.Name = "picture_seskarti";
+            this.picture_seskarti.Size = new System.Drawing.Size(260, 165);
+            this.picture_seskarti.TabIndex = 1;
+            this.picture_seskarti.TabStop = false;
             // 
-            // comboBox5
+            // cmbox_sivisogutucu
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(325, 479);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(260, 21);
-            this.comboBox5.TabIndex = 0;
+            this.cmbox_sivisogutucu.FormattingEnabled = true;
+            this.cmbox_sivisogutucu.Location = new System.Drawing.Point(336, 515);
+            this.cmbox_sivisogutucu.Name = "cmbox_sivisogutucu";
+            this.cmbox_sivisogutucu.Size = new System.Drawing.Size(260, 21);
+            this.cmbox_sivisogutucu.TabIndex = 0;
             // 
-            // pictureBox5
+            // picture_sivisogutucu
             // 
-            this.pictureBox5.Location = new System.Drawing.Point(325, 299);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(260, 165);
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
+            this.picture_sivisogutucu.Location = new System.Drawing.Point(336, 335);
+            this.picture_sivisogutucu.Name = "picture_sivisogutucu";
+            this.picture_sivisogutucu.Size = new System.Drawing.Size(260, 165);
+            this.picture_sivisogutucu.TabIndex = 1;
+            this.picture_sivisogutucu.TabStop = false;
             // 
-            // comboBox6
+            // cmbox_monitor
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(659, 479);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(260, 21);
-            this.comboBox6.TabIndex = 0;
+            this.cmbox_monitor.FormattingEnabled = true;
+            this.cmbox_monitor.Location = new System.Drawing.Point(646, 515);
+            this.cmbox_monitor.Name = "cmbox_monitor";
+            this.cmbox_monitor.Size = new System.Drawing.Size(260, 21);
+            this.cmbox_monitor.TabIndex = 0;
             // 
-            // pictureBox6
+            // picture_monitor
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(659, 299);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(260, 165);
-            this.pictureBox6.TabIndex = 1;
-            this.pictureBox6.TabStop = false;
+            this.picture_monitor.Location = new System.Drawing.Point(646, 335);
+            this.picture_monitor.Name = "picture_monitor";
+            this.picture_monitor.Size = new System.Drawing.Size(260, 165);
+            this.picture_monitor.TabIndex = 1;
+            this.picture_monitor.TabStop = false;
+            // 
+            // cmbox_ekrankarti
+            // 
+            this.cmbox_ekrankarti.FormattingEnabled = true;
+            this.cmbox_ekrankarti.Location = new System.Drawing.Point(954, 240);
+            this.cmbox_ekrankarti.Name = "cmbox_ekrankarti";
+            this.cmbox_ekrankarti.Size = new System.Drawing.Size(260, 21);
+            this.cmbox_ekrankarti.TabIndex = 0;
+            // 
+            // picture_ekrankarti
+            // 
+            this.picture_ekrankarti.Location = new System.Drawing.Point(954, 60);
+            this.picture_ekrankarti.Name = "picture_ekrankarti";
+            this.picture_ekrankarti.Size = new System.Drawing.Size(260, 165);
+            this.picture_ekrankarti.TabIndex = 1;
+            this.picture_ekrankarti.TabStop = false;
+            // 
+            // cmbox_kasa
+            // 
+            this.cmbox_kasa.FormattingEnabled = true;
+            this.cmbox_kasa.Location = new System.Drawing.Point(954, 515);
+            this.cmbox_kasa.Name = "cmbox_kasa";
+            this.cmbox_kasa.Size = new System.Drawing.Size(260, 21);
+            this.cmbox_kasa.TabIndex = 0;
+            // 
+            // picture_kasa
+            // 
+            this.picture_kasa.Location = new System.Drawing.Point(954, 335);
+            this.picture_kasa.Name = "picture_kasa";
+            this.picture_kasa.Size = new System.Drawing.Size(260, 165);
+            this.picture_kasa.TabIndex = 1;
+            this.picture_kasa.TabStop = false;
+            // 
+            // deneme
+            // 
+            this.deneme.AutoSize = true;
+            this.deneme.Location = new System.Drawing.Point(478, 659);
+            this.deneme.Name = "deneme";
+            this.deneme.Size = new System.Drawing.Size(35, 13);
+            this.deneme.TabIndex = 2;
+            this.deneme.Text = "label1";
             // 
             // RobotFormu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1347, 728);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.comboBox6);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.comboBox5);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.comboBox1);
+            this.ClientSize = new System.Drawing.Size(1384, 805);
+            this.Controls.Add(this.deneme);
+            this.Controls.Add(this.picture_ekrankarti);
+            this.Controls.Add(this.picture_kasa);
+            this.Controls.Add(this.picture_monitor);
+            this.Controls.Add(this.cmbox_ekrankarti);
+            this.Controls.Add(this.cmbox_kasa);
+            this.Controls.Add(this.picture_ram);
+            this.Controls.Add(this.cmbox_monitor);
+            this.Controls.Add(this.cmbox_ram);
+            this.Controls.Add(this.picture_sivisogutucu);
+            this.Controls.Add(this.picture_anakart);
+            this.Controls.Add(this.cmbox_sivisogutucu);
+            this.Controls.Add(this.cmbox_anakart);
+            this.Controls.Add(this.picture_seskarti);
+            this.Controls.Add(this.cmbox_seskarti);
+            this.Controls.Add(this.picture_islemci);
+            this.Controls.Add(this.cmbox_islemci);
             this.Name = "RobotFormu";
             this.Text = "RobotFormu";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RobotFormu_FormClosed);
+            ((System.ComponentModel.ISupportInitialize)(this.picture_islemci)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_anakart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_ram)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_seskarti)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_sivisogutucu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_monitor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_ekrankarti)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_kasa)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        public System.Windows.Forms.ComboBox cmbox_ekrankarti;
+        public System.Windows.Forms.PictureBox picture_ekrankarti;
+        public System.Windows.Forms.ComboBox cmbox_kasa;
+        public System.Windows.Forms.PictureBox picture_kasa;
+        public System.Windows.Forms.ComboBox cmbox_islemci;
+        public System.Windows.Forms.PictureBox picture_islemci;
+        public System.Windows.Forms.ComboBox cmbox_anakart;
+        public System.Windows.Forms.PictureBox picture_anakart;
+        public System.Windows.Forms.ComboBox cmbox_ram;
+        public System.Windows.Forms.PictureBox picture_ram;
+        public System.Windows.Forms.ComboBox cmbox_seskarti;
+        public System.Windows.Forms.PictureBox picture_seskarti;
+        public System.Windows.Forms.ComboBox cmbox_sivisogutucu;
+        public System.Windows.Forms.PictureBox picture_sivisogutucu;
+        public System.Windows.Forms.ComboBox cmbox_monitor;
+        public System.Windows.Forms.PictureBox picture_monitor;
+        public System.Windows.Forms.Label deneme;
     }
 }

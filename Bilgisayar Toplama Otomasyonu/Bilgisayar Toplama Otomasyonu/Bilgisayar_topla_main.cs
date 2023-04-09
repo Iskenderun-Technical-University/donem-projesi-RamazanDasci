@@ -46,6 +46,8 @@ namespace Bilgisayar_Toplama_Otomasyonu
             
         }
 
+        
+
         private void btn_robotclstr_Click(object sender, EventArgs e)
         {
             //Bilgisayar Toplamak İçin Robotu Çalıştırma Butonu
@@ -56,8 +58,73 @@ namespace Bilgisayar_Toplama_Otomasyonu
             else
             {
                 //ROBOT ÇALIŞMA KODLARI
+                RobotFormu robotFormu = new RobotFormu();
+                if (cmbox_monitorSecim.Text.Contains("1"))
+                {
+                    
+                    sqlforrobot("SELECT * FROM table_monitor WHERE id<=13", robotFormu.cmbox_monitor);
+                }
+                else if (cmbox_monitorSecim.Text.Contains("2"))
+                {
+                    sqlforrobot("SELECT * FROM table_monitor WHERE id>13 and id<=23", robotFormu.cmbox_monitor);
+                }
+                else if(cmbox_monitorSecim.Text.Contains("3"))
+                {
+                    sqlforrobot("SELECT * FROM table_monitor WHERE id>23", robotFormu.cmbox_monitor);
+                }
+                else
+                {
+                    //SİSTEMDE MONİTÖR İSTEMİYORUM KODLARI
+                }
+                if (cmbox_anaIstek.Text.Contains("1"))
+                {
+
+                    sqlforrobot("SELECT * FROM table_islemci WHERE id<=10", robotFormu.cmbox_islemci);
+                    sqlforrobot("SELECT * FROM table_anakart WHERE id<=10", robotFormu.cmbox_anakart);
+                    sqlforrobot("SELECT * FROM tableRam WHERE id<=10",     robotFormu.cmbox_ram);
+                    sqlforrobot("SELECT * FROM table_kasa WHERE id<=10",    robotFormu.cmbox_kasa);
+                    sqlforrobot("SELECT * FROM tableEkranK WHERE id<=10", robotFormu.cmbox_ekrankarti);
+                }
+                else if (cmbox_anaIstek.Text.Contains("2"))
+                {
+                    
+                }
+                else if (cmbox_anaIstek.Text.Contains("3"))
+                {
+                    
+                }
+                else if (cmbox_anaIstek.Text.Contains("5"))
+                {
+                    
+                }
+                
+                else
+                {
+                    //Sunucu Bilgisayarı Toplamak İstiyor
+                }
+
+                robotFormu.Show();
+                this.Hide();
+                
+
             }
             
+        }
+        public void sqlforrobot(String sqlkomut,  ComboBox comboBox  )
+        {
+            SqlCommand sqlCommand = new SqlCommand(sqlkomut,Sql_operation.sqlConnect);
+            Sql_operation.checkedConnection(Sql_operation.sqlConnect);
+            SqlDataReader reader = sqlCommand.ExecuteReader();
+            while(reader.Read())
+            {
+               comboBox.Items.Add(reader.GetString(1)); // kayıt ekle
+
+            }
+            reader.Close();
+
+
+
+
         }
 
         private void btn_toplananPCgetir_Click(object sender, EventArgs e)

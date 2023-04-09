@@ -40,6 +40,7 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.cmbox_monitorSecim = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.btn_toplananPCgetir = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -47,7 +48,6 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.btn_toplananPCgetir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -187,7 +187,8 @@
             this.cmbox_monitorSecim.Items.AddRange(new object[] {
             "1- Sistemde Üst Seviye Bir Monitör İstiyorum",
             "2- Sistemde Normal Bir Monitör İstiyorum",
-            "3- Sistemde Monitör İstemiyorum"});
+            "3- Sistemde Ofis Monitorü İstiyorum",
+            "4- Sistemde Monitör İstemiyorum"});
             this.cmbox_monitorSecim.Location = new System.Drawing.Point(499, 267);
             this.cmbox_monitorSecim.Name = "cmbox_monitorSecim";
             this.cmbox_monitorSecim.Size = new System.Drawing.Size(362, 28);
@@ -203,6 +204,16 @@
             this.label5.Size = new System.Drawing.Size(244, 20);
             this.label5.TabIndex = 5;
             this.label5.Text = "Sisteme Monitör Dahil Olsun mu?";
+            // 
+            // btn_toplananPCgetir
+            // 
+            this.btn_toplananPCgetir.Location = new System.Drawing.Point(40, 370);
+            this.btn_toplananPCgetir.Name = "btn_toplananPCgetir";
+            this.btn_toplananPCgetir.Size = new System.Drawing.Size(119, 42);
+            this.btn_toplananPCgetir.TabIndex = 10;
+            this.btn_toplananPCgetir.Text = "Topladığım Bilgisayarları Göster";
+            this.btn_toplananPCgetir.UseVisualStyleBackColor = true;
+            this.btn_toplananPCgetir.Click += new System.EventHandler(this.btn_toplananPCgetir_Click);
             // 
             // pictureBox3
             // 
@@ -276,16 +287,6 @@
             this.label4.Size = new System.Drawing.Size(291, 20);
             this.label4.TabIndex = 5;
             this.label4.Text = "Bilgisayarınızı Biraz Detaylandıralım";
-            // 
-            // btn_toplananPCgetir
-            // 
-            this.btn_toplananPCgetir.Location = new System.Drawing.Point(40, 370);
-            this.btn_toplananPCgetir.Name = "btn_toplananPCgetir";
-            this.btn_toplananPCgetir.Size = new System.Drawing.Size(119, 42);
-            this.btn_toplananPCgetir.TabIndex = 10;
-            this.btn_toplananPCgetir.Text = "Topladığım Bilgisayarları Göster";
-            this.btn_toplananPCgetir.UseVisualStyleBackColor = true;
-            this.btn_toplananPCgetir.Click += new System.EventHandler(this.btn_toplananPCgetir_Click);
             // 
             // Bilgisayar_topla_main
             // 
