@@ -104,5 +104,12 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
             }
         }
+
+        private void lnklbl_sifremiUnuttum_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            sifremiUnuttum sifremiUnuttum = new sifremiUnuttum();
+            this.Hide();
+            sifremiUnuttum.Show();
+        }
     }
 }

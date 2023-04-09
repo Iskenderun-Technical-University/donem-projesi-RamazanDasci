@@ -79,23 +79,35 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 if (cmbox_anaIstek.Text.Contains("1"))
                 {
 
-                    sqlforrobot("SELECT * FROM table_islemci WHERE id<=10", robotFormu.cmbox_islemci);
-                    sqlforrobot("SELECT * FROM table_anakart WHERE id<=10", robotFormu.cmbox_anakart);
-                    sqlforrobot("SELECT * FROM tableRam WHERE id<=10",     robotFormu.cmbox_ram);
-                    sqlforrobot("SELECT * FROM table_kasa WHERE id<=10",    robotFormu.cmbox_kasa);
-                    sqlforrobot("SELECT * FROM tableEkranK WHERE id<=10", robotFormu.cmbox_ekrankarti);
+                    sqlforrobot("SELECT * FROM table_islemci WHERE id>20", robotFormu.cmbox_islemci);
+                    sqlforrobot("SELECT * FROM table_anakart WHERE id>20", robotFormu.cmbox_anakart);
+                    sqlforrobot("SELECT * FROM tableRam WHERE id>20",     robotFormu.cmbox_ram);
+                    sqlforrobot("SELECT * FROM table_kasa WHERE id>20",    robotFormu.cmbox_kasa);
+                    sqlforrobot("SELECT * FROM tableEkranK WHERE id>20", robotFormu.cmbox_ekrankarti);
                 }
                 else if (cmbox_anaIstek.Text.Contains("2"))
                 {
-                    
+                    sqlforrobot("SELECT * FROM table_islemci WHERE id>10 and id<=20", robotFormu.cmbox_islemci);
+                    sqlforrobot("SELECT * FROM table_anakart WHERE id>10 and id<=20", robotFormu.cmbox_anakart);
+                    sqlforrobot("SELECT * FROM tableRam WHERE id>10 and id<=20", robotFormu.cmbox_ram);
+                    sqlforrobot("SELECT * FROM table_kasa WHERE id>10 and id<=20", robotFormu.cmbox_kasa);
+                    sqlforrobot("SELECT * FROM tableEkranK WHERE id>10 and id<=20", robotFormu.cmbox_ekrankarti);
                 }
                 else if (cmbox_anaIstek.Text.Contains("3"))
                 {
-                    
+                    sqlforrobot("SELECT * FROM table_islemci WHERE id<=10", robotFormu.cmbox_islemci);
+                    sqlforrobot("SELECT * FROM table_anakart WHERE id<=10", robotFormu.cmbox_anakart);
+                    sqlforrobot("SELECT * FROM tableRam WHERE id<=10", robotFormu.cmbox_ram);
+                    sqlforrobot("SELECT * FROM table_kasa WHERE id<=10", robotFormu.cmbox_kasa);
+                    sqlforrobot("SELECT * FROM tableEkranK WHERE id<=10", robotFormu.cmbox_ekrankarti);
                 }
                 else if (cmbox_anaIstek.Text.Contains("5"))
                 {
-                    
+                    sqlforrobot("SELECT * FROM table_islemci WHERE id<=10", robotFormu.cmbox_islemci);
+                    sqlforrobot("SELECT * FROM table_anakart WHERE id<=10", robotFormu.cmbox_anakart);
+                    sqlforrobot("SELECT * FROM tableRam WHERE id<=10", robotFormu.cmbox_ram);
+                    sqlforrobot("SELECT * FROM table_kasa WHERE id<=10", robotFormu.cmbox_kasa);
+                    sqlforrobot("SELECT * FROM tableEkranK WHERE id<=10", robotFormu.cmbox_ekrankarti);
                 }
                 
                 else

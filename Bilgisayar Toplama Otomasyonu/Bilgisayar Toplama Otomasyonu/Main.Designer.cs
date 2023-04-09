@@ -38,6 +38,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
+            this.lnklbl_sifremiUnuttum = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,11 +144,24 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "Hesabınız Yok Mu? ";
             // 
+            // lnklbl_sifremiUnuttum
+            // 
+            this.lnklbl_sifremiUnuttum.AutoSize = true;
+            this.lnklbl_sifremiUnuttum.LinkColor = System.Drawing.Color.Black;
+            this.lnklbl_sifremiUnuttum.Location = new System.Drawing.Point(372, 280);
+            this.lnklbl_sifremiUnuttum.Name = "lnklbl_sifremiUnuttum";
+            this.lnklbl_sifremiUnuttum.Size = new System.Drawing.Size(81, 13);
+            this.lnklbl_sifremiUnuttum.TabIndex = 10;
+            this.lnklbl_sifremiUnuttum.TabStop = true;
+            this.lnklbl_sifremiUnuttum.Text = "Şifremi Unuttum";
+            this.lnklbl_sifremiUnuttum.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnklbl_sifremiUnuttum_LinkClicked);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(781, 475);
+            this.Controls.Add(this.lnklbl_sifremiUnuttum);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.pictureBox1);
@@ -181,6 +195,7 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label3;
         public System.Windows.Forms.TextBox txt_userEposta;
+        private System.Windows.Forms.LinkLabel lnklbl_sifremiUnuttum;
     }
 }
 

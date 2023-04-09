@@ -28,3 +28,4 @@ C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-Rama
 C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar_Toplama_Otomasyonu.kayit_form.resources
 C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar_Toplama_Otomasyonu.ToplananPcGetir.resources
 C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar_Toplama_Otomasyonu.RobotFormu.resources
+C:\Users\Ramazan\Source\Repos\Iskenderun-Technical-University\donem-projesi-RamazanDasci\Bilgisayar Toplama Otomasyonu\Bilgisayar Toplama Otomasyonu\obj\Debug\Bilgisayar_Toplama_Otomasyonu.sifremiUnuttum.resources
