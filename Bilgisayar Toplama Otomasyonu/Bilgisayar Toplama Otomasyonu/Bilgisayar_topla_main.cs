@@ -45,8 +45,9 @@ namespace Bilgisayar_Toplama_Otomasyonu
             }
             
         }
-
         
+        
+
 
         private void btn_robotclstr_Click(object sender, EventArgs e)
         {
@@ -59,6 +60,19 @@ namespace Bilgisayar_Toplama_Otomasyonu
             {
                 //ROBOT ÇALIŞMA KODLARI
                 RobotFormu robotFormu = new RobotFormu();
+                
+                if (chc_sivisogutucu.Checked)
+                {
+                    sqlforrobot("SELECT * FROM tableCooling ", robotFormu.cmbox_sivisogutucu);
+                }
+                if (chc_music.Checked)
+                {
+                    sqlforrobot("SELECT * FROM tableSesK ", robotFormu.cmbox_seskarti);
+                }
+                if (chc_rgb.Checked)
+                {
+                    //RGB İSTENİLDİĞİNDE NE YAPSIN?
+                }
                 if (cmbox_monitorSecim.Text.Contains("1"))
                 {
                     
@@ -112,7 +126,8 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 
                 else
                 {
-                    //Sunucu Bilgisayarı Toplamak İstiyor
+                    MessageBox.Show("Sunucu Bilgisayarları Çok Yakında...", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
                 }
 
                 robotFormu.Show();
@@ -181,9 +196,8 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 MessageBox.Show("Bu Özelliği Kullanabilmek İçin Giriş Yapmalısınız", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
-        public void datagridiGuncelle()
-        {
+       
 
-        }
+        
     }
 }

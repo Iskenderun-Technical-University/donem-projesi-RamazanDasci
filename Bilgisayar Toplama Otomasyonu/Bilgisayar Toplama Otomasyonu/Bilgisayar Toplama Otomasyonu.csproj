@@ -162,6 +162,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Proje hakkında aklımdan geçenler.txt" />
+    <None Include="Resources\gpu.png" />
+    <None Include="Resources\sound-card.png" />
+    <None Include="Resources\water-cooler.png" />
+    <None Include="Resources\computer-case.png" />
+    <None Include="Resources\ram-memory.png" />
+    <None Include="Resources\tv.png" />
+    <None Include="Resources\motherboard.png" />
+    <None Include="Resources\cpu.png" />
+    <None Include="Resources\giphy.gif" />
     <None Include="Resources\pngwing.com %284%29.png" />
     <None Include="Resources\pngwing.com %283%29.png" />
     <None Include="Resources\pngwing.com %282%29.png" />

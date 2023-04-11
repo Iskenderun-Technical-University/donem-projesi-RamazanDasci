@@ -44,9 +44,9 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.chc_rgb = new System.Windows.Forms.CheckBox();
+            this.chc_music = new System.Windows.Forms.CheckBox();
+            this.chc_sivisogutucu = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -170,9 +170,9 @@
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox3);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox2);
             this.splitContainer1.Panel2.Controls.Add(this.pictureBox1);
-            this.splitContainer1.Panel2.Controls.Add(this.checkBox3);
-            this.splitContainer1.Panel2.Controls.Add(this.checkBox2);
-            this.splitContainer1.Panel2.Controls.Add(this.checkBox1);
+            this.splitContainer1.Panel2.Controls.Add(this.chc_rgb);
+            this.splitContainer1.Panel2.Controls.Add(this.chc_music);
+            this.splitContainer1.Panel2.Controls.Add(this.chc_sivisogutucu);
             this.splitContainer1.Panel2.Controls.Add(this.label4);
             this.splitContainer1.Panel2.Controls.Add(this.btn_robotclstr);
             this.splitContainer1.Size = new System.Drawing.Size(1073, 832);
@@ -245,38 +245,39 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // checkBox3
+            // chc_rgb
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.checkBox3.Location = new System.Drawing.Point(778, 247);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(220, 24);
-            this.checkBox3.TabIndex = 6;
-            this.checkBox3.Text = "RGB Işıklandırma İstiyorum";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.chc_rgb.AutoSize = true;
+            this.chc_rgb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.chc_rgb.Location = new System.Drawing.Point(778, 247);
+            this.chc_rgb.Name = "chc_rgb";
+            this.chc_rgb.Size = new System.Drawing.Size(220, 24);
+            this.chc_rgb.TabIndex = 6;
+            this.chc_rgb.Text = "RGB Işıklandırma İstiyorum";
+            this.chc_rgb.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // chc_music
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.checkBox2.Location = new System.Drawing.Point(454, 247);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(184, 24);
-            this.checkBox2.TabIndex = 6;
-            this.checkBox2.Text = "Müzik ile İlgileneceğim";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.chc_music.AutoSize = true;
+            this.chc_music.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.chc_music.Location = new System.Drawing.Point(454, 247);
+            this.chc_music.Name = "chc_music";
+            this.chc_music.Size = new System.Drawing.Size(184, 24);
+            this.chc_music.TabIndex = 6;
+            this.chc_music.Text = "Müzik ile İlgileneceğim";
+            this.chc_music.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // chc_sivisogutucu
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.checkBox1.Location = new System.Drawing.Point(108, 247);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(193, 24);
-            this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Sıvı Soğutucu İstiyorum";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chc_sivisogutucu.AutoSize = true;
+            this.chc_sivisogutucu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.chc_sivisogutucu.Location = new System.Drawing.Point(108, 247);
+            this.chc_sivisogutucu.Name = "chc_sivisogutucu";
+            this.chc_sivisogutucu.Size = new System.Drawing.Size(193, 24);
+            this.chc_sivisogutucu.TabIndex = 6;
+            this.chc_sivisogutucu.Text = "Sıvı Soğutucu İstiyorum";
+            this.chc_sivisogutucu.UseVisualStyleBackColor = true;
+
             // 
             // label4
             // 
@@ -323,12 +324,12 @@
         private System.Windows.Forms.ComboBox cmbox_seviyeBelirt;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox chc_sivisogutucu;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox chc_music;
+        private System.Windows.Forms.CheckBox chc_rgb;
         private System.Windows.Forms.ComboBox cmbox_monitorSecim;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btn_toplananPCgetir;
