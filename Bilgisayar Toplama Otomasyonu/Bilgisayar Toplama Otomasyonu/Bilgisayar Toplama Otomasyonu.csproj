@@ -117,6 +117,9 @@
     <EmbeddedResource Include="Admin_giris.resx">
       <DependentUpon>Admin_giris.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="admin_panel.resx">
+      <DependentUpon>admin_panel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bakim_Toplama_ayrimi.resx">
       <DependentUpon>Bakim_Toplama_ayrimi.cs</DependentUpon>
     </EmbeddedResource>

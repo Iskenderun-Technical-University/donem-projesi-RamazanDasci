@@ -173,7 +173,7 @@
             // btn_adminLogin
             // 
             this.btn_adminLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_adminLogin.Location = new System.Drawing.Point(108, 337);
+            this.btn_adminLogin.Location = new System.Drawing.Point(152, 337);
             this.btn_adminLogin.Name = "btn_adminLogin";
             this.btn_adminLogin.Size = new System.Drawing.Size(108, 49);
             this.btn_adminLogin.TabIndex = 12;

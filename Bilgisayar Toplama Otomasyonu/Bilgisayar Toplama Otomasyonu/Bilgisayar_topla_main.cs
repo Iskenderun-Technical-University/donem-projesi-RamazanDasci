@@ -100,7 +100,9 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 }
                 else
                 {
-                    //SİSTEMDE MONİTÖR İSTEMİYORUM KODLARI
+                    robotFormu.cmbox_monitor.Enabled = false;
+                    robotFormu.cmbox_monitor.BackColor = Color.Gray;
+                    robotFormu.cmbox_monitor.Text = "Sisteminize Monitör Dahil Edilmedi";
                 }
                 if (cmbox_anaIstek.Text.Contains("1"))
                 {

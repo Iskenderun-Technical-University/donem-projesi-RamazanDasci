@@ -16,5 +16,10 @@ namespace Bilgisayar_Toplama_Otomasyonu
         {
             InitializeComponent();
         }
+
+        private void admin_panel_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
