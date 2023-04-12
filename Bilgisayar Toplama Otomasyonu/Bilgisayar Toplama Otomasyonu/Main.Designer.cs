@@ -40,6 +40,7 @@
             this.lnklbl_sifremiUnuttum = new System.Windows.Forms.LinkLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btn_adminLogin = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -169,11 +170,23 @@
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
             // 
+            // btn_adminLogin
+            // 
+            this.btn_adminLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_adminLogin.Location = new System.Drawing.Point(108, 337);
+            this.btn_adminLogin.Name = "btn_adminLogin";
+            this.btn_adminLogin.Size = new System.Drawing.Size(108, 49);
+            this.btn_adminLogin.TabIndex = 12;
+            this.btn_adminLogin.Text = "Admin Girişi";
+            this.btn_adminLogin.UseVisualStyleBackColor = true;
+            this.btn_adminLogin.Click += new System.EventHandler(this.btn_adminLogin_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(781, 475);
+            this.Controls.Add(this.btn_adminLogin);
             this.Controls.Add(this.lnklbl_sifremiUnuttum);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.linkLabel1);
@@ -212,6 +225,7 @@
         public System.Windows.Forms.TextBox txt_userEposta;
         private System.Windows.Forms.LinkLabel lnklbl_sifremiUnuttum;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btn_adminLogin;
     }
 }
 

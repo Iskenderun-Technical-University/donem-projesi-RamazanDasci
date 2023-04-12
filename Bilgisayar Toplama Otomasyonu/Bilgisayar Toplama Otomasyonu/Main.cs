@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data;
 using System.Data.SqlClient;
 using Bilgisayar_Toplama_Otomasyonu.Sql_degiskenleri;
 using Bilgisayar_Toplama_Otomasyonu.With_ComputerDataSetTableAdapters;
@@ -110,6 +109,14 @@ namespace Bilgisayar_Toplama_Otomasyonu
             sifremiUnuttum sifremiUnuttum = new sifremiUnuttum();
             this.Hide();
             sifremiUnuttum.Show();
+        }
+
+        private void btn_adminLogin_Click(object sender, EventArgs e)
+        {
+            Admin_giris admin_Giris = new Admin_giris();
+            admin_Giris.Show();
+            this.Hide();
+
         }
     }
 }

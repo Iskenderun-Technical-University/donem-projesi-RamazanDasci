@@ -46,9 +46,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
             
         }
         
-        
-
-
         private void btn_robotclstr_Click(object sender, EventArgs e)
         {
             //Bilgisayar Toplamak İçin Robotu Çalıştırma Butonu
@@ -163,10 +160,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
             }
             reader.Close();
-
-
-
-
         }
 
         private void btn_toplananPCgetir_Click(object sender, EventArgs e)

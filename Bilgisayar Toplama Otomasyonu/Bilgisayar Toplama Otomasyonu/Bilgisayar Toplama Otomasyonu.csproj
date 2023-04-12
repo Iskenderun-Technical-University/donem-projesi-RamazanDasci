@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin_giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_giris.Designer.cs">
+      <DependentUpon>Admin_giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="admin_panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_panel.Designer.cs">
+      <DependentUpon>admin_panel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bakim_Toplama_ayrimi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +114,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>With_ComputerDataSet.xsd</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Admin_giris.resx">
+      <DependentUpon>Admin_giris.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bakim_Toplama_ayrimi.resx">
       <DependentUpon>Bakim_Toplama_ayrimi.cs</DependentUpon>
     </EmbeddedResource>
