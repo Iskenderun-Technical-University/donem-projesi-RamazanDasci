@@ -162,6 +162,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Proje hakkında aklımdan geçenler.txt" />
+    <None Include="Resources\light-control.png" />
+    <None Include="Resources\cooler.png" />
     <None Include="Resources\gpu.png" />
     <None Include="Resources\sound-card.png" />
     <None Include="Resources\water-cooler.png" />

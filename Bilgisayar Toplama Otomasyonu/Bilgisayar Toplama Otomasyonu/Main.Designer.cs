@@ -152,7 +152,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.USER_PHOTO;
-            this.pictureBox1.Location = new System.Drawing.Point(319, 46);
+            this.pictureBox1.Location = new System.Drawing.Point(318, 30);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(169, 133);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

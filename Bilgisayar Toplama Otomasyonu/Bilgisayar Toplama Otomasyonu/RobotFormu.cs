@@ -83,5 +83,39 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 }
             }
         }
+
+        private void btn_robotKayit_Click(object sender, EventArgs e)
+        {
+            if (cmbox_ram.Text.Equals("") || cmbox_islemci.Text.Equals("") || cmbox_anakart.Text.Equals(""))
+            {
+                MessageBox.Show("Anakart İşlemci Ve Ram Olmadan Bilgisayar Kayıt Edemezsiniz...", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                if(Main.Kullanici_eposta == null)
+                {
+                    MessageBox.Show("Giriş Yapmadan Bu Özelliği Kullanamazsınız","Dikkat",MessageBoxButtons.OK , MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    SqlCommand EklemeIslemi = new SqlCommand("INSERT INTO table_kullaniciSistem (Kullanici_eposta,Kullanici_anakart,Kullanici_islemci," +
+                    "Kullanici_ekrank,Kullanici_ram,Kullanici_kasa,Kullanici_sound,Kullanici_sivi) VALUES (@eposta,@anakart,@islemci,@ekrank,@ram,@kasa,@sound,@sivi)", Sql_operation.sqlConnect);
+                    EklemeIslemi.Parameters.AddWithValue("@eposta", Main.Kullanici_eposta);
+                    EklemeIslemi.Parameters.AddWithValue("@anakart", cmbox_anakart.Text);
+                    EklemeIslemi.Parameters.AddWithValue("@islemci", cmbox_islemci.Text);
+                    EklemeIslemi.Parameters.AddWithValue("@ekrank", cmbox_ekrankarti.Text);
+                    EklemeIslemi.Parameters.AddWithValue("@ram", cmbox_ram.Text);
+                    EklemeIslemi.Parameters.AddWithValue("@kasa", cmbox_kasa.Text);
+                    EklemeIslemi.Parameters.AddWithValue("@sound", cmbox_seskarti.Text);
+                    EklemeIslemi.Parameters.AddWithValue("@sivi", cmbox_sivisogutucu.Text);
+                    EklemeIslemi.ExecuteNonQuery();
+                    MessageBox.Show("Bilgisayar Başarıyla Kayıt Edildi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                
+            }
+
+            
+            
+        }
     }
 }

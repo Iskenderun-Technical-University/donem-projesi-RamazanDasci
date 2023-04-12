@@ -73,6 +73,16 @@ namespace Bilgisayar_Toplama_Otomasyonu.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap cooler {
+            get {
+                object obj = ResourceManager.GetObject("cooler", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap cpu {
             get {
                 object obj = ResourceManager.GetObject("cpu", resourceCulture);
@@ -96,6 +106,16 @@ namespace Bilgisayar_Toplama_Otomasyonu.Properties {
         internal static System.Drawing.Bitmap gpu {
             get {
                 object obj = ResourceManager.GetObject("gpu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap light_control {
+            get {
+                object obj = ResourceManager.GetObject("light-control", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

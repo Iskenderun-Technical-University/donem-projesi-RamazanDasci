@@ -60,13 +60,28 @@ namespace Bilgisayar_Toplama_Otomasyonu
             {
                 //ROBOT ÇALIŞMA KODLARI
                 RobotFormu robotFormu = new RobotFormu();
-                
+
+                if(!chc_rgb.Checked)
+                {
+                    robotFormu.cmbox_rgbFan.Enabled = false;
+                    robotFormu.cmbox_rbgController.Enabled = false;
+                    robotFormu.cmbox_rgbFan.BackColor = Color.Gray;
+                    robotFormu.cmbox_rbgController.BackColor = Color.Gray;
+                    robotFormu.cmbox_rbgController.Text = "Sisteminizde RGB tanımlı değil.";
+                    robotFormu.cmbox_rgbFan.Text = "Sisteminizde RGB tanımlı Değil.";
+                }
                 if (chc_sivisogutucu.Checked)
                 {
+                    robotFormu.cmbox_sivisogutucu.Enabled = true;
+                    robotFormu.cmbox_sivisogutucu.BackColor = Color.White;
+                    robotFormu.cmbox_sivisogutucu.Text = "";
                     sqlforrobot("SELECT * FROM tableCooling ", robotFormu.cmbox_sivisogutucu);
                 }
                 if (chc_music.Checked)
                 {
+                    robotFormu.cmbox_seskarti.Enabled = true;
+                    robotFormu.cmbox_seskarti.BackColor = Color.White;
+                    robotFormu.cmbox_seskarti.Text = "";
                     sqlforrobot("SELECT * FROM tableSesK ", robotFormu.cmbox_seskarti);
                 }
                 if (chc_rgb.Checked)
