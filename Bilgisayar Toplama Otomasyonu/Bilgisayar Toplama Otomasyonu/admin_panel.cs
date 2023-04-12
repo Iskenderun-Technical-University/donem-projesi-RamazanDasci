@@ -21,5 +21,20 @@ namespace Bilgisayar_Toplama_Otomasyonu
         {
             Application.Exit();
         }
+
+      
     }
 }
+
+
+
+/*
+ * SqlCommand sqlCommand = new SqlCommand("SELECT * FROM table_kullaniciSistem WHERE Kullanici_eposta = @Email", Sql_operation.sqlConnect);
+                Sql_operation.checkedConnection(Sql_operation.sqlConnect);
+                sqlCommand.Parameters.AddWithValue("@Email", Main.Kullanici_eposta);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(sqlCommand);
+                DataSet dt = new DataSet();
+                adapter.Fill(dt);
+                datagrid_toplananPC.AutoGenerateColumns = true;
+                datagrid_toplananPC.DataSource = dt.Tables[0];*/
