@@ -87,6 +87,13 @@ namespace Bilgisayar_Toplama_Otomasyonu
         {
             kayitgetir("*", "table_kullaniciSistem", dataG_kullaniciB);
         }
+
+
+
+
+
+
+
     }
 }
 

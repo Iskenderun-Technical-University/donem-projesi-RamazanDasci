@@ -79,6 +79,28 @@
             this.btn_kullaniciB_kayitSil = new System.Windows.Forms.Button();
             this.btn_kullaniciB_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_kullaniciB = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txt_anakartIsim = new System.Windows.Forms.TextBox();
+            this.txt_islemciIsim = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_anakart)).BeginInit();
@@ -124,6 +146,8 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.txt_anakartIsim);
+            this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.btn_anakart_kayitEkle);
             this.tabPage1.Controls.Add(this.btn_anakart_kaydiSil);
             this.tabPage1.Controls.Add(this.btn_anakart_kayitGetir);
@@ -174,6 +198,8 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.txt_islemciIsim);
+            this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.btn_islemci_kayitEkle);
             this.tabPage2.Controls.Add(this.btn_islemci_kayitSil);
             this.tabPage2.Controls.Add(this.btn_islemci_kayitGetir);
@@ -224,6 +250,8 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.textBox1);
+            this.tabPage3.Controls.Add(this.label3);
             this.tabPage3.Controls.Add(this.btn_ram_kayitEkle);
             this.tabPage3.Controls.Add(this.btn_ram_kayitSil);
             this.tabPage3.Controls.Add(this.btn_ram_kayitGetir);
@@ -274,6 +302,8 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.textBox2);
+            this.tabPage4.Controls.Add(this.label4);
             this.tabPage4.Controls.Add(this.btn_ekranK_kayitEkle);
             this.tabPage4.Controls.Add(this.btn_ekranK_kayitSil);
             this.tabPage4.Controls.Add(this.btn_ekranK_kayitGetir);
@@ -324,6 +354,8 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.textBox3);
+            this.tabPage5.Controls.Add(this.label5);
             this.tabPage5.Controls.Add(this.btn_monitor_kayitEkle);
             this.tabPage5.Controls.Add(this.btn_monitor_kayitSil);
             this.tabPage5.Controls.Add(this.btn_monitor_kayitGetir);
@@ -374,6 +406,8 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.textBox4);
+            this.tabPage6.Controls.Add(this.label6);
             this.tabPage6.Controls.Add(this.btn_kasa_kayitEkle);
             this.tabPage6.Controls.Add(this.btn_kasa_kayitSil);
             this.tabPage6.Controls.Add(this.btn_kasa_kayitGetir);
@@ -424,6 +458,8 @@
             // 
             // tabPage7
             // 
+            this.tabPage7.Controls.Add(this.textBox5);
+            this.tabPage7.Controls.Add(this.label7);
             this.tabPage7.Controls.Add(this.btn_sesK_kayitEkle);
             this.tabPage7.Controls.Add(this.btn_sesK_kayitSil);
             this.tabPage7.Controls.Add(this.btn_sesK_kayitGetir);
@@ -474,6 +510,8 @@
             // 
             // tabPage8
             // 
+            this.tabPage8.Controls.Add(this.textBox6);
+            this.tabPage8.Controls.Add(this.label8);
             this.tabPage8.Controls.Add(this.btn_siviS_kayitEkle);
             this.tabPage8.Controls.Add(this.btn_siviS_kayitSil);
             this.tabPage8.Controls.Add(this.btn_siviS_kayitGetir);
@@ -524,6 +562,12 @@
             // 
             // tabPage9
             // 
+            this.tabPage9.Controls.Add(this.textBox10);
+            this.tabPage9.Controls.Add(this.label12);
+            this.tabPage9.Controls.Add(this.textBox9);
+            this.tabPage9.Controls.Add(this.label11);
+            this.tabPage9.Controls.Add(this.textBox7);
+            this.tabPage9.Controls.Add(this.label9);
             this.tabPage9.Controls.Add(this.btn_kullanicilar_kayitEkle);
             this.tabPage9.Controls.Add(this.btn_kullanicilar_kayitSil);
             this.tabPage9.Controls.Add(this.btn_kullanicilar_kayitGetir);
@@ -588,7 +632,7 @@
             // 
             // btn_kullaniciB_kayitEkle
             // 
-            this.btn_kullaniciB_kayitEkle.Location = new System.Drawing.Point(859, 408);
+            this.btn_kullaniciB_kayitEkle.Location = new System.Drawing.Point(622, 349);
             this.btn_kullaniciB_kayitEkle.Name = "btn_kullaniciB_kayitEkle";
             this.btn_kullaniciB_kayitEkle.Size = new System.Drawing.Size(172, 53);
             this.btn_kullaniciB_kayitEkle.TabIndex = 2;
@@ -597,7 +641,7 @@
             // 
             // btn_kullaniciB_kayitSil
             // 
-            this.btn_kullaniciB_kayitSil.Location = new System.Drawing.Point(859, 467);
+            this.btn_kullaniciB_kayitSil.Location = new System.Drawing.Point(376, 349);
             this.btn_kullaniciB_kayitSil.Name = "btn_kullaniciB_kayitSil";
             this.btn_kullaniciB_kayitSil.Size = new System.Drawing.Size(172, 53);
             this.btn_kullaniciB_kayitSil.TabIndex = 3;
@@ -622,6 +666,182 @@
             this.dataG_kullaniciB.Size = new System.Drawing.Size(1054, 310);
             this.dataG_kullaniciB.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(36, 349);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(98, 20);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Anakart İsmi";
+            // 
+            // txt_anakartIsim
+            // 
+            this.txt_anakartIsim.Location = new System.Drawing.Point(156, 348);
+            this.txt_anakartIsim.Name = "txt_anakartIsim";
+            this.txt_anakartIsim.Size = new System.Drawing.Size(272, 26);
+            this.txt_anakartIsim.TabIndex = 3;
+            // 
+            // txt_islemciIsim
+            // 
+            this.txt_islemciIsim.Location = new System.Drawing.Point(163, 358);
+            this.txt_islemciIsim.Name = "txt_islemciIsim";
+            this.txt_islemciIsim.Size = new System.Drawing.Size(272, 26);
+            this.txt_islemciIsim.TabIndex = 6;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(43, 359);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(91, 20);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "İşlemci İsmi";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(173, 359);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(272, 26);
+            this.textBox1.TabIndex = 8;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(53, 360);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(76, 20);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Ram İsmi";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(167, 352);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(272, 26);
+            this.textBox2.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(47, 353);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(120, 20);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Ekran Kartı İsim";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(164, 356);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(272, 26);
+            this.textBox3.TabIndex = 8;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(44, 357);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(95, 20);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Monitör İsim";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(169, 350);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(272, 26);
+            this.textBox4.TabIndex = 8;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(49, 351);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(78, 20);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Kasa İsim";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(175, 353);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(272, 26);
+            this.textBox5.TabIndex = 8;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(55, 354);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(106, 20);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "Ses Kartı İsim";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(163, 354);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(272, 26);
+            this.textBox6.TabIndex = 8;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(43, 355);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(139, 20);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Sıvı Soğutucu İsim";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(199, 354);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(272, 26);
+            this.textBox7.TabIndex = 8;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(56, 354);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(99, 20);
+            this.label9.TabIndex = 7;
+            this.label9.Text = "Kullanıcı İsmi";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(199, 413);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(272, 26);
+            this.textBox9.TabIndex = 10;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(56, 413);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(114, 20);
+            this.label11.TabIndex = 9;
+            this.label11.Text = "Kullanıcı Şifresi";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(199, 472);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(272, 26);
+            this.textBox10.TabIndex = 12;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(56, 472);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(114, 20);
+            this.label12.TabIndex = 11;
+            this.label12.Text = "Kullanıcı E-mail";
+            // 
             // admin_panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -633,22 +853,31 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.admin_panel_FormClosed);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_anakart)).EndInit();
             this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_islemci)).EndInit();
             this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_ram)).EndInit();
             this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_ekranK)).EndInit();
             this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_monitor)).EndInit();
             this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_kasa)).EndInit();
             this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_sesK)).EndInit();
             this.tabPage8.ResumeLayout(false);
+            this.tabPage8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_siviS)).EndInit();
             this.tabPage9.ResumeLayout(false);
+            this.tabPage9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_kullanicilar)).EndInit();
             this.tabPage10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataG_kullaniciB)).EndInit();
@@ -709,5 +938,27 @@
         private System.Windows.Forms.Button btn_kullaniciB_kayitEkle;
         private System.Windows.Forms.Button btn_kullaniciB_kayitSil;
         private System.Windows.Forms.Button btn_kullaniciB_kayitGetir;
+        private System.Windows.Forms.TextBox txt_anakartIsim;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txt_islemciIsim;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label9;
     }
 }
