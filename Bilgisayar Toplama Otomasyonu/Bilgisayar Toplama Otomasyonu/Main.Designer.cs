@@ -91,7 +91,7 @@
             // txt_userEposta
             // 
             this.txt_userEposta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_userEposta.Location = new System.Drawing.Point(318, 200);
+            this.txt_userEposta.Location = new System.Drawing.Point(318, 197);
             this.txt_userEposta.Name = "txt_userEposta";
             this.txt_userEposta.Size = new System.Drawing.Size(197, 26);
             this.txt_userEposta.TabIndex = 0;
@@ -153,7 +153,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.USER_PHOTO;
-            this.pictureBox1.Location = new System.Drawing.Point(318, 30);
+            this.pictureBox1.Location = new System.Drawing.Point(332, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(169, 133);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

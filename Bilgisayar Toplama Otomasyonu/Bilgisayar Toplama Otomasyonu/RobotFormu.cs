@@ -92,7 +92,7 @@ namespace Bilgisayar_Toplama_Otomasyonu
             }
             else
             {
-                if(Main.Kullanici_eposta == null)
+                if (Main.girisYapildiMi==0)
                 {
                     MessageBox.Show("Giriş Yapmadan Bu Özelliği Kullanamazsınız","Dikkat",MessageBoxButtons.OK , MessageBoxIcon.Warning);
                 }
