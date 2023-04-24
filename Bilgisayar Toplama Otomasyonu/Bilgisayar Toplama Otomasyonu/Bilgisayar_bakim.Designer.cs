@@ -35,6 +35,7 @@
             this.rtxt_nasilBasladi = new System.Windows.Forms.RichTextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.rtxt_pcYas = new System.Windows.Forms.RichTextBox();
+            this.btn_back = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -97,15 +98,28 @@
             this.rtxt_pcYas.TabIndex = 0;
             this.rtxt_pcYas.Text = resources.GetString("rtxt_pcYas.Text");
             // 
+            // btn_back
+            // 
+            this.btn_back.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_back.Location = new System.Drawing.Point(1052, 618);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.Size = new System.Drawing.Size(108, 38);
+            this.btn_back.TabIndex = 4;
+            this.btn_back.Text = "Geri Dön";
+            this.btn_back.UseVisualStyleBackColor = true;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
+            // 
             // Bilgisayar_bakim
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1189, 668);
+            this.Controls.Add(this.btn_back);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Bilgisayar_bakim";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bilgisayar_bakim";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
@@ -122,5 +136,6 @@
         public System.Windows.Forms.RichTextBox rtxt_anaProblem;
         public System.Windows.Forms.RichTextBox rtxt_nasilBasladi;
         public System.Windows.Forms.RichTextBox rtxt_pcYas;
+        private System.Windows.Forms.Button btn_back;
     }
 }

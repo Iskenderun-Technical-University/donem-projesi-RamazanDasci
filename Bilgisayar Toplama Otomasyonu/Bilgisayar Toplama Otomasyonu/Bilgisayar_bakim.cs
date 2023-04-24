@@ -17,6 +17,11 @@ namespace Bilgisayar_Toplama_Otomasyonu
             InitializeComponent();
         }
 
-
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            Bilgisayar_bakim_main bilgisayar_Bakim = new Bilgisayar_bakim_main();
+            this.Hide();
+            bilgisayar_Bakim.Show();
+        }
     }
 }
