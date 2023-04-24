@@ -16,5 +16,7 @@ namespace Bilgisayar_Toplama_Otomasyonu
         {
             InitializeComponent();
         }
+
+
     }
 }

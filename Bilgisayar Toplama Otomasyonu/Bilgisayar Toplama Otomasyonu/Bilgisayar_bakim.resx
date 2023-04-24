@@ -117,7 +117,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="richTextBox1.Text" xml:space="preserve">
+  <data name="rtxt_anaProblem.Text" xml:space="preserve">
+    <value>Bilgisayarınızın start almaması birçok farklı nedenle olabilir. Sorunun kaynağını bulmak için aşağıdaki adımları izleyebilirsiniz:
+
+1. Güç kaynağı kontrolü yapın: Bilgisayarınızın güç kaynağı doğru şekilde takılı mı? Güç kablosu hasar görmüş veya bağlantıları gevşek mi? Bunları kontrol edin.
+
+2. Donanım bileşenlerini kontrol edin: Bilgisayarınızın donanım bileşenleri doğru şekilde takılı mı? Bellek, sabit disk, grafik kartı vb. bileşenleri kontrol edin. Bileşenlerin bağlantılarını kontrol edin ve gerekiyorsa yeniden takın.
+
+3. BIOS ayarlarını kontrol edin: BIOS ayarlarının doğru olduğundan emin olun. Bazı durumlarda, yanlış BIOS ayarları nedeniyle bilgisayarınız başlatılamayabilir.
+
+4. Virüs taraması yapın: Bilgisayarınızı güncel bir antivirüs programıyla taramak, bazı virüslerin neden olduğu başlatma sorunlarını çözebilir.
+
+5. Windows Kurtarma Ortamı: Bilgisayarınızın başlatma sorunlarını gidermek için Windows kurtarma ortamını kullanabilirsiniz. Windows kurtarma ortamına erişmek için bilgisayarınızı başlatın ve F8 tuşuna basın.</value>
+  </data>
+  <data name="rtxt_nasilBasladi.Text" xml:space="preserve">
+    <value>Bilgisayarınızın start almaması birçok farklı nedenle olabilir. Sorunun kaynağını bulmak için aşağıdaki adımları izleyebilirsiniz:
+
+1. Güç kaynağı kontrolü yapın: Bilgisayarınızın güç kaynağı doğru şekilde takılı mı? Güç kablosu hasar görmüş veya bağlantıları gevşek mi? Bunları kontrol edin.
+
+2. Donanım bileşenlerini kontrol edin: Bilgisayarınızın donanım bileşenleri doğru şekilde takılı mı? Bellek, sabit disk, grafik kartı vb. bileşenleri kontrol edin. Bileşenlerin bağlantılarını kontrol edin ve gerekiyorsa yeniden takın.
+
+3. BIOS ayarlarını kontrol edin: BIOS ayarlarının doğru olduğundan emin olun. Bazı durumlarda, yanlış BIOS ayarları nedeniyle bilgisayarınız başlatılamayabilir.
+
+4. Virüs taraması yapın: Bilgisayarınızı güncel bir antivirüs programıyla taramak, bazı virüslerin neden olduğu başlatma sorunlarını çözebilir.
+
+5. Windows Kurtarma Ortamı: Bilgisayarınızın başlatma sorunlarını gidermek için Windows kurtarma ortamını kullanabilirsiniz. Windows kurtarma ortamına erişmek için bilgisayarınızı başlatın ve F8 tuşuna basın.</value>
+  </data>
+  <data name="rtxt_pcYas.Text" xml:space="preserve">
     <value>Bilgisayarınızın start almaması birçok farklı nedenle olabilir. Sorunun kaynağını bulmak için aşağıdaki adımları izleyebilirsiniz:
 
 1. Güç kaynağı kontrolü yapın: Bilgisayarınızın güç kaynağı doğru şekilde takılı mı? Güç kablosu hasar görmüş veya bağlantıları gevşek mi? Bunları kontrol edin.

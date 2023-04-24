@@ -87,10 +87,7 @@ namespace Bilgisayar_Toplama_Otomasyonu
             kayitgetir("Cooling_ad", "tableCooling", dataG_siviS);
         }
 
-        private void btn_kullanicilar_kayitGetir_Click(object sender, EventArgs e)
-        {
-            kayitgetir("*", "KullaniciGirisBilgileri", dataG_kullanicilar);
-        }
+
 
 
         public void kayitEkle (TextBox textBox, String tabloIsim, String name)
@@ -150,26 +147,7 @@ namespace Bilgisayar_Toplama_Otomasyonu
             kayitEkle(txt_coolingIsim, "tableCooling", "Cooling_ad");
         }
 
-        private void btn_kullanicilar_kayitEkle_Click(object sender, EventArgs e)
-        {
-            if (txt_kullaniciIsim.Text.Equals("") || txt_kullaniciMail.Text.Equals("") || txt_kullaniciSifre.Text.Equals(""))
-                MessageBox.Show("Kutucukları Doldurun");
-            else
-            {
-                SqlCommand CommandRegister = new SqlCommand("INSERT INTO KullaniciGirisBilgileri (name,password,mail) VALUES (@pname,@ppassword,@pmail)", Sql_operation.sqlConnect);
-                Sql_operation.checkedConnection(Sql_operation.sqlConnect);
-                CommandRegister.Parameters.AddWithValue("@pname", txt_kullaniciIsim.Text);
-                CommandRegister.Parameters.AddWithValue("@ppassword", txt_kullaniciSifre.Text);
-                CommandRegister.Parameters.AddWithValue("@pmail", txt_kullaniciMail.Text);
 
-                CommandRegister.ExecuteNonQuery();
-                txt_kullaniciIsim.Text = "";
-                txt_kullaniciMail.Text = "";
-                txt_kullaniciSifre.Text = "";
-                MessageBox.Show("Başarıyla Eklendi");
-            }
-
-        }
         public void kayitSil (String urunIsim, String tabloIsim )
         {
             if (geciciTasiyici.Equals(null))
@@ -234,11 +212,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
             dataSecim(dataG_siviS);
         }
 
-        private void dataG_kullanicilar_MouseClick(object sender, MouseEventArgs e)
-        {
-            int secilen = dataG_kullanicilar.SelectedCells[0].RowIndex;
-            geciciTasiyici = dataG_kullanicilar.Rows[secilen].Cells[0].Value.ToString();
-        }
 
         private void btn_anakart_kaydiSil_Click(object sender, EventArgs e)
         {

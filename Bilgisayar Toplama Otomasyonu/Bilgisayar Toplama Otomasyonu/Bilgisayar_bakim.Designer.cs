@@ -30,15 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bilgisayar_bakim));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.rtxt_anaProblem = new System.Windows.Forms.RichTextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.rtxt_nasilBasladi = new System.Windows.Forms.RichTextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.rtxt_pcYas = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.richTextBox1);
+            this.groupBox1.Controls.Add(this.rtxt_anaProblem);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
@@ -47,26 +51,36 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Bilgisayarınızın Ana Problemi";
             // 
-            // richTextBox1
+            // rtxt_anaProblem
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(30, 46);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(499, 517);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            this.rtxt_anaProblem.Location = new System.Drawing.Point(30, 46);
+            this.rtxt_anaProblem.Name = "rtxt_anaProblem";
+            this.rtxt_anaProblem.Size = new System.Drawing.Size(499, 517);
+            this.rtxt_anaProblem.TabIndex = 0;
+            this.rtxt_anaProblem.Text = resources.GetString("rtxt_anaProblem.Text");
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.rtxt_nasilBasladi);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox2.Location = new System.Drawing.Point(574, 22);
+            this.groupBox2.Location = new System.Drawing.Point(574, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(603, 276);
+            this.groupBox2.Size = new System.Drawing.Size(603, 286);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Sorun Nasıl Başladı";
             // 
+            // rtxt_nasilBasladi
+            // 
+            this.rtxt_nasilBasladi.Location = new System.Drawing.Point(23, 46);
+            this.rtxt_nasilBasladi.Name = "rtxt_nasilBasladi";
+            this.rtxt_nasilBasladi.Size = new System.Drawing.Size(563, 234);
+            this.rtxt_nasilBasladi.TabIndex = 0;
+            this.rtxt_nasilBasladi.Text = resources.GetString("rtxt_nasilBasladi.Text");
+            // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.rtxt_pcYas);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox3.Location = new System.Drawing.Point(574, 304);
             this.groupBox3.Name = "groupBox3";
@@ -75,17 +89,27 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Bilgisayarın Yaşı";
             // 
+            // rtxt_pcYas
+            // 
+            this.rtxt_pcYas.Location = new System.Drawing.Point(23, 51);
+            this.rtxt_pcYas.Name = "rtxt_pcYas";
+            this.rtxt_pcYas.Size = new System.Drawing.Size(563, 209);
+            this.rtxt_pcYas.TabIndex = 0;
+            this.rtxt_pcYas.Text = resources.GetString("rtxt_pcYas.Text");
+            // 
             // Bilgisayar_bakim
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1189, 611);
+            this.ClientSize = new System.Drawing.Size(1189, 668);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Bilgisayar_bakim";
             this.Text = "Bilgisayar_bakim";
             this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -93,8 +117,10 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
+        public System.Windows.Forms.RichTextBox rtxt_anaProblem;
+        public System.Windows.Forms.RichTextBox rtxt_nasilBasladi;
+        public System.Windows.Forms.RichTextBox rtxt_pcYas;
     }
 }

@@ -85,17 +85,6 @@
             this.btn_siviS_kayitSil = new System.Windows.Forms.Button();
             this.btn_siviS_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_siviS = new System.Windows.Forms.DataGridView();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.txt_kullaniciMail = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.txt_kullaniciSifre = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txt_kullaniciIsim = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.btn_kullanicilar_kayitEkle = new System.Windows.Forms.Button();
-            this.btn_kullanicilar_kayitSil = new System.Windows.Forms.Button();
-            this.btn_kullanicilar_kayitGetir = new System.Windows.Forms.Button();
-            this.dataG_kullanicilar = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_anakart)).BeginInit();
@@ -113,8 +102,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataG_sesK)).BeginInit();
             this.tabPage8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_siviS)).BeginInit();
-            this.tabPage9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataG_kullanicilar)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -127,7 +114,6 @@
             this.tabControl1.Controls.Add(this.tabPage6);
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage8);
-            this.tabControl1.Controls.Add(this.tabPage9);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
@@ -723,115 +709,6 @@
             this.dataG_siviS.TabIndex = 1;
             this.dataG_siviS.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_siviS_MouseClick);
             // 
-            // tabPage9
-            // 
-            this.tabPage9.Controls.Add(this.txt_kullaniciMail);
-            this.tabPage9.Controls.Add(this.label12);
-            this.tabPage9.Controls.Add(this.txt_kullaniciSifre);
-            this.tabPage9.Controls.Add(this.label11);
-            this.tabPage9.Controls.Add(this.txt_kullaniciIsim);
-            this.tabPage9.Controls.Add(this.label9);
-            this.tabPage9.Controls.Add(this.btn_kullanicilar_kayitEkle);
-            this.tabPage9.Controls.Add(this.btn_kullanicilar_kayitSil);
-            this.tabPage9.Controls.Add(this.btn_kullanicilar_kayitGetir);
-            this.tabPage9.Controls.Add(this.dataG_kullanicilar);
-            this.tabPage9.Location = new System.Drawing.Point(4, 29);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(1060, 547);
-            this.tabPage9.TabIndex = 8;
-            this.tabPage9.Text = "Kullanıcılar";
-            this.tabPage9.UseVisualStyleBackColor = true;
-            // 
-            // txt_kullaniciMail
-            // 
-            this.txt_kullaniciMail.Location = new System.Drawing.Point(199, 472);
-            this.txt_kullaniciMail.Name = "txt_kullaniciMail";
-            this.txt_kullaniciMail.Size = new System.Drawing.Size(272, 26);
-            this.txt_kullaniciMail.TabIndex = 12;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(56, 472);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(114, 20);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "Kullanıcı E-mail";
-            // 
-            // txt_kullaniciSifre
-            // 
-            this.txt_kullaniciSifre.Location = new System.Drawing.Point(199, 413);
-            this.txt_kullaniciSifre.Name = "txt_kullaniciSifre";
-            this.txt_kullaniciSifre.Size = new System.Drawing.Size(272, 26);
-            this.txt_kullaniciSifre.TabIndex = 10;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(56, 413);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(114, 20);
-            this.label11.TabIndex = 9;
-            this.label11.Text = "Kullanıcı Şifresi";
-            // 
-            // txt_kullaniciIsim
-            // 
-            this.txt_kullaniciIsim.Location = new System.Drawing.Point(199, 354);
-            this.txt_kullaniciIsim.Name = "txt_kullaniciIsim";
-            this.txt_kullaniciIsim.Size = new System.Drawing.Size(272, 26);
-            this.txt_kullaniciIsim.TabIndex = 8;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(56, 354);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(99, 20);
-            this.label9.TabIndex = 7;
-            this.label9.Text = "Kullanıcı İsmi";
-            // 
-            // btn_kullanicilar_kayitEkle
-            // 
-            this.btn_kullanicilar_kayitEkle.Location = new System.Drawing.Point(851, 412);
-            this.btn_kullanicilar_kayitEkle.Name = "btn_kullanicilar_kayitEkle";
-            this.btn_kullanicilar_kayitEkle.Size = new System.Drawing.Size(172, 53);
-            this.btn_kullanicilar_kayitEkle.TabIndex = 2;
-            this.btn_kullanicilar_kayitEkle.Text = "Kayıt Ekle";
-            this.btn_kullanicilar_kayitEkle.UseVisualStyleBackColor = true;
-            this.btn_kullanicilar_kayitEkle.Click += new System.EventHandler(this.btn_kullanicilar_kayitEkle_Click);
-            // 
-            // btn_kullanicilar_kayitSil
-            // 
-            this.btn_kullanicilar_kayitSil.Location = new System.Drawing.Point(851, 471);
-            this.btn_kullanicilar_kayitSil.Name = "btn_kullanicilar_kayitSil";
-            this.btn_kullanicilar_kayitSil.Size = new System.Drawing.Size(172, 53);
-            this.btn_kullanicilar_kayitSil.TabIndex = 3;
-            this.btn_kullanicilar_kayitSil.Text = "Kaydı Sil";
-            this.btn_kullanicilar_kayitSil.UseVisualStyleBackColor = true;
-            this.btn_kullanicilar_kayitSil.Click += new System.EventHandler(this.btn_kullanicilar_kayitSil_Click);
-            // 
-            // btn_kullanicilar_kayitGetir
-            // 
-            this.btn_kullanicilar_kayitGetir.Location = new System.Drawing.Point(851, 353);
-            this.btn_kullanicilar_kayitGetir.Name = "btn_kullanicilar_kayitGetir";
-            this.btn_kullanicilar_kayitGetir.Size = new System.Drawing.Size(172, 53);
-            this.btn_kullanicilar_kayitGetir.TabIndex = 4;
-            this.btn_kullanicilar_kayitGetir.Text = "Kayıtları Getir";
-            this.btn_kullanicilar_kayitGetir.UseVisualStyleBackColor = true;
-            this.btn_kullanicilar_kayitGetir.Click += new System.EventHandler(this.btn_kullanicilar_kayitGetir_Click);
-            // 
-            // dataG_kullanicilar
-            // 
-            this.dataG_kullanicilar.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dataG_kullanicilar.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.dataG_kullanicilar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataG_kullanicilar.Location = new System.Drawing.Point(0, 6);
-            this.dataG_kullanicilar.Name = "dataG_kullanicilar";
-            this.dataG_kullanicilar.Size = new System.Drawing.Size(1054, 310);
-            this.dataG_kullanicilar.TabIndex = 1;
-            this.dataG_kullanicilar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_kullanicilar_MouseClick);
-            // 
             // admin_panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -866,9 +743,6 @@
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_siviS)).EndInit();
-            this.tabPage9.ResumeLayout(false);
-            this.tabPage9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataG_kullanicilar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -892,8 +766,6 @@
         private System.Windows.Forms.DataGridView dataG_kasa;
         private System.Windows.Forms.DataGridView dataG_sesK;
         private System.Windows.Forms.DataGridView dataG_siviS;
-        private System.Windows.Forms.TabPage tabPage9;
-        private System.Windows.Forms.DataGridView dataG_kullanicilar;
         private System.Windows.Forms.Button btn_anakart_kayitEkle;
         private System.Windows.Forms.Button btn_anakart_kaydiSil;
         private System.Windows.Forms.Button btn_anakart_kayitGetir;
@@ -918,9 +790,6 @@
         private System.Windows.Forms.Button btn_siviS_kayitEkle;
         private System.Windows.Forms.Button btn_siviS_kayitSil;
         private System.Windows.Forms.Button btn_siviS_kayitGetir;
-        private System.Windows.Forms.Button btn_kullanicilar_kayitEkle;
-        private System.Windows.Forms.Button btn_kullanicilar_kayitSil;
-        private System.Windows.Forms.Button btn_kullanicilar_kayitGetir;
         private System.Windows.Forms.TextBox txt_anakartIsim;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_islemciIsim;
@@ -937,11 +806,5 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txt_coolingIsim;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox txt_kullaniciMail;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox txt_kullaniciSifre;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox txt_kullaniciIsim;
-        private System.Windows.Forms.Label label9;
     }
 }
