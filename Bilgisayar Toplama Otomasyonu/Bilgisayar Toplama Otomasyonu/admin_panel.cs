@@ -26,7 +26,7 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         public void kayitgetir (String gelecekSutun, String tabloIsim, DataGridView dataGrid)
         {
-            SqlCommand sqlCommand = new SqlCommand("SELECT " + gelecekSutun + " FROM "+ tabloIsim, Sql_operation.sqlConnect);
+            SqlCommand sqlCommand = new SqlCommand("SELECT " + gelecekSutun + " FROM " + tabloIsim, Sql_operation.sqlConnect);
             Sql_operation.checkedConnection(Sql_operation.sqlConnect);
 
             SqlDataAdapter adapter = new SqlDataAdapter(sqlCommand);
@@ -88,10 +88,64 @@ namespace Bilgisayar_Toplama_Otomasyonu
             kayitgetir("*", "table_kullaniciSistem", dataG_kullaniciB);
         }
 
+        public void kayitEkle (TextBox textBox, String tabloIsim, String name)
+        {
+            SqlCommand CommandRegister = new SqlCommand("INSERT INTO "+ tabloIsim + " (" +name+ ") VALUES (@pDegerler)", Sql_operation.sqlConnect);
+            Sql_operation.checkedConnection(Sql_operation.sqlConnect);
+            CommandRegister.Parameters.AddWithValue("@pDegerler", textBox.Text);
 
+            CommandRegister.ExecuteNonQuery();
+        }
 
+        private void btn_anakart_kayitEkle_Click(object sender, EventArgs e)
+        {
+            kayitEkle(txt_anakartIsim, "table_anakart", "Anakart_ad");
+        }
 
+        private void btn_islemci_kayitEkle_Click(object sender, EventArgs e)
+        {
+            kayitEkle(txt_anakartIsim, "table_islemci", "islemci_ad");
+        }
 
+        private void btn_ram_kayitEkle_Click(object sender, EventArgs e)
+        {
+            kayitEkle(txt_anakartIsim, "tableRam", "Ram_name");
+        }
+
+        private void btn_ekranK_kayitEkle_Click(object sender, EventArgs e)
+        {
+            kayitEkle(txt_anakartIsim, "tableEkranK", "EkranK_ad");
+        }
+
+        private void btn_monitor_kayitEkle_Click(object sender, EventArgs e)
+        {
+            kayitEkle(txt_anakartIsim, "table_monitor", "monitor_isim");
+        }
+
+        private void btn_kasa_kayitEkle_Click(object sender, EventArgs e)
+        {
+            kayitEkle(txt_anakartIsim, "table_kasa", "Kasa_ad");
+        }
+
+        private void btn_sesK_kayitEkle_Click(object sender, EventArgs e)
+        {
+            kayitEkle(txt_anakartIsim, "tableSesK", "Seskarti_ad");
+        }
+
+        private void btn_siviS_kayitEkle_Click(object sender, EventArgs e)
+        {
+            kayitEkle(txt_anakartIsim, "table_islemci", "islemci_ad");
+        }
+
+        private void btn_kullanicilar_kayitEkle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_kullaniciB_kayitEkle_Click(object sender, EventArgs e)
+        {
+
+        }
 
 
     }

@@ -30,46 +30,68 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.txt_anakartIsim = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btn_anakart_kayitEkle = new System.Windows.Forms.Button();
             this.btn_anakart_kaydiSil = new System.Windows.Forms.Button();
             this.btn_anakart_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_anakart = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.txt_islemciIsim = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.btn_islemci_kayitEkle = new System.Windows.Forms.Button();
             this.btn_islemci_kayitSil = new System.Windows.Forms.Button();
             this.btn_islemci_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_islemci = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.txt_ramIsim = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.btn_ram_kayitEkle = new System.Windows.Forms.Button();
             this.btn_ram_kayitSil = new System.Windows.Forms.Button();
             this.btn_ram_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_ram = new System.Windows.Forms.DataGridView();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.txt_ekranKIsım = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.btn_ekranK_kayitEkle = new System.Windows.Forms.Button();
             this.btn_ekranK_kayitSil = new System.Windows.Forms.Button();
             this.btn_ekranK_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_ekranK = new System.Windows.Forms.DataGridView();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.txt_monitorIsım = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.btn_monitor_kayitEkle = new System.Windows.Forms.Button();
             this.btn_monitor_kayitSil = new System.Windows.Forms.Button();
             this.btn_monitor_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_monitor = new System.Windows.Forms.DataGridView();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.txt_kasaIsim = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.btn_kasa_kayitEkle = new System.Windows.Forms.Button();
             this.btn_kasa_kayitSil = new System.Windows.Forms.Button();
             this.btn_kasa_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_kasa = new System.Windows.Forms.DataGridView();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.txt_sesKIsim = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.btn_sesK_kayitEkle = new System.Windows.Forms.Button();
             this.btn_sesK_kayitSil = new System.Windows.Forms.Button();
             this.btn_sesK_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_sesK = new System.Windows.Forms.DataGridView();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.txt_coolingIsim = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.btn_siviS_kayitEkle = new System.Windows.Forms.Button();
             this.btn_siviS_kayitSil = new System.Windows.Forms.Button();
             this.btn_siviS_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_siviS = new System.Windows.Forms.DataGridView();
             this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.txt_kullaniciMail = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txt_kullaniciSifre = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txt_kullaniciIsim = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.btn_kullanicilar_kayitEkle = new System.Windows.Forms.Button();
             this.btn_kullanicilar_kayitSil = new System.Windows.Forms.Button();
             this.btn_kullanicilar_kayitGetir = new System.Windows.Forms.Button();
@@ -79,28 +101,6 @@
             this.btn_kullaniciB_kayitSil = new System.Windows.Forms.Button();
             this.btn_kullaniciB_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_kullaniciB = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txt_anakartIsim = new System.Windows.Forms.TextBox();
-            this.txt_islemciIsim = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_anakart)).BeginInit();
@@ -160,6 +160,22 @@
             this.tabPage1.Text = "Anakart";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // txt_anakartIsim
+            // 
+            this.txt_anakartIsim.Location = new System.Drawing.Point(156, 348);
+            this.txt_anakartIsim.Name = "txt_anakartIsim";
+            this.txt_anakartIsim.Size = new System.Drawing.Size(272, 26);
+            this.txt_anakartIsim.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(36, 349);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(98, 20);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Anakart İsmi";
+            // 
             // btn_anakart_kayitEkle
             // 
             this.btn_anakart_kayitEkle.Location = new System.Drawing.Point(856, 408);
@@ -168,6 +184,7 @@
             this.btn_anakart_kayitEkle.TabIndex = 1;
             this.btn_anakart_kayitEkle.Text = "Kayıt Ekle";
             this.btn_anakart_kayitEkle.UseVisualStyleBackColor = true;
+            this.btn_anakart_kayitEkle.Click += new System.EventHandler(this.btn_anakart_kayitEkle_Click);
             // 
             // btn_anakart_kaydiSil
             // 
@@ -190,6 +207,9 @@
             // 
             // dataG_anakart
             // 
+            this.dataG_anakart.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataG_anakart.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataG_anakart.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataG_anakart.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataG_anakart.Location = new System.Drawing.Point(3, 6);
             this.dataG_anakart.Name = "dataG_anakart";
@@ -212,6 +232,22 @@
             this.tabPage2.Text = "İşlemci";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // txt_islemciIsim
+            // 
+            this.txt_islemciIsim.Location = new System.Drawing.Point(163, 358);
+            this.txt_islemciIsim.Name = "txt_islemciIsim";
+            this.txt_islemciIsim.Size = new System.Drawing.Size(272, 26);
+            this.txt_islemciIsim.TabIndex = 6;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(43, 359);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(91, 20);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "İşlemci İsmi";
+            // 
             // btn_islemci_kayitEkle
             // 
             this.btn_islemci_kayitEkle.Location = new System.Drawing.Point(854, 402);
@@ -220,6 +256,7 @@
             this.btn_islemci_kayitEkle.TabIndex = 2;
             this.btn_islemci_kayitEkle.Text = "Kayıt Ekle";
             this.btn_islemci_kayitEkle.UseVisualStyleBackColor = true;
+            this.btn_islemci_kayitEkle.Click += new System.EventHandler(this.btn_islemci_kayitEkle_Click);
             // 
             // btn_islemci_kayitSil
             // 
@@ -242,6 +279,9 @@
             // 
             // dataG_islemci
             // 
+            this.dataG_islemci.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataG_islemci.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataG_islemci.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataG_islemci.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataG_islemci.Location = new System.Drawing.Point(3, 6);
             this.dataG_islemci.Name = "dataG_islemci";
@@ -250,7 +290,7 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.textBox1);
+            this.tabPage3.Controls.Add(this.txt_ramIsim);
             this.tabPage3.Controls.Add(this.label3);
             this.tabPage3.Controls.Add(this.btn_ram_kayitEkle);
             this.tabPage3.Controls.Add(this.btn_ram_kayitSil);
@@ -264,6 +304,22 @@
             this.tabPage3.Text = "Ram";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // txt_ramIsim
+            // 
+            this.txt_ramIsim.Location = new System.Drawing.Point(173, 359);
+            this.txt_ramIsim.Name = "txt_ramIsim";
+            this.txt_ramIsim.Size = new System.Drawing.Size(272, 26);
+            this.txt_ramIsim.TabIndex = 8;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(53, 360);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(76, 20);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Ram İsmi";
+            // 
             // btn_ram_kayitEkle
             // 
             this.btn_ram_kayitEkle.Location = new System.Drawing.Point(857, 405);
@@ -272,6 +328,7 @@
             this.btn_ram_kayitEkle.TabIndex = 2;
             this.btn_ram_kayitEkle.Text = "Kayıt Ekle";
             this.btn_ram_kayitEkle.UseVisualStyleBackColor = true;
+            this.btn_ram_kayitEkle.Click += new System.EventHandler(this.btn_ram_kayitEkle_Click);
             // 
             // btn_ram_kayitSil
             // 
@@ -294,6 +351,8 @@
             // 
             // dataG_ram
             // 
+            this.dataG_ram.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataG_ram.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataG_ram.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataG_ram.Location = new System.Drawing.Point(3, 6);
             this.dataG_ram.Name = "dataG_ram";
@@ -302,7 +361,7 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.Controls.Add(this.textBox2);
+            this.tabPage4.Controls.Add(this.txt_ekranKIsım);
             this.tabPage4.Controls.Add(this.label4);
             this.tabPage4.Controls.Add(this.btn_ekranK_kayitEkle);
             this.tabPage4.Controls.Add(this.btn_ekranK_kayitSil);
@@ -316,6 +375,22 @@
             this.tabPage4.Text = "Ekran Kartı";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // txt_ekranKIsım
+            // 
+            this.txt_ekranKIsım.Location = new System.Drawing.Point(167, 352);
+            this.txt_ekranKIsım.Name = "txt_ekranKIsım";
+            this.txt_ekranKIsım.Size = new System.Drawing.Size(272, 26);
+            this.txt_ekranKIsım.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(47, 353);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(120, 20);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Ekran Kartı İsim";
+            // 
             // btn_ekranK_kayitEkle
             // 
             this.btn_ekranK_kayitEkle.Location = new System.Drawing.Point(857, 411);
@@ -324,6 +399,7 @@
             this.btn_ekranK_kayitEkle.TabIndex = 2;
             this.btn_ekranK_kayitEkle.Text = "Kayıt Ekle";
             this.btn_ekranK_kayitEkle.UseVisualStyleBackColor = true;
+            this.btn_ekranK_kayitEkle.Click += new System.EventHandler(this.btn_ekranK_kayitEkle_Click);
             // 
             // btn_ekranK_kayitSil
             // 
@@ -346,6 +422,8 @@
             // 
             // dataG_ekranK
             // 
+            this.dataG_ekranK.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataG_ekranK.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataG_ekranK.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataG_ekranK.Location = new System.Drawing.Point(3, 6);
             this.dataG_ekranK.Name = "dataG_ekranK";
@@ -354,7 +432,7 @@
             // 
             // tabPage5
             // 
-            this.tabPage5.Controls.Add(this.textBox3);
+            this.tabPage5.Controls.Add(this.txt_monitorIsım);
             this.tabPage5.Controls.Add(this.label5);
             this.tabPage5.Controls.Add(this.btn_monitor_kayitEkle);
             this.tabPage5.Controls.Add(this.btn_monitor_kayitSil);
@@ -368,6 +446,22 @@
             this.tabPage5.Text = "Monitör";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // txt_monitorIsım
+            // 
+            this.txt_monitorIsım.Location = new System.Drawing.Point(164, 356);
+            this.txt_monitorIsım.Name = "txt_monitorIsım";
+            this.txt_monitorIsım.Size = new System.Drawing.Size(272, 26);
+            this.txt_monitorIsım.TabIndex = 8;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(44, 357);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(95, 20);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Monitör İsim";
+            // 
             // btn_monitor_kayitEkle
             // 
             this.btn_monitor_kayitEkle.Location = new System.Drawing.Point(854, 402);
@@ -376,6 +470,7 @@
             this.btn_monitor_kayitEkle.TabIndex = 2;
             this.btn_monitor_kayitEkle.Text = "Kayıt Ekle";
             this.btn_monitor_kayitEkle.UseVisualStyleBackColor = true;
+            this.btn_monitor_kayitEkle.Click += new System.EventHandler(this.btn_monitor_kayitEkle_Click);
             // 
             // btn_monitor_kayitSil
             // 
@@ -398,6 +493,8 @@
             // 
             // dataG_monitor
             // 
+            this.dataG_monitor.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataG_monitor.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataG_monitor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataG_monitor.Location = new System.Drawing.Point(6, 6);
             this.dataG_monitor.Name = "dataG_monitor";
@@ -406,7 +503,7 @@
             // 
             // tabPage6
             // 
-            this.tabPage6.Controls.Add(this.textBox4);
+            this.tabPage6.Controls.Add(this.txt_kasaIsim);
             this.tabPage6.Controls.Add(this.label6);
             this.tabPage6.Controls.Add(this.btn_kasa_kayitEkle);
             this.tabPage6.Controls.Add(this.btn_kasa_kayitSil);
@@ -420,6 +517,22 @@
             this.tabPage6.Text = "Kasa";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
+            // txt_kasaIsim
+            // 
+            this.txt_kasaIsim.Location = new System.Drawing.Point(169, 350);
+            this.txt_kasaIsim.Name = "txt_kasaIsim";
+            this.txt_kasaIsim.Size = new System.Drawing.Size(272, 26);
+            this.txt_kasaIsim.TabIndex = 8;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(49, 351);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(78, 20);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Kasa İsim";
+            // 
             // btn_kasa_kayitEkle
             // 
             this.btn_kasa_kayitEkle.Location = new System.Drawing.Point(862, 409);
@@ -428,6 +541,7 @@
             this.btn_kasa_kayitEkle.TabIndex = 2;
             this.btn_kasa_kayitEkle.Text = "Kayıt Ekle";
             this.btn_kasa_kayitEkle.UseVisualStyleBackColor = true;
+            this.btn_kasa_kayitEkle.Click += new System.EventHandler(this.btn_kasa_kayitEkle_Click);
             // 
             // btn_kasa_kayitSil
             // 
@@ -450,6 +564,8 @@
             // 
             // dataG_kasa
             // 
+            this.dataG_kasa.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataG_kasa.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataG_kasa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataG_kasa.Location = new System.Drawing.Point(3, 6);
             this.dataG_kasa.Name = "dataG_kasa";
@@ -458,7 +574,7 @@
             // 
             // tabPage7
             // 
-            this.tabPage7.Controls.Add(this.textBox5);
+            this.tabPage7.Controls.Add(this.txt_sesKIsim);
             this.tabPage7.Controls.Add(this.label7);
             this.tabPage7.Controls.Add(this.btn_sesK_kayitEkle);
             this.tabPage7.Controls.Add(this.btn_sesK_kayitSil);
@@ -472,6 +588,22 @@
             this.tabPage7.Text = "Ses Kartı";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
+            // txt_sesKIsim
+            // 
+            this.txt_sesKIsim.Location = new System.Drawing.Point(175, 353);
+            this.txt_sesKIsim.Name = "txt_sesKIsim";
+            this.txt_sesKIsim.Size = new System.Drawing.Size(272, 26);
+            this.txt_sesKIsim.TabIndex = 8;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(55, 354);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(106, 20);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "Ses Kartı İsim";
+            // 
             // btn_sesK_kayitEkle
             // 
             this.btn_sesK_kayitEkle.Location = new System.Drawing.Point(866, 412);
@@ -480,6 +612,7 @@
             this.btn_sesK_kayitEkle.TabIndex = 2;
             this.btn_sesK_kayitEkle.Text = "Kayıt Ekle";
             this.btn_sesK_kayitEkle.UseVisualStyleBackColor = true;
+            this.btn_sesK_kayitEkle.Click += new System.EventHandler(this.btn_sesK_kayitEkle_Click);
             // 
             // btn_sesK_kayitSil
             // 
@@ -502,7 +635,10 @@
             // 
             // dataG_sesK
             // 
+            this.dataG_sesK.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataG_sesK.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataG_sesK.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataG_sesK.GridColor = System.Drawing.SystemColors.ButtonShadow;
             this.dataG_sesK.Location = new System.Drawing.Point(6, 6);
             this.dataG_sesK.Name = "dataG_sesK";
             this.dataG_sesK.Size = new System.Drawing.Size(1054, 310);
@@ -510,7 +646,7 @@
             // 
             // tabPage8
             // 
-            this.tabPage8.Controls.Add(this.textBox6);
+            this.tabPage8.Controls.Add(this.txt_coolingIsim);
             this.tabPage8.Controls.Add(this.label8);
             this.tabPage8.Controls.Add(this.btn_siviS_kayitEkle);
             this.tabPage8.Controls.Add(this.btn_siviS_kayitSil);
@@ -524,6 +660,22 @@
             this.tabPage8.Text = "Sıvı Soğutucu";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
+            // txt_coolingIsim
+            // 
+            this.txt_coolingIsim.Location = new System.Drawing.Point(188, 352);
+            this.txt_coolingIsim.Name = "txt_coolingIsim";
+            this.txt_coolingIsim.Size = new System.Drawing.Size(272, 26);
+            this.txt_coolingIsim.TabIndex = 8;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(43, 355);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(139, 20);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Sıvı Soğutucu İsim";
+            // 
             // btn_siviS_kayitEkle
             // 
             this.btn_siviS_kayitEkle.Location = new System.Drawing.Point(870, 413);
@@ -532,6 +684,7 @@
             this.btn_siviS_kayitEkle.TabIndex = 2;
             this.btn_siviS_kayitEkle.Text = "Kayıt Ekle";
             this.btn_siviS_kayitEkle.UseVisualStyleBackColor = true;
+            this.btn_siviS_kayitEkle.Click += new System.EventHandler(this.btn_siviS_kayitEkle_Click);
             // 
             // btn_siviS_kayitSil
             // 
@@ -554,6 +707,8 @@
             // 
             // dataG_siviS
             // 
+            this.dataG_siviS.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataG_siviS.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataG_siviS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataG_siviS.Location = new System.Drawing.Point(3, 6);
             this.dataG_siviS.Name = "dataG_siviS";
@@ -562,11 +717,11 @@
             // 
             // tabPage9
             // 
-            this.tabPage9.Controls.Add(this.textBox10);
+            this.tabPage9.Controls.Add(this.txt_kullaniciMail);
             this.tabPage9.Controls.Add(this.label12);
-            this.tabPage9.Controls.Add(this.textBox9);
+            this.tabPage9.Controls.Add(this.txt_kullaniciSifre);
             this.tabPage9.Controls.Add(this.label11);
-            this.tabPage9.Controls.Add(this.textBox7);
+            this.tabPage9.Controls.Add(this.txt_kullaniciIsim);
             this.tabPage9.Controls.Add(this.label9);
             this.tabPage9.Controls.Add(this.btn_kullanicilar_kayitEkle);
             this.tabPage9.Controls.Add(this.btn_kullanicilar_kayitSil);
@@ -580,6 +735,54 @@
             this.tabPage9.Text = "Kullanıcılar";
             this.tabPage9.UseVisualStyleBackColor = true;
             // 
+            // txt_kullaniciMail
+            // 
+            this.txt_kullaniciMail.Location = new System.Drawing.Point(199, 472);
+            this.txt_kullaniciMail.Name = "txt_kullaniciMail";
+            this.txt_kullaniciMail.Size = new System.Drawing.Size(272, 26);
+            this.txt_kullaniciMail.TabIndex = 12;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(56, 472);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(114, 20);
+            this.label12.TabIndex = 11;
+            this.label12.Text = "Kullanıcı E-mail";
+            // 
+            // txt_kullaniciSifre
+            // 
+            this.txt_kullaniciSifre.Location = new System.Drawing.Point(199, 413);
+            this.txt_kullaniciSifre.Name = "txt_kullaniciSifre";
+            this.txt_kullaniciSifre.Size = new System.Drawing.Size(272, 26);
+            this.txt_kullaniciSifre.TabIndex = 10;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(56, 413);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(114, 20);
+            this.label11.TabIndex = 9;
+            this.label11.Text = "Kullanıcı Şifresi";
+            // 
+            // txt_kullaniciIsim
+            // 
+            this.txt_kullaniciIsim.Location = new System.Drawing.Point(199, 354);
+            this.txt_kullaniciIsim.Name = "txt_kullaniciIsim";
+            this.txt_kullaniciIsim.Size = new System.Drawing.Size(272, 26);
+            this.txt_kullaniciIsim.TabIndex = 8;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(56, 354);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(99, 20);
+            this.label9.TabIndex = 7;
+            this.label9.Text = "Kullanıcı İsmi";
+            // 
             // btn_kullanicilar_kayitEkle
             // 
             this.btn_kullanicilar_kayitEkle.Location = new System.Drawing.Point(851, 412);
@@ -588,6 +791,7 @@
             this.btn_kullanicilar_kayitEkle.TabIndex = 2;
             this.btn_kullanicilar_kayitEkle.Text = "Kayıt Ekle";
             this.btn_kullanicilar_kayitEkle.UseVisualStyleBackColor = true;
+            this.btn_kullanicilar_kayitEkle.Click += new System.EventHandler(this.btn_kullanicilar_kayitEkle_Click);
             // 
             // btn_kullanicilar_kayitSil
             // 
@@ -610,6 +814,8 @@
             // 
             // dataG_kullanicilar
             // 
+            this.dataG_kullanicilar.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataG_kullanicilar.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataG_kullanicilar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataG_kullanicilar.Location = new System.Drawing.Point(0, 6);
             this.dataG_kullanicilar.Name = "dataG_kullanicilar";
@@ -638,6 +844,7 @@
             this.btn_kullaniciB_kayitEkle.TabIndex = 2;
             this.btn_kullaniciB_kayitEkle.Text = "Kayıt Ekle";
             this.btn_kullaniciB_kayitEkle.UseVisualStyleBackColor = true;
+            this.btn_kullaniciB_kayitEkle.Click += new System.EventHandler(this.btn_kullaniciB_kayitEkle_Click);
             // 
             // btn_kullaniciB_kayitSil
             // 
@@ -660,187 +867,13 @@
             // 
             // dataG_kullaniciB
             // 
+            this.dataG_kullaniciB.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataG_kullaniciB.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataG_kullaniciB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataG_kullaniciB.Location = new System.Drawing.Point(3, 6);
             this.dataG_kullaniciB.Name = "dataG_kullaniciB";
             this.dataG_kullaniciB.Size = new System.Drawing.Size(1054, 310);
             this.dataG_kullaniciB.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(36, 349);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 20);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Anakart İsmi";
-            // 
-            // txt_anakartIsim
-            // 
-            this.txt_anakartIsim.Location = new System.Drawing.Point(156, 348);
-            this.txt_anakartIsim.Name = "txt_anakartIsim";
-            this.txt_anakartIsim.Size = new System.Drawing.Size(272, 26);
-            this.txt_anakartIsim.TabIndex = 3;
-            // 
-            // txt_islemciIsim
-            // 
-            this.txt_islemciIsim.Location = new System.Drawing.Point(163, 358);
-            this.txt_islemciIsim.Name = "txt_islemciIsim";
-            this.txt_islemciIsim.Size = new System.Drawing.Size(272, 26);
-            this.txt_islemciIsim.TabIndex = 6;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(43, 359);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 20);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "İşlemci İsmi";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(173, 359);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(272, 26);
-            this.textBox1.TabIndex = 8;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 360);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 20);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Ram İsmi";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(167, 352);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(272, 26);
-            this.textBox2.TabIndex = 8;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(47, 353);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(120, 20);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Ekran Kartı İsim";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(164, 356);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(272, 26);
-            this.textBox3.TabIndex = 8;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(44, 357);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 20);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Monitör İsim";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(169, 350);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(272, 26);
-            this.textBox4.TabIndex = 8;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(49, 351);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(78, 20);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Kasa İsim";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(175, 353);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(272, 26);
-            this.textBox5.TabIndex = 8;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(55, 354);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(106, 20);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "Ses Kartı İsim";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(163, 354);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(272, 26);
-            this.textBox6.TabIndex = 8;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(43, 355);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(139, 20);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Sıvı Soğutucu İsim";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(199, 354);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(272, 26);
-            this.textBox7.TabIndex = 8;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(56, 354);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(99, 20);
-            this.label9.TabIndex = 7;
-            this.label9.Text = "Kullanıcı İsmi";
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(199, 413);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(272, 26);
-            this.textBox9.TabIndex = 10;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(56, 413);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(114, 20);
-            this.label11.TabIndex = 9;
-            this.label11.Text = "Kullanıcı Şifresi";
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(199, 472);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(272, 26);
-            this.textBox10.TabIndex = 12;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(56, 472);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(114, 20);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "Kullanıcı E-mail";
             // 
             // admin_panel
             // 
@@ -942,23 +975,23 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_islemciIsim;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt_ramIsim;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txt_ekranKIsım;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_monitorIsım;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_kasaIsim;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txt_sesKIsim;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_coolingIsim;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txt_kullaniciMail;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txt_kullaniciSifre;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txt_kullaniciIsim;
         private System.Windows.Forms.Label label9;
     }
 }
