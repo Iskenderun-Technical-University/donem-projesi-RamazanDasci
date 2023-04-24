@@ -215,6 +215,7 @@
             this.dataG_anakart.Name = "dataG_anakart";
             this.dataG_anakart.Size = new System.Drawing.Size(1054, 310);
             this.dataG_anakart.TabIndex = 0;
+            this.dataG_anakart.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_anakart_MouseClick);
             // 
             // tabPage2
             // 
@@ -287,6 +288,7 @@
             this.dataG_islemci.Name = "dataG_islemci";
             this.dataG_islemci.Size = new System.Drawing.Size(1054, 310);
             this.dataG_islemci.TabIndex = 1;
+            this.dataG_islemci.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_islemci_MouseClick);
             // 
             // tabPage3
             // 
@@ -358,6 +360,7 @@
             this.dataG_ram.Name = "dataG_ram";
             this.dataG_ram.Size = new System.Drawing.Size(1054, 310);
             this.dataG_ram.TabIndex = 1;
+            this.dataG_ram.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_ram_MouseClick);
             // 
             // tabPage4
             // 
@@ -429,6 +432,7 @@
             this.dataG_ekranK.Name = "dataG_ekranK";
             this.dataG_ekranK.Size = new System.Drawing.Size(1054, 310);
             this.dataG_ekranK.TabIndex = 1;
+            this.dataG_ekranK.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_ekranK_MouseClick);
             // 
             // tabPage5
             // 
@@ -500,6 +504,7 @@
             this.dataG_monitor.Name = "dataG_monitor";
             this.dataG_monitor.Size = new System.Drawing.Size(1054, 310);
             this.dataG_monitor.TabIndex = 1;
+            this.dataG_monitor.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_monitor_MouseClick);
             // 
             // tabPage6
             // 
@@ -571,6 +576,7 @@
             this.dataG_kasa.Name = "dataG_kasa";
             this.dataG_kasa.Size = new System.Drawing.Size(1054, 310);
             this.dataG_kasa.TabIndex = 1;
+            this.dataG_kasa.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_kasa_MouseClick);
             // 
             // tabPage7
             // 
@@ -643,6 +649,7 @@
             this.dataG_sesK.Name = "dataG_sesK";
             this.dataG_sesK.Size = new System.Drawing.Size(1054, 310);
             this.dataG_sesK.TabIndex = 1;
+            this.dataG_sesK.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_sesK_MouseClick);
             // 
             // tabPage8
             // 
@@ -714,6 +721,7 @@
             this.dataG_siviS.Name = "dataG_siviS";
             this.dataG_siviS.Size = new System.Drawing.Size(1054, 310);
             this.dataG_siviS.TabIndex = 1;
+            this.dataG_siviS.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_siviS_MouseClick);
             // 
             // tabPage9
             // 
@@ -821,6 +829,7 @@
             this.dataG_kullanicilar.Name = "dataG_kullanicilar";
             this.dataG_kullanicilar.Size = new System.Drawing.Size(1054, 310);
             this.dataG_kullanicilar.TabIndex = 1;
+            this.dataG_kullanicilar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_kullanicilar_MouseClick);
             // 
             // tabPage10
             // 
@@ -874,6 +883,7 @@
             this.dataG_kullaniciB.Name = "dataG_kullaniciB";
             this.dataG_kullaniciB.Size = new System.Drawing.Size(1054, 310);
             this.dataG_kullaniciB.TabIndex = 1;
+            this.dataG_kullaniciB.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_kullaniciB_MouseClick);
             // 
             // admin_panel
             // 

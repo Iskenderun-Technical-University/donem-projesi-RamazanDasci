@@ -18,6 +18,7 @@ namespace Bilgisayar_Toplama_Otomasyonu
         {
             InitializeComponent();
         }
+        public String geciciTasiyici = null;
 
         private void admin_panel_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -90,15 +91,21 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         public void kayitEkle (TextBox textBox, String tabloIsim, String name)
         {
-            SqlCommand CommandRegister = new SqlCommand("INSERT INTO "+ tabloIsim + " (" +name+ ") VALUES (@pDegerler)", Sql_operation.sqlConnect);
-            Sql_operation.checkedConnection(Sql_operation.sqlConnect);
-            CommandRegister.Parameters.AddWithValue("@pDegerler", textBox.Text);
+            if (textBox.Text.Equals(""))
+                MessageBox.Show("Kutucuğu Doldurun");
+            else
+            {
+                SqlCommand CommandRegister = new SqlCommand("INSERT INTO " + tabloIsim + " (" + name + ") VALUES (@pDegerler)", Sql_operation.sqlConnect);
+                Sql_operation.checkedConnection(Sql_operation.sqlConnect);
+                CommandRegister.Parameters.AddWithValue("@pDegerler", textBox.Text);
 
-            CommandRegister.ExecuteNonQuery();
+                CommandRegister.ExecuteNonQuery();
+            }
         }
 
         private void btn_anakart_kayitEkle_Click(object sender, EventArgs e)
         {
+
             kayitEkle(txt_anakartIsim, "table_anakart", "Anakart_ad");
         }
 
@@ -147,7 +154,78 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         }
 
+        public void kayitSil (String tabloIsim,String urunIsim)
+        {
+            if (geciciTasiyici.Equals(null))
+            {
+                MessageBox.Show("Silme İşleminden Önce Bir Satır Seçiniz...", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                SqlCommand SilKomut = new SqlCommand("Delete From " + tabloIsim + " where " + urunIsim + " = @sistemId", Sql_operation.sqlConnect);
+                Sql_operation.checkedConnection(Sql_operation.sqlConnect);
 
+                SilKomut.Parameters.AddWithValue("@sistemId", geciciTasiyici);
+                SilKomut.ExecuteNonQuery();
+                geciciTasiyici = null;
+            }
+        }
+
+        public void dataSecim(DataGridView dataGridView)
+        {
+            int secilen = dataGridView.SelectedCells[0].RowIndex;
+            geciciTasiyici = dataGridView.Rows[secilen].Cells[0].Value.ToString();
+        }
+
+        private void dataG_anakart_MouseClick(object sender, MouseEventArgs e)
+        {
+            dataSecim(dataG_anakart);
+        }
+
+        private void dataG_islemci_MouseClick(object sender, MouseEventArgs e)
+        {
+            dataSecim(dataG_islemci);
+        }
+
+        private void dataG_ram_MouseClick(object sender, MouseEventArgs e)
+        {
+            dataSecim(dataG_ram);
+        }
+
+        private void dataG_ekranK_MouseClick(object sender, MouseEventArgs e)
+        {
+            dataSecim(dataG_ekranK);
+        }
+
+        private void dataG_monitor_MouseClick(object sender, MouseEventArgs e)
+        {
+            dataSecim(dataG_monitor);
+        }
+
+        private void dataG_kasa_MouseClick(object sender, MouseEventArgs e)
+        {
+            dataSecim(dataG_kasa);
+        }
+
+        private void dataG_sesK_MouseClick(object sender, MouseEventArgs e)
+        {
+            dataSecim(dataG_sesK);
+        }
+
+        private void dataG_siviS_MouseClick(object sender, MouseEventArgs e)
+        {
+            dataSecim(dataG_siviS);
+        }
+
+        private void dataG_kullanicilar_MouseClick(object sender, MouseEventArgs e)
+        {
+            dataSecim(dataG_kullanicilar);
+        }
+
+        private void dataG_kullaniciB_MouseClick(object sender, MouseEventArgs e)
+        {
+            dataSecim(dataG_kullaniciB);
+        }
     }
 }
 
