@@ -96,11 +96,6 @@
             this.btn_kullanicilar_kayitSil = new System.Windows.Forms.Button();
             this.btn_kullanicilar_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_kullanicilar = new System.Windows.Forms.DataGridView();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
-            this.btn_kullaniciB_kayitEkle = new System.Windows.Forms.Button();
-            this.btn_kullaniciB_kayitSil = new System.Windows.Forms.Button();
-            this.btn_kullaniciB_kayitGetir = new System.Windows.Forms.Button();
-            this.dataG_kullaniciB = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_anakart)).BeginInit();
@@ -120,8 +115,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataG_siviS)).BeginInit();
             this.tabPage9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_kullanicilar)).BeginInit();
-            this.tabPage10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataG_kullaniciB)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -135,7 +128,6 @@
             this.tabControl1.Controls.Add(this.tabPage7);
             this.tabControl1.Controls.Add(this.tabPage8);
             this.tabControl1.Controls.Add(this.tabPage9);
-            this.tabControl1.Controls.Add(this.tabPage10);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
@@ -194,6 +186,7 @@
             this.btn_anakart_kaydiSil.TabIndex = 1;
             this.btn_anakart_kaydiSil.Text = "Kaydı Sil";
             this.btn_anakart_kaydiSil.UseVisualStyleBackColor = true;
+            this.btn_anakart_kaydiSil.Click += new System.EventHandler(this.btn_anakart_kaydiSil_Click);
             // 
             // btn_anakart_kayitGetir
             // 
@@ -267,6 +260,7 @@
             this.btn_islemci_kayitSil.TabIndex = 3;
             this.btn_islemci_kayitSil.Text = "Kaydı Sil";
             this.btn_islemci_kayitSil.UseVisualStyleBackColor = true;
+            this.btn_islemci_kayitSil.Click += new System.EventHandler(this.btn_islemci_kayitSil_Click);
             // 
             // btn_islemci_kayitGetir
             // 
@@ -340,6 +334,7 @@
             this.btn_ram_kayitSil.TabIndex = 3;
             this.btn_ram_kayitSil.Text = "Kaydı Sil";
             this.btn_ram_kayitSil.UseVisualStyleBackColor = true;
+            this.btn_ram_kayitSil.Click += new System.EventHandler(this.btn_ram_kayitSil_Click);
             // 
             // btn_ram_kayitGetir
             // 
@@ -412,6 +407,7 @@
             this.btn_ekranK_kayitSil.TabIndex = 3;
             this.btn_ekranK_kayitSil.Text = "Kaydı Sil";
             this.btn_ekranK_kayitSil.UseVisualStyleBackColor = true;
+            this.btn_ekranK_kayitSil.Click += new System.EventHandler(this.btn_ekranK_kayitSil_Click);
             // 
             // btn_ekranK_kayitGetir
             // 
@@ -484,6 +480,7 @@
             this.btn_monitor_kayitSil.TabIndex = 3;
             this.btn_monitor_kayitSil.Text = "Kaydı Sil";
             this.btn_monitor_kayitSil.UseVisualStyleBackColor = true;
+            this.btn_monitor_kayitSil.Click += new System.EventHandler(this.btn_monitor_kayitSil_Click);
             // 
             // btn_monitor_kayitGetir
             // 
@@ -556,6 +553,7 @@
             this.btn_kasa_kayitSil.TabIndex = 3;
             this.btn_kasa_kayitSil.Text = "Kaydı Sil";
             this.btn_kasa_kayitSil.UseVisualStyleBackColor = true;
+            this.btn_kasa_kayitSil.Click += new System.EventHandler(this.btn_kasa_kayitSil_Click);
             // 
             // btn_kasa_kayitGetir
             // 
@@ -628,6 +626,7 @@
             this.btn_sesK_kayitSil.TabIndex = 3;
             this.btn_sesK_kayitSil.Text = "Kaydı Sil";
             this.btn_sesK_kayitSil.UseVisualStyleBackColor = true;
+            this.btn_sesK_kayitSil.Click += new System.EventHandler(this.btn_sesK_kayitSil_Click);
             // 
             // btn_sesK_kayitGetir
             // 
@@ -701,6 +700,7 @@
             this.btn_siviS_kayitSil.TabIndex = 3;
             this.btn_siviS_kayitSil.Text = "Kaydı Sil";
             this.btn_siviS_kayitSil.UseVisualStyleBackColor = true;
+            this.btn_siviS_kayitSil.Click += new System.EventHandler(this.btn_siviS_kayitSil_Click);
             // 
             // btn_siviS_kayitGetir
             // 
@@ -809,6 +809,7 @@
             this.btn_kullanicilar_kayitSil.TabIndex = 3;
             this.btn_kullanicilar_kayitSil.Text = "Kaydı Sil";
             this.btn_kullanicilar_kayitSil.UseVisualStyleBackColor = true;
+            this.btn_kullanicilar_kayitSil.Click += new System.EventHandler(this.btn_kullanicilar_kayitSil_Click);
             // 
             // btn_kullanicilar_kayitGetir
             // 
@@ -830,60 +831,6 @@
             this.dataG_kullanicilar.Size = new System.Drawing.Size(1054, 310);
             this.dataG_kullanicilar.TabIndex = 1;
             this.dataG_kullanicilar.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_kullanicilar_MouseClick);
-            // 
-            // tabPage10
-            // 
-            this.tabPage10.Controls.Add(this.btn_kullaniciB_kayitEkle);
-            this.tabPage10.Controls.Add(this.btn_kullaniciB_kayitSil);
-            this.tabPage10.Controls.Add(this.btn_kullaniciB_kayitGetir);
-            this.tabPage10.Controls.Add(this.dataG_kullaniciB);
-            this.tabPage10.Location = new System.Drawing.Point(4, 29);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(1060, 547);
-            this.tabPage10.TabIndex = 9;
-            this.tabPage10.Text = "Kullanıcı Bilgisayarları";
-            this.tabPage10.UseVisualStyleBackColor = true;
-            // 
-            // btn_kullaniciB_kayitEkle
-            // 
-            this.btn_kullaniciB_kayitEkle.Location = new System.Drawing.Point(622, 349);
-            this.btn_kullaniciB_kayitEkle.Name = "btn_kullaniciB_kayitEkle";
-            this.btn_kullaniciB_kayitEkle.Size = new System.Drawing.Size(172, 53);
-            this.btn_kullaniciB_kayitEkle.TabIndex = 2;
-            this.btn_kullaniciB_kayitEkle.Text = "Kayıt Ekle";
-            this.btn_kullaniciB_kayitEkle.UseVisualStyleBackColor = true;
-            this.btn_kullaniciB_kayitEkle.Click += new System.EventHandler(this.btn_kullaniciB_kayitEkle_Click);
-            // 
-            // btn_kullaniciB_kayitSil
-            // 
-            this.btn_kullaniciB_kayitSil.Location = new System.Drawing.Point(376, 349);
-            this.btn_kullaniciB_kayitSil.Name = "btn_kullaniciB_kayitSil";
-            this.btn_kullaniciB_kayitSil.Size = new System.Drawing.Size(172, 53);
-            this.btn_kullaniciB_kayitSil.TabIndex = 3;
-            this.btn_kullaniciB_kayitSil.Text = "Kaydı Sil";
-            this.btn_kullaniciB_kayitSil.UseVisualStyleBackColor = true;
-            // 
-            // btn_kullaniciB_kayitGetir
-            // 
-            this.btn_kullaniciB_kayitGetir.Location = new System.Drawing.Point(859, 349);
-            this.btn_kullaniciB_kayitGetir.Name = "btn_kullaniciB_kayitGetir";
-            this.btn_kullaniciB_kayitGetir.Size = new System.Drawing.Size(172, 53);
-            this.btn_kullaniciB_kayitGetir.TabIndex = 4;
-            this.btn_kullaniciB_kayitGetir.Text = "Kayıtları Getir";
-            this.btn_kullaniciB_kayitGetir.UseVisualStyleBackColor = true;
-            this.btn_kullaniciB_kayitGetir.Click += new System.EventHandler(this.btn_kullaniciB_kayitGetir_Click);
-            // 
-            // dataG_kullaniciB
-            // 
-            this.dataG_kullaniciB.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.dataG_kullaniciB.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.dataG_kullaniciB.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataG_kullaniciB.Location = new System.Drawing.Point(3, 6);
-            this.dataG_kullaniciB.Name = "dataG_kullaniciB";
-            this.dataG_kullaniciB.Size = new System.Drawing.Size(1054, 310);
-            this.dataG_kullaniciB.TabIndex = 1;
-            this.dataG_kullaniciB.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_kullaniciB_MouseClick);
             // 
             // admin_panel
             // 
@@ -922,8 +869,6 @@
             this.tabPage9.ResumeLayout(false);
             this.tabPage9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_kullanicilar)).EndInit();
-            this.tabPage10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataG_kullaniciB)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -949,8 +894,6 @@
         private System.Windows.Forms.DataGridView dataG_siviS;
         private System.Windows.Forms.TabPage tabPage9;
         private System.Windows.Forms.DataGridView dataG_kullanicilar;
-        private System.Windows.Forms.TabPage tabPage10;
-        private System.Windows.Forms.DataGridView dataG_kullaniciB;
         private System.Windows.Forms.Button btn_anakart_kayitEkle;
         private System.Windows.Forms.Button btn_anakart_kaydiSil;
         private System.Windows.Forms.Button btn_anakart_kayitGetir;
@@ -978,9 +921,6 @@
         private System.Windows.Forms.Button btn_kullanicilar_kayitEkle;
         private System.Windows.Forms.Button btn_kullanicilar_kayitSil;
         private System.Windows.Forms.Button btn_kullanicilar_kayitGetir;
-        private System.Windows.Forms.Button btn_kullaniciB_kayitEkle;
-        private System.Windows.Forms.Button btn_kullaniciB_kayitSil;
-        private System.Windows.Forms.Button btn_kullaniciB_kayitGetir;
         private System.Windows.Forms.TextBox txt_anakartIsim;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txt_islemciIsim;

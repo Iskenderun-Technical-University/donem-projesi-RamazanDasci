@@ -44,7 +44,7 @@
             this.button1.Location = new System.Drawing.Point(190, 248);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(124, 50);
-            this.button1.TabIndex = 0;
+            this.button1.TabIndex = 4;
             this.button1.Text = "Giriş Yap";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -73,7 +73,7 @@
             this.txt_password.Location = new System.Drawing.Point(160, 183);
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(174, 26);
-            this.txt_password.TabIndex = 1;
+            this.txt_password.TabIndex = 2;
             this.txt_password.UseSystemPasswordChar = true;
             // 
             // label2

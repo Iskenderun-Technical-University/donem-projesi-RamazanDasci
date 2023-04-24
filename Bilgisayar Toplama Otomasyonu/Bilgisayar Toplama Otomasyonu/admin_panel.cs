@@ -17,6 +17,14 @@ namespace Bilgisayar_Toplama_Otomasyonu
         public admin_panel()
         {
             InitializeComponent();
+            kayitgetir("Anakart_ad", "table_anakart", dataG_anakart);
+            kayitgetir("islemci_ad", "table_islemci", dataG_islemci);
+            kayitgetir("Ram_name", "tableRam", dataG_ram);
+            kayitgetir("EkranK_ad", "tableEkranK", dataG_ekranK);
+            kayitgetir("Kasa_ad", "table_kasa", dataG_kasa);
+            kayitgetir("Seskarti_ad", "tableSesK", dataG_sesK);
+            kayitgetir("Cooling_ad", "tableCooling", dataG_siviS);
+
         }
         public String geciciTasiyici = null;
 
@@ -84,10 +92,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
             kayitgetir("*", "KullaniciGirisBilgileri", dataG_kullanicilar);
         }
 
-        private void btn_kullaniciB_kayitGetir_Click(object sender, EventArgs e)
-        {
-            kayitgetir("*", "table_kullaniciSistem", dataG_kullaniciB);
-        }
 
         public void kayitEkle (TextBox textBox, String tabloIsim, String name)
         {
@@ -100,6 +104,8 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 CommandRegister.Parameters.AddWithValue("@pDegerler", textBox.Text);
 
                 CommandRegister.ExecuteNonQuery();
+                textBox.Text = "";
+                MessageBox.Show("Başarıyla Eklendi");
             }
         }
 
@@ -111,50 +117,60 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         private void btn_islemci_kayitEkle_Click(object sender, EventArgs e)
         {
-            kayitEkle(txt_anakartIsim, "table_islemci", "islemci_ad");
+            kayitEkle(txt_islemciIsim, "table_islemci", "islemci_ad");
         }
 
         private void btn_ram_kayitEkle_Click(object sender, EventArgs e)
         {
-            kayitEkle(txt_anakartIsim, "tableRam", "Ram_name");
+            kayitEkle(txt_ramIsim, "tableRam", "Ram_name");
         }
 
         private void btn_ekranK_kayitEkle_Click(object sender, EventArgs e)
         {
-            kayitEkle(txt_anakartIsim, "tableEkranK", "EkranK_ad");
+            kayitEkle(txt_ekranKIsım, "tableEkranK", "EkranK_ad");
         }
 
         private void btn_monitor_kayitEkle_Click(object sender, EventArgs e)
         {
-            kayitEkle(txt_anakartIsim, "table_monitor", "monitor_isim");
+            kayitEkle(txt_monitorIsım, "table_monitor", "monitor_isim");
         }
 
         private void btn_kasa_kayitEkle_Click(object sender, EventArgs e)
         {
-            kayitEkle(txt_anakartIsim, "table_kasa", "Kasa_ad");
+            kayitEkle(txt_kasaIsim, "table_kasa", "Kasa_ad");
         }
 
         private void btn_sesK_kayitEkle_Click(object sender, EventArgs e)
         {
-            kayitEkle(txt_anakartIsim, "tableSesK", "Seskarti_ad");
+            kayitEkle(txt_sesKIsim, "tableSesK", "Seskarti_ad");
         }
 
         private void btn_siviS_kayitEkle_Click(object sender, EventArgs e)
         {
-            kayitEkle(txt_anakartIsim, "table_islemci", "islemci_ad");
+            kayitEkle(txt_coolingIsim, "tableCooling", "Cooling_ad");
         }
 
         private void btn_kullanicilar_kayitEkle_Click(object sender, EventArgs e)
         {
+            if (txt_kullaniciIsim.Text.Equals("") || txt_kullaniciMail.Text.Equals("") || txt_kullaniciSifre.Text.Equals(""))
+                MessageBox.Show("Kutucukları Doldurun");
+            else
+            {
+                SqlCommand CommandRegister = new SqlCommand("INSERT INTO KullaniciGirisBilgileri (name,password,mail) VALUES (@pname,@ppassword,@pmail)", Sql_operation.sqlConnect);
+                Sql_operation.checkedConnection(Sql_operation.sqlConnect);
+                CommandRegister.Parameters.AddWithValue("@pname", txt_kullaniciIsim.Text);
+                CommandRegister.Parameters.AddWithValue("@ppassword", txt_kullaniciSifre.Text);
+                CommandRegister.Parameters.AddWithValue("@pmail", txt_kullaniciMail.Text);
+
+                CommandRegister.ExecuteNonQuery();
+                txt_kullaniciIsim.Text = "";
+                txt_kullaniciMail.Text = "";
+                txt_kullaniciSifre.Text = "";
+                MessageBox.Show("Başarıyla Eklendi");
+            }
 
         }
-
-        private void btn_kullaniciB_kayitEkle_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        public void kayitSil (String tabloIsim,String urunIsim)
+        public void kayitSil (String urunIsim, String tabloIsim )
         {
             if (geciciTasiyici.Equals(null))
             {
@@ -168,6 +184,7 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 SilKomut.Parameters.AddWithValue("@sistemId", geciciTasiyici);
                 SilKomut.ExecuteNonQuery();
                 geciciTasiyici = null;
+                MessageBox.Show("Başarıyla Silindi");
             }
         }
 
@@ -219,12 +236,66 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         private void dataG_kullanicilar_MouseClick(object sender, MouseEventArgs e)
         {
-            dataSecim(dataG_kullanicilar);
+            int secilen = dataG_kullanicilar.SelectedCells[0].RowIndex;
+            geciciTasiyici = dataG_kullanicilar.Rows[secilen].Cells[0].Value.ToString();
         }
 
-        private void dataG_kullaniciB_MouseClick(object sender, MouseEventArgs e)
+        private void btn_anakart_kaydiSil_Click(object sender, EventArgs e)
         {
-            dataSecim(dataG_kullaniciB);
+            kayitSil("Anakart_ad", "table_anakart");
+        }
+
+        private void btn_islemci_kayitSil_Click(object sender, EventArgs e)
+        {
+            kayitSil("islemci_ad", "table_islemci");
+        }
+
+        private void btn_ram_kayitSil_Click(object sender, EventArgs e)
+        {
+            kayitSil("Ram_name", "tableRam");
+        }
+
+        private void btn_ekranK_kayitSil_Click(object sender, EventArgs e)
+        {
+            kayitSil("EkranK_ad", "tableEkranK");
+        }
+
+        private void btn_monitor_kayitSil_Click(object sender, EventArgs e)
+        {
+            kayitSil("monitor_isim", "table_monitor");
+        }
+
+        private void btn_kasa_kayitSil_Click(object sender, EventArgs e)
+        {
+            kayitSil("Kasa_ad", "table_kasa");
+        }
+
+        private void btn_sesK_kayitSil_Click(object sender, EventArgs e)
+        {
+            kayitSil("Seskarti_ad", "tableSesK");
+        }
+
+        private void btn_siviS_kayitSil_Click(object sender, EventArgs e)
+        {
+            kayitSil("Cooling_ad", "tableCooling");
+        }
+
+        private void btn_kullanicilar_kayitSil_Click(object sender, EventArgs e)
+        {
+            if (geciciTasiyici.Equals(null))
+            {
+                MessageBox.Show("Silme İşleminden Önce Bir Satır Seçiniz...", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                SqlCommand SilKomut = new SqlCommand("Delete From KullaniciGirisBilgileri where  mail = @pmail", Sql_operation.sqlConnect);
+                Sql_operation.checkedConnection(Sql_operation.sqlConnect);
+
+                SilKomut.Parameters.AddWithValue("@pmail", geciciTasiyici);
+                SilKomut.ExecuteNonQuery();
+                geciciTasiyici = null;
+                MessageBox.Show("Başarıyla Silindi");
+            }
         }
     }
 }

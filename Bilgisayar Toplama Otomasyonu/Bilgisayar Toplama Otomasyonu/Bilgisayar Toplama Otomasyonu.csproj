@@ -64,6 +64,12 @@
     <Compile Include="Bakim_Toplama_ayrimi.Designer.cs">
       <DependentUpon>Bakim_Toplama_ayrimi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bilgisayar_bakim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bilgisayar_bakim.Designer.cs">
+      <DependentUpon>Bilgisayar_bakim.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bilgisayar_bakim_main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Bakim_Toplama_ayrimi.resx">
       <DependentUpon>Bakim_Toplama_ayrimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bilgisayar_bakim.resx">
+      <DependentUpon>Bilgisayar_bakim.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bilgisayar_bakim_main.resx">
       <DependentUpon>Bilgisayar_bakim_main.cs</DependentUpon>
