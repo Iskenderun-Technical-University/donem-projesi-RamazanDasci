@@ -1,1 +1,28 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/uelKf0-p)
+# Bilgisayar Toplama ve Tamir Projesi
+
+Bu proje, kullanıcıların kendi bilgisayarlarını toplamalarına ve tamir etmelerine yardımcı olan bir araçtır. 
+
+## Özellikler
+
+- Kullanıcıların bilgisayar parçalarını seçmelerine ve uyumluluk kontrollerini yapmalarına olanak sağlar.
+- Bilgisayarın performansını artırmak için parça önerileri sunar.
+- Kullanıcıların bilgisayar tamirlerini yapmalarına yardımcı olacak talimatlar sunar.
+
+## Kullanım
+
+- Programı bilgisayarınıza indirin ve kurulumu gerçekleştirin.
+- Programı açın ve bilgisayarınızı toplamak veya tamir etmek istediğiniz bölümü seçin.
+- İstediğiniz parçaları seçin ve uyumluluk kontrollerini gerçekleştirin.
+- Bilgisayarınızı tamir etmek istiyorsanız, talimatları adım adım izleyin.
+
+## Teknolojiler
+
+Bu proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
+
+- C# programlama dili
+- Windows Forms uygulama çerçevesi
+
+## Katkıda Bulunma
+
+Bu projeye katkıda bulunmak isterseniz, lütfen benimle iletişime geçin.
+
