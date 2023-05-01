@@ -29,4 +29,4 @@ Bu proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 ## Katkıda Bulunma
 
 Bu projeye katkıda bulunmak isterseniz, lütfen benimle iletişime geçin.
-
+ramazandasci01@gmail.com
