@@ -23,7 +23,8 @@ Bu proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 - Windows Forms uygulama çerçevesi
 
 ## Veri Tabanı
-![Veri Tabanı Temsili Görsel] (https://github.com/Iskenderun-Technical-University/donem-projesi-RamazanDasci/blob/main/Bilgisayar%20Toplama%20Otomasyonu/Bilgisayar%20Toplama%20Otomasyonu/resim_2023-05-01_162425641.png)
+![Veri Tabanı Temsili Görsel](https://github.com/Iskenderun-Technical-University/donem-projesi-RamazanDasci/blob/main/image.png)
+
 
 ## Katkıda Bulunma
 
