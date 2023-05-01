@@ -22,6 +22,9 @@ Bu proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 - C# programlama dili
 - Windows Forms uygulama çerçevesi
 
+## Veri Tabanı
+![Veri Tabanı Temsili Görsel] (https://github.com/Iskenderun-Technical-University/donem-projesi-RamazanDasci/blob/main/Bilgisayar%20Toplama%20Otomasyonu/Bilgisayar%20Toplama%20Otomasyonu/resim_2023-05-01_162425641.png)
+
 ## Katkıda Bulunma
 
 Bu projeye katkıda bulunmak isterseniz, lütfen benimle iletişime geçin.
