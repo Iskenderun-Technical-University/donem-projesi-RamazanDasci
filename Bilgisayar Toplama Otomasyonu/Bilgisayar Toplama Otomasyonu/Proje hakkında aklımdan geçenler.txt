@@ -1,0 +1,50 @@
+﻿Gün 31.03.2023
+
+Bilgisayar toplama otomasyonu
+
+program iki aşamadan oluşacak 
+	
+	ilk aşaması bilgisayar toplayacak
+		
+		- bilgisayar toplarken parçalar birbiri ile uyumlu halde çalışmasına özen gösterilecek
+			.DDR uyumu
+			.Darboğaz uyumu
+			.Soket uyumlulukları
+			.Güç tüketimi
+			.Sistem gereksinimleri
+		
+		- Bilgisayar toplarken kullanıcıdan istenilen ölçüde bir bilgisayar toplanmaya özen gösterecek
+			.Oyun oynayacak mı?
+			.Düz ofis bilgisayarı mı?
+			.Render Video işleri var mı?
+			.Bilgisayardan beklentisi ne?
+
+		- Kullanıcıyla efektif çalışabilecek
+			.Kullanıcı istediği parçayı değiştirebilecek
+			.Değişen parça nın uyumluluğunu tekrar kontrol edebilecek
+			.Sorun var ise kullanıcıya bildirecek.
+
+		- Veritabanı ile eşzamanlı çalışan bir sistem olacak
+			.Veri tabanından görseller çekilecek
+			.Kullanıcı Karşısına sunulan ürünler veritabanından çekilecek
+			.Veritabanında üye kayıt işlemleri ile setuplar kayıt edilebilecek.
+
+		-Düşünce aşaması
+			.Güncel fiyatları internet üzerinden çekecek
+
+
+
+
+
+
+	ikinci aşaması ise bilgisayar problemlerini çözmeye yardım etmeye çalışacak
+		
+		-Kullanıcı bilgisayarı ile sorun yaşıyor ise
+			.Yaşadığı problemi kullanıcıdan alacak
+			.Alınan bilgiler doğrultusunda dallanarak çözüm yolunda ilerlenecek
+
+
+
+
+
+
