@@ -96,7 +96,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RjButtons\RjButtons.cs">
+    <Compile Include="RjButtons.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="RobotFormu.cs">
@@ -192,6 +192,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Proje hakkında aklımdan geçenler.txt" />
+    <None Include="Resources\asdsadsadawd.png" />
+    <None Include="Resources\q34t5tuyerw1.png" />
+    <None Include="Resources\Başlıkcfrdhgdrghdrhdhsız-1.png" />
+    <None Include="Resources\USER_PHOTO1.png" />
+    <None Include="Resources\Başlıksız-1.png" />
     <None Include="Resources\light-control.png" />
     <None Include="Resources\cooler.png" />
     <None Include="Resources\gpu.png" />
@@ -210,6 +215,9 @@
     <None Include="Resources\pngwing.com %281%29.png" />
     <None Include="Resources\pngwing.com.png" />
     <None Include="Resources\USER_PHOTO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RjButtons\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

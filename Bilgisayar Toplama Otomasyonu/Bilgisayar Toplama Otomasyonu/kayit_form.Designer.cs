@@ -121,7 +121,7 @@
             // 
             // btn_kayitOl
             // 
-            this.btn_kayitOl.Location = new System.Drawing.Point(274, 407);
+            this.btn_kayitOl.Location = new System.Drawing.Point(274, 348);
             this.btn_kayitOl.Name = "btn_kayitOl";
             this.btn_kayitOl.Size = new System.Drawing.Size(155, 45);
             this.btn_kayitOl.TabIndex = 5;
@@ -162,7 +162,7 @@
             // 
             // btn_girisEkrani
             // 
-            this.btn_girisEkrani.Location = new System.Drawing.Point(12, 439);
+            this.btn_girisEkrani.Location = new System.Drawing.Point(12, 352);
             this.btn_girisEkrani.Name = "btn_girisEkrani";
             this.btn_girisEkrani.Size = new System.Drawing.Size(81, 41);
             this.btn_girisEkrani.TabIndex = 6;
@@ -174,7 +174,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(663, 492);
+            this.ClientSize = new System.Drawing.Size(653, 425);
             this.Controls.Add(this.btn_girisEkrani);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.checkBox1);

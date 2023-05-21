@@ -26,9 +26,7 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         private void btn_misafirGiris_Click(object sender, EventArgs e)
         {
-            Bakim_Toplama_ayrimi ayrimNesnesi = new Bakim_Toplama_ayrimi();
-            ayrimNesnesi.Show();
-            this.Hide();
+            
         }
 
         private void Main_Load(object sender, EventArgs e)
@@ -64,44 +62,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
         private void button1_Click(object sender, EventArgs e)
         {
             
-            //Giriş Bilgileri Kontrolünü Sağlar
-            if(txt_password.Text.Equals("") || txt_userEposta.Text.Equals(""))
-            {
-                MessageBox.Show("Lütfen Kutucukları Boş Bırakmayınız","Dikkat",MessageBoxButtons.OK,MessageBoxIcon.Information);
-            }
-            else
-            {
-                Kullanici_eposta = txt_userEposta.Text;
-                //SQL Bağlantısı Sağlanacak
-                SqlCommand command = new SqlCommand("Select * from KullaniciGirisBilgileri WHERE mail=@pmail and password=@pPassword",Sql_operation.sqlConnect);
-                Sql_operation.checkedConnection(Sql_operation.sqlConnect);
-                command.Parameters.AddWithValue("@pmail",txt_userEposta.Text);
-                command.Parameters.AddWithValue("@pPassword", txt_password.Text);
-
-                SqlDataAdapter adapter = new SqlDataAdapter(command);
-                DataTable dt = new DataTable();
-                adapter.Fill(dt);
-                String a = adapter.ToString();
-
-                if(dt.Rows.Count > 0)
-                {
-                    MessageBox.Show("Başarıyla Giriş Yapıldı","Tebrikler",MessageBoxButtons.OK,MessageBoxIcon.Question);
-                    girisYapildiMi = 1;
-                    
-                    Bakim_Toplama_ayrimi bakim_Toplama_Ayrimi = new Bakim_Toplama_ayrimi();
-                    bakim_Toplama_Ayrimi.lbl_hesapInfo.Text = txt_userEposta.Text;
-                    bakim_Toplama_Ayrimi.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    MessageBox.Show("Kullanıcı Adı Veya Parola Hatalı","Dikkat",MessageBoxButtons.OK,MessageBoxIcon.Warning);
-
-                }
-
-
-
-            }
         }
 
         private void lnklbl_sifremiUnuttum_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -113,9 +73,80 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         private void btn_adminLogin_Click(object sender, EventArgs e)
         {
+            
+
+        }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void rjButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjButton2_Click_1(object sender, EventArgs e)
+        {
+
+            //Giriş Bilgileri Kontrolünü Sağlar
+            if (txt_password.Text.Equals("") || txt_userEposta.Text.Equals(""))
+            {
+                MessageBox.Show("Lütfen Kutucukları Boş Bırakmayınız", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                Kullanici_eposta = txt_userEposta.Text;
+                //SQL Bağlantısı Sağlanacak
+                SqlCommand command = new SqlCommand("Select * from KullaniciGirisBilgileri WHERE mail=@pmail and password=@pPassword", Sql_operation.sqlConnect);
+                Sql_operation.checkedConnection(Sql_operation.sqlConnect);
+                command.Parameters.AddWithValue("@pmail", txt_userEposta.Text);
+                command.Parameters.AddWithValue("@pPassword", txt_password.Text);
+
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                String a = adapter.ToString();
+
+                if (dt.Rows.Count > 0)
+                {
+                    MessageBox.Show("Başarıyla Giriş Yapıldı", "Tebrikler", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                    girisYapildiMi = 1;
+
+                    Bakim_Toplama_ayrimi bakim_Toplama_Ayrimi = new Bakim_Toplama_ayrimi();
+                    bakim_Toplama_Ayrimi.lbl_hesapInfo.Text = txt_userEposta.Text;
+                    bakim_Toplama_Ayrimi.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Kullanıcı Adı Veya Parola Hatalı", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                }
+
+
+
+            }
+        }
+
+        private void rjButton3_Click(object sender, EventArgs e)
+        {
+            Bakim_Toplama_ayrimi ayrimNesnesi = new Bakim_Toplama_ayrimi();
+            ayrimNesnesi.Show();
+            this.Hide();
+        }
+
+        private void rjButton4_Click(object sender, EventArgs e)
+        {
             Admin_giris admin_Giris = new Admin_giris();
             admin_Giris.Show();
             this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
 
         }
     }

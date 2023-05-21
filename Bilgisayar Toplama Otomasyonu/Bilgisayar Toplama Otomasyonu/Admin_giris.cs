@@ -21,13 +21,35 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == false)
+            {
+                txt_password.UseSystemPasswordChar = true; 
+            }
+            else
+            {
+                txt_password.UseSystemPasswordChar = false;
+            }
+        }
+
+        private void Admin_giris_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
             if (txt_password.Text.Equals("") || txt_id.Text.Equals(""))
             {
                 MessageBox.Show("Lütfen Kutucukları Boş Bırakmayınız", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                
+
                 //SQL Bağlantısı Sağlanacak
                 SqlCommand command = new SqlCommand("Select * from table_admin WHERE admin_id=@pid and admin_password=@pPassword", Sql_operation.sqlConnect);
                 Sql_operation.checkedConnection(Sql_operation.sqlConnect);
@@ -57,21 +79,22 @@ namespace Bilgisayar_Toplama_Otomasyonu
             }
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void rjButton2_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == false)
-            {
-                txt_password.UseSystemPasswordChar = true; 
-            }
-            else
-            {
-                txt_password.UseSystemPasswordChar = false;
-            }
+            Main main = new Main();
+
+            main.Show();
+            this.Hide();
         }
 
-        private void Admin_giris_FormClosed(object sender, FormClosedEventArgs e)
+        private void rjButton3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

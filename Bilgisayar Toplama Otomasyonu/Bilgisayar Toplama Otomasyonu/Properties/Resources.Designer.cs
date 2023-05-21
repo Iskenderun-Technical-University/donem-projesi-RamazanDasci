@@ -63,6 +63,36 @@ namespace Bilgisayar_Toplama_Otomasyonu.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap asdsadsadawd {
+            get {
+                object obj = ResourceManager.GetObject("asdsadsadawd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Başlıkcfrdhgdrghdrhdhsız_1 {
+            get {
+                object obj = ResourceManager.GetObject("Başlıkcfrdhgdrghdrhdhsız-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Başlıksız_1 {
+            get {
+                object obj = ResourceManager.GetObject("Başlıksız-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap computer_case {
             get {
                 object obj = ResourceManager.GetObject("computer-case", resourceCulture);
@@ -193,6 +223,16 @@ namespace Bilgisayar_Toplama_Otomasyonu.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap q34t5tuyerw1 {
+            get {
+                object obj = ResourceManager.GetObject("q34t5tuyerw1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap ram_memory {
             get {
                 object obj = ResourceManager.GetObject("ram-memory", resourceCulture);
@@ -226,6 +266,16 @@ namespace Bilgisayar_Toplama_Otomasyonu.Properties {
         internal static System.Drawing.Bitmap USER_PHOTO {
             get {
                 object obj = ResourceManager.GetObject("USER_PHOTO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap USER_PHOTO1 {
+            get {
+                object obj = ResourceManager.GetObject("USER_PHOTO1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

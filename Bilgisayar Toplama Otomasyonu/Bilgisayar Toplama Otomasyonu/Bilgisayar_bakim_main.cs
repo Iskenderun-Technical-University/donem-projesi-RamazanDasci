@@ -140,7 +140,7 @@ namespace Bilgisayar_Toplama_Otomasyonu
                     bilgisayar_Bakim.rtxt_pcYas.Text = "Bilgisayarınızın 10 yıl boyunca kullanılması, birçok donanımsal veya yazılımsal soruna neden olabilir. Bilgisayarların ömrü, kullanılan bileşenlere, sıklıkla kullanımına, bakımına ve kullanıcıların nasıl kullandığına bağlıdır.\r\n\r\nBilgisayarınızın donanımsal sorunları olabilir. Uzun süreli kullanımın bir sonucu olarak, bilgisayarınızın sabit diski, RAM'i, anakartı veya diğer bileşenleri arızalanmış olabilir. Ayrıca, eski bilgisayarların güç kaynakları da aşınabilir ve sorunlara neden olabilir.";
                 }
                 this.Hide();
-                bilgisayar_Bakim.Show();q
+                bilgisayar_Bakim.Show();
             }
         }
     }
