@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.Button btn_mainButon;
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -37,37 +36,27 @@
             this.cmbox_anaSorun = new System.Windows.Forms.ComboBox();
             this.cmbox_nasilBasladi = new System.Windows.Forms.ComboBox();
             this.cmbox_kacYil = new System.Windows.Forms.ComboBox();
-            this.btn_sorunBul = new System.Windows.Forms.Button();
-            btn_mainButon = new System.Windows.Forms.Button();
+            this.rjButton1 = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.rjButton2 = new Bilgisayar_Toplama_Otomasyonu.RJButton();
             this.SuspendLayout();
-            // 
-            // btn_mainButon
-            // 
-            btn_mainButon.Location = new System.Drawing.Point(727, 8);
-            btn_mainButon.Name = "btn_mainButon";
-            btn_mainButon.Size = new System.Drawing.Size(61, 43);
-            btn_mainButon.TabIndex = 1;
-            btn_mainButon.Text = "Ana Sayfa";
-            btn_mainButon.UseVisualStyleBackColor = true;
-            btn_mainButon.Click += new System.EventHandler(this.btn_mainButon_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(280, 18);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(226, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 20);
+            this.label1.Size = new System.Drawing.Size(329, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Bilgisayar Bakım Ana Sayfa";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(233, 59);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(228, 56);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(334, 48);
+            this.label2.Size = new System.Drawing.Size(360, 54);
             this.label2.TabIndex = 2;
             this.label2.Text = "UYARI !!! Öncelikle Burada Yapılacak İşemler Tehlikeli \r\nOlabilir, Belirli Seviye" +
     "de Elektronik Bilgisi Olmayanlar \r\nLütfen En Yakın Teknik Servise Başvurunuz\r\n";
@@ -153,22 +142,54 @@
             this.cmbox_kacYil.Size = new System.Drawing.Size(400, 28);
             this.cmbox_kacYil.TabIndex = 4;
             // 
-            // btn_sorunBul
+            // rjButton1
             // 
-            this.btn_sorunBul.Location = new System.Drawing.Point(367, 363);
-            this.btn_sorunBul.Name = "btn_sorunBul";
-            this.btn_sorunBul.Size = new System.Drawing.Size(121, 46);
-            this.btn_sorunBul.TabIndex = 5;
-            this.btn_sorunBul.Text = "Sorunumu Bul";
-            this.btn_sorunBul.UseVisualStyleBackColor = true;
-            this.btn_sorunBul.Click += new System.EventHandler(this.btn_sorunBul_Click);
+            this.rjButton1.BackColor = System.Drawing.SystemColors.Menu;
+            this.rjButton1.BackgroundColor = System.Drawing.SystemColors.Menu;
+            this.rjButton1.BorderColor = System.Drawing.Color.Black;
+            this.rjButton1.BorderRadius = 15;
+            this.rjButton1.BorderSize = 1;
+            this.rjButton1.FlatAppearance.BorderSize = 0;
+            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rjButton1.ForeColor = System.Drawing.Color.Black;
+            this.rjButton1.Location = new System.Drawing.Point(365, 376);
+            this.rjButton1.Name = "rjButton1";
+            this.rjButton1.Size = new System.Drawing.Size(121, 46);
+            this.rjButton1.TabIndex = 6;
+            this.rjButton1.Text = "Sorunumu Bul";
+            this.rjButton1.TextColor = System.Drawing.Color.Black;
+            this.rjButton1.UseVisualStyleBackColor = false;
+            this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click);
+            // 
+            // rjButton2
+            // 
+            this.rjButton2.BackColor = System.Drawing.SystemColors.Control;
+            this.rjButton2.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.rjButton2.BorderColor = System.Drawing.Color.Black;
+            this.rjButton2.BorderRadius = 12;
+            this.rjButton2.BorderSize = 1;
+            this.rjButton2.FlatAppearance.BorderSize = 0;
+            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rjButton2.ForeColor = System.Drawing.Color.Black;
+            this.rjButton2.Location = new System.Drawing.Point(727, 18);
+            this.rjButton2.Name = "rjButton2";
+            this.rjButton2.Size = new System.Drawing.Size(61, 42);
+            this.rjButton2.TabIndex = 7;
+            this.rjButton2.Text = "Ana Sayfa";
+            this.rjButton2.TextColor = System.Drawing.Color.Black;
+            this.rjButton2.UseVisualStyleBackColor = false;
+            this.rjButton2.Click += new System.EventHandler(this.rjButton2_Click);
             // 
             // Bilgisayar_bakim_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btn_sorunBul);
+            this.ControlBox = false;
+            this.Controls.Add(this.rjButton2);
+            this.Controls.Add(this.rjButton1);
             this.Controls.Add(this.cmbox_kacYil);
             this.Controls.Add(this.cmbox_nasilBasladi);
             this.Controls.Add(this.cmbox_anaSorun);
@@ -176,7 +197,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(btn_mainButon);
             this.Controls.Add(this.label1);
             this.Name = "Bilgisayar_bakim_main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -197,6 +217,7 @@
         private System.Windows.Forms.ComboBox cmbox_anaSorun;
         private System.Windows.Forms.ComboBox cmbox_nasilBasladi;
         private System.Windows.Forms.ComboBox cmbox_kacYil;
-        private System.Windows.Forms.Button btn_sorunBul;
+        private RJButton rjButton1;
+        private RJButton rjButton2;
     }
 }

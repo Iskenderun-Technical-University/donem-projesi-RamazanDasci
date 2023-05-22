@@ -23,6 +23,22 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
+
+        }
+
+        private void btn_girisEkrani_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void sifremiUnuttum_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void rjButton2_Click(object sender, EventArgs e)
+        {
             SqlCommand command = new SqlCommand("SELECT * FROM KullaniciGirisBilgileri WHERE mail=@pmail and name=@pname", Sql_operation.sqlConnect);
             Sql_operation.checkedConnection(Sql_operation.sqlConnect);
             command.Parameters.AddWithValue("@pmail", txt_eposta.Text);
@@ -33,7 +49,7 @@ namespace Bilgisayar_Toplama_Otomasyonu
             if (reader.Read())
             {
                 String sifre = reader.GetString(1);
-                MessageBox.Show("Kayıtlı Şifreniz Bulunmuştur: "+ sifre , "Dikkat",MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Kayıtlı Şifreniz Bulunmuştur: " + sifre, "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
@@ -41,19 +57,18 @@ namespace Bilgisayar_Toplama_Otomasyonu
             }
 
             reader.Close();
-
         }
 
-        private void btn_girisEkrani_Click(object sender, EventArgs e)
+        private void rjButton1_Click(object sender, EventArgs e)
         {
-            Main main = new Main(); 
+            Main main = new Main();
             this.Hide();
             main.Show();
         }
 
-        private void sifremiUnuttum_FormClosed(object sender, FormClosedEventArgs e)
+        private void sifremiUnuttum_Load(object sender, EventArgs e)
         {
-            Application.Exit();
+
         }
     }
 }

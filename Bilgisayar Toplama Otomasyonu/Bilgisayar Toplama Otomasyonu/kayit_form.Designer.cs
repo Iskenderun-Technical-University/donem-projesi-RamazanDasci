@@ -36,11 +36,12 @@
             this.txt_parola = new System.Windows.Forms.TextBox();
             this.txt_parolaYeniden = new System.Windows.Forms.TextBox();
             this.txt_ePosta = new System.Windows.Forms.TextBox();
-            this.btn_kayitOl = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btn_girisEkrani = new System.Windows.Forms.Button();
+            this.rjButton1 = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.rjButton2 = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.rjButton3 = new Bilgisayar_Toplama_Otomasyonu.RJButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -119,16 +120,6 @@
             this.txt_ePosta.Size = new System.Drawing.Size(225, 26);
             this.txt_ePosta.TabIndex = 3;
             // 
-            // btn_kayitOl
-            // 
-            this.btn_kayitOl.Location = new System.Drawing.Point(274, 348);
-            this.btn_kayitOl.Name = "btn_kayitOl";
-            this.btn_kayitOl.Size = new System.Drawing.Size(155, 45);
-            this.btn_kayitOl.TabIndex = 5;
-            this.btn_kayitOl.Text = "Kayıt Ol";
-            this.btn_kayitOl.UseVisualStyleBackColor = true;
-            this.btn_kayitOl.Click += new System.EventHandler(this.btn_kayitOl_Click);
-            // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
@@ -160,25 +151,75 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // btn_girisEkrani
+            // rjButton1
             // 
-            this.btn_girisEkrani.Location = new System.Drawing.Point(12, 352);
-            this.btn_girisEkrani.Name = "btn_girisEkrani";
-            this.btn_girisEkrani.Size = new System.Drawing.Size(81, 41);
-            this.btn_girisEkrani.TabIndex = 6;
-            this.btn_girisEkrani.Text = "Giriş Ekranına Dön";
-            this.btn_girisEkrani.UseVisualStyleBackColor = true;
-            this.btn_girisEkrani.Click += new System.EventHandler(this.btn_girisEkrani_Click);
+            this.rjButton1.BackColor = System.Drawing.Color.Transparent;
+            this.rjButton1.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rjButton1.BorderColor = System.Drawing.Color.Black;
+            this.rjButton1.BorderRadius = 15;
+            this.rjButton1.BorderSize = 1;
+            this.rjButton1.FlatAppearance.BorderSize = 0;
+            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rjButton1.ForeColor = System.Drawing.Color.Black;
+            this.rjButton1.Location = new System.Drawing.Point(274, 346);
+            this.rjButton1.Name = "rjButton1";
+            this.rjButton1.Size = new System.Drawing.Size(150, 40);
+            this.rjButton1.TabIndex = 7;
+            this.rjButton1.Text = "Kayıt Ol";
+            this.rjButton1.TextColor = System.Drawing.Color.Black;
+            this.rjButton1.UseVisualStyleBackColor = false;
+            this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click);
+            // 
+            // rjButton2
+            // 
+            this.rjButton2.BackColor = System.Drawing.Color.Transparent;
+            this.rjButton2.BackgroundColor = System.Drawing.Color.Transparent;
+            this.rjButton2.BorderColor = System.Drawing.Color.Black;
+            this.rjButton2.BorderRadius = 15;
+            this.rjButton2.BorderSize = 1;
+            this.rjButton2.FlatAppearance.BorderSize = 0;
+            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rjButton2.ForeColor = System.Drawing.Color.Black;
+            this.rjButton2.Location = new System.Drawing.Point(12, 376);
+            this.rjButton2.Name = "rjButton2";
+            this.rjButton2.Size = new System.Drawing.Size(91, 35);
+            this.rjButton2.TabIndex = 8;
+            this.rjButton2.Text = "Giriş Ekranı";
+            this.rjButton2.TextColor = System.Drawing.Color.Black;
+            this.rjButton2.UseVisualStyleBackColor = false;
+            this.rjButton2.Click += new System.EventHandler(this.rjButton2_Click);
+            // 
+            // rjButton3
+            // 
+            this.rjButton3.BackColor = System.Drawing.SystemColors.Control;
+            this.rjButton3.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.rjButton3.BorderColor = System.Drawing.Color.Black;
+            this.rjButton3.BorderRadius = 15;
+            this.rjButton3.BorderSize = 1;
+            this.rjButton3.FlatAppearance.BorderSize = 0;
+            this.rjButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton3.ForeColor = System.Drawing.Color.Black;
+            this.rjButton3.Location = new System.Drawing.Point(590, 12);
+            this.rjButton3.Name = "rjButton3";
+            this.rjButton3.Size = new System.Drawing.Size(51, 38);
+            this.rjButton3.TabIndex = 9;
+            this.rjButton3.Text = "Kapat";
+            this.rjButton3.TextColor = System.Drawing.Color.Black;
+            this.rjButton3.UseVisualStyleBackColor = false;
+            this.rjButton3.Click += new System.EventHandler(this.rjButton3_Click);
             // 
             // kayit_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(653, 425);
-            this.Controls.Add(this.btn_girisEkrani);
+            this.Controls.Add(this.rjButton3);
+            this.Controls.Add(this.rjButton2);
+            this.Controls.Add(this.rjButton1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.btn_kayitOl);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txt_ePosta);
             this.Controls.Add(this.txt_parolaYeniden);
@@ -188,6 +229,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "kayit_form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "kayit_form";
@@ -210,9 +252,10 @@
         private System.Windows.Forms.TextBox txt_parolaYeniden;
         private System.Windows.Forms.TextBox txt_ePosta;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btn_kayitOl;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button btn_girisEkrani;
+        private RJButton rjButton1;
+        private RJButton rjButton2;
+        private RJButton rjButton3;
     }
 }

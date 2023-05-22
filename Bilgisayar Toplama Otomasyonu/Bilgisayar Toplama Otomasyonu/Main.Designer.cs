@@ -38,10 +38,10 @@
             this.lnklbl_sifremiUnuttum = new System.Windows.Forms.LinkLabel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btn_exit = new Bilgisayar_Toplama_Otomasyonu.RJButton();
-            this.btn_login = new Bilgisayar_Toplama_Otomasyonu.RJButton();
-            this.btn_misafir = new Bilgisayar_Toplama_Otomasyonu.RJButton();
             this.btn_admin = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.btn_misafir = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.btn_login = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.btn_exit = new Bilgisayar_Toplama_Otomasyonu.RJButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -165,52 +165,32 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // btn_exit
+            // btn_admin
             // 
-            this.btn_exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
-            this.btn_exit.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
-            this.btn_exit.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btn_exit.BorderRadius = 0;
-            this.btn_exit.BorderSize = 0;
-            this.btn_exit.FlatAppearance.BorderSize = 0;
-            this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_exit.ForeColor = System.Drawing.Color.White;
-            this.btn_exit.Location = new System.Drawing.Point(720, 12);
-            this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(49, 39);
-            this.btn_exit.TabIndex = 14;
-            this.btn_exit.Text = "Çıkış";
-            this.btn_exit.TextColor = System.Drawing.Color.White;
-            this.btn_exit.UseVisualStyleBackColor = false;
-            this.btn_exit.Click += new System.EventHandler(this.rjButton1_Click);
-            // 
-            // btn_login
-            // 
-            this.btn_login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btn_login.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btn_login.BorderColor = System.Drawing.Color.White;
-            this.btn_login.BorderRadius = 2;
-            this.btn_login.BorderSize = 2;
-            this.btn_login.FlatAppearance.BorderSize = 0;
-            this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_login.ForeColor = System.Drawing.Color.White;
-            this.btn_login.Location = new System.Drawing.Point(330, 332);
-            this.btn_login.Name = "btn_login";
-            this.btn_login.Size = new System.Drawing.Size(162, 59);
-            this.btn_login.TabIndex = 15;
-            this.btn_login.Text = "Giriş Yap";
-            this.btn_login.TextColor = System.Drawing.Color.White;
-            this.btn_login.UseVisualStyleBackColor = false;
-            this.btn_login.Click += new System.EventHandler(this.rjButton2_Click_1);
+            this.btn_admin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_admin.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_admin.BorderColor = System.Drawing.Color.White;
+            this.btn_admin.BorderRadius = 15;
+            this.btn_admin.BorderSize = 2;
+            this.btn_admin.FlatAppearance.BorderSize = 0;
+            this.btn_admin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_admin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_admin.ForeColor = System.Drawing.Color.White;
+            this.btn_admin.Location = new System.Drawing.Point(125, 332);
+            this.btn_admin.Name = "btn_admin";
+            this.btn_admin.Size = new System.Drawing.Size(162, 59);
+            this.btn_admin.TabIndex = 17;
+            this.btn_admin.Text = "Admin Girişi";
+            this.btn_admin.TextColor = System.Drawing.Color.White;
+            this.btn_admin.UseVisualStyleBackColor = false;
+            this.btn_admin.Click += new System.EventHandler(this.rjButton4_Click);
             // 
             // btn_misafir
             // 
             this.btn_misafir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btn_misafir.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btn_misafir.BorderColor = System.Drawing.Color.White;
-            this.btn_misafir.BorderRadius = 0;
+            this.btn_misafir.BorderRadius = 15;
             this.btn_misafir.BorderSize = 2;
             this.btn_misafir.FlatAppearance.BorderSize = 0;
             this.btn_misafir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -225,25 +205,45 @@
             this.btn_misafir.UseVisualStyleBackColor = false;
             this.btn_misafir.Click += new System.EventHandler(this.rjButton3_Click);
             // 
-            // btn_admin
+            // btn_login
             // 
-            this.btn_admin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btn_admin.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btn_admin.BorderColor = System.Drawing.Color.White;
-            this.btn_admin.BorderRadius = 2;
-            this.btn_admin.BorderSize = 2;
-            this.btn_admin.FlatAppearance.BorderSize = 0;
-            this.btn_admin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_admin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_admin.ForeColor = System.Drawing.Color.White;
-            this.btn_admin.Location = new System.Drawing.Point(125, 332);
-            this.btn_admin.Name = "btn_admin";
-            this.btn_admin.Size = new System.Drawing.Size(162, 59);
-            this.btn_admin.TabIndex = 17;
-            this.btn_admin.Text = "Admin Girişi";
-            this.btn_admin.TextColor = System.Drawing.Color.White;
-            this.btn_admin.UseVisualStyleBackColor = false;
-            this.btn_admin.Click += new System.EventHandler(this.rjButton4_Click);
+            this.btn_login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_login.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_login.BorderColor = System.Drawing.Color.White;
+            this.btn_login.BorderRadius = 15;
+            this.btn_login.BorderSize = 2;
+            this.btn_login.FlatAppearance.BorderSize = 0;
+            this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_login.ForeColor = System.Drawing.Color.White;
+            this.btn_login.Location = new System.Drawing.Point(330, 332);
+            this.btn_login.Name = "btn_login";
+            this.btn_login.Size = new System.Drawing.Size(162, 59);
+            this.btn_login.TabIndex = 15;
+            this.btn_login.Text = "Giriş Yap";
+            this.btn_login.TextColor = System.Drawing.Color.White;
+            this.btn_login.UseVisualStyleBackColor = false;
+            this.btn_login.Click += new System.EventHandler(this.rjButton2_Click_1);
+            // 
+            // btn_exit
+            // 
+            this.btn_exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
+            this.btn_exit.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
+            this.btn_exit.BorderColor = System.Drawing.Color.Red;
+            this.btn_exit.BorderRadius = 15;
+            this.btn_exit.BorderSize = 0;
+            this.btn_exit.FlatAppearance.BorderSize = 0;
+            this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_exit.ForeColor = System.Drawing.Color.White;
+            this.btn_exit.Location = new System.Drawing.Point(720, 12);
+            this.btn_exit.Name = "btn_exit";
+            this.btn_exit.Size = new System.Drawing.Size(49, 39);
+            this.btn_exit.TabIndex = 14;
+            this.btn_exit.Text = "Çıkış";
+            this.btn_exit.TextColor = System.Drawing.Color.White;
+            this.btn_exit.UseVisualStyleBackColor = false;
+            this.btn_exit.Click += new System.EventHandler(this.rjButton1_Click);
             // 
             // Main
             // 

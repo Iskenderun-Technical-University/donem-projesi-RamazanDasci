@@ -22,16 +22,12 @@ namespace Bilgisayar_Toplama_Otomasyonu
         
         private void btn_bilgisayar_topla_Click(object sender, EventArgs e)
         {
-            Bilgisayar_topla_main formPC = new Bilgisayar_topla_main();
-            formPC.Show();
-            this.Hide();
+            
         }
 
         private void btn_bakim_yap_Click(object sender, EventArgs e)
         {
-            Bilgisayar_bakim_main Formbakim = new Bilgisayar_bakim_main();
-            Formbakim.Show();
-            this.Hide();
+            
         }
 
         private void Bakim_Toplama_ayrimi_Load(object sender, EventArgs e)
@@ -46,31 +42,53 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
+            
+            
+        }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
+            Bilgisayar_topla_main formPC = new Bilgisayar_topla_main();
+            formPC.Show();
+            this.Hide();
+        }
+
+        private void rjButton2_Click(object sender, EventArgs e)
+        {
+            Bilgisayar_bakim_main Formbakim = new Bilgisayar_bakim_main();
+            Formbakim.Show();
+            this.Hide();
+        }
+
+        private void rjButton3_Click(object sender, EventArgs e)
+        {
             Main main = new Main();
             if (Main.girisYapildiMi == 1)
             {
-                
+
                 if (MessageBox.Show("Hesaptan Çıkış Yapılacaktır Onaylıyor Musunuz", "Dikkat", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
                 {
                     Main.girisYapildiMi = 0;
                     Bakim_Toplama_ayrimi bakim_Toplama_Ayrimi = new Bakim_Toplama_ayrimi();
                     bakim_Toplama_Ayrimi.lbl_hesapInfo.Text = "Hesap Bilgileri İçin Giriş Yapınız";
-                    
+
                     main.Show();
                     this.Hide();
                 }
             }
             else
             {
-                
+
                 main.Show();
                 this.Hide();
 
             }
-            
-            
         }
 
-
+        private void rjButton4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

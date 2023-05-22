@@ -24,36 +24,29 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         private void btn_mainButon_Click(object sender, EventArgs e)
         {
-            if (Main.girisYapildiMi == 1)
-            {
-                Bakim_Toplama_ayrimi ayrimNesne = new Bakim_Toplama_ayrimi();
-                ayrimNesne.lbl_hesapInfo.Text = Main.Kullanici_eposta;
-                ayrimNesne.Show();
-                this.Hide();
-            }
-            else
-            {
-                Bakim_Toplama_ayrimi ayrimNesne = new Bakim_Toplama_ayrimi();
-                ayrimNesne.Show();
-                this.Hide();
-            }
+            
         }
 
         private void btn_sorunBul_Click(object sender, EventArgs e)
         {
+           
+            }
+
+        private void rjButton1_Click(object sender, EventArgs e)
+        {
             Bilgisayar_bakim bilgisayar_Bakim = new Bilgisayar_bakim();
 
-            if(cmbox_anaSorun.Text.Equals("") || cmbox_kacYil.Text.Equals("") || cmbox_nasilBasladi.Text.Equals(""))
+            if (cmbox_anaSorun.Text.Equals("") || cmbox_kacYil.Text.Equals("") || cmbox_nasilBasladi.Text.Equals(""))
             {
-                MessageBox.Show("Lutfen Kutucukların Tamamını Doldurun","Dikkat",MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Lutfen Kutucukların Tamamını Doldurun", "Dikkat", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                if(cmbox_anaSorun.Text.Contains("1"))
+                if (cmbox_anaSorun.Text.Contains("1"))
                 {
                     bilgisayar_Bakim.rtxt_anaProblem.Text = "Bilgisayarınızın start almaması birçok farklı nedenle olabilir. Sorunun kaynağını bulmak için aşağıdaki adımları izleyebilirsiniz:\r\n\r\n1. Güç kaynağı kontrolü yapın: Bilgisayarınızın güç kaynağı doğru şekilde takılı mı? Güç kablosu hasar görmüş veya bağlantıları gevşek mi? Bunları kontrol edin.\r\n\r\n2. Donanım bileşenlerini kontrol edin: Bilgisayarınızın donanım bileşenleri doğru şekilde takılı mı? Bellek, sabit disk, grafik kartı vb. bileşenleri kontrol edin. Bileşenlerin bağlantılarını kontrol edin ve gerekiyorsa yeniden takın.\r\n\r\n3. BIOS ayarlarını kontrol edin: BIOS ayarlarının doğru olduğundan emin olun. Bazı durumlarda, yanlış BIOS ayarları nedeniyle bilgisayarınız başlatılamayabilir.\r\n\r\n4. Virüs taraması yapın: Bilgisayarınızı güncel bir antivirüs programıyla taramak, bazı virüslerin neden olduğu başlatma sorunlarını çözebilir.\r\n\r\n5. Windows Kurtarma Ortamı: Bilgisayarınızın başlatma sorunlarını gidermek için Windows kurtarma ortamını kullanabilirsiniz. Windows kurtarma ortamına erişmek için bilgisayarınızı başlatın ve F8 tuşuna basın.\r\n\r\nEğer yukarıdaki adımlar sorununuzu çözmediyse, donanım sorunları olabilir ve bir teknik destek almanız gerekebilir.";
                 }
-                else if(cmbox_anaSorun.Text.Contains("2"))
+                else if (cmbox_anaSorun.Text.Contains("2"))
                 {
                     bilgisayar_Bakim.rtxt_anaProblem.Text = "Bilgisayarınız açılıyor ancak monitörünüzde görüntü alamıyorsanız, sorun muhtemelen monitörünüzde veya ekran kartınızda olabilir. İşte çözmenize yardımcı olabilecek bazı adımlar:\r\n\r\nMonitör kablosunu kontrol edin: Monitörünüzle bilgisayarınız arasındaki kablo bağlantısını kontrol edin. Kabloda herhangi bir kırılma, ezilme veya gevşeklik varsa, bağlantının sağlam olduğundan emin olmak için kabloyu yeniden takın veya değiştirin.\r\n\r\nMonitörünüzü kontrol edin: Monitörünüzün güç düğmesinin açık olduğundan ve doğru giriş ayarlarının yapıldığından emin olun. Monitörünüzün menüsünde bulunan giriş seçeneğini doğru seçtiğinizden emin olun.\r\n\r\nEkran kartınızı kontrol edin: Ekran kartınızı kontrol edin ve doğru şekilde takıldığından emin olun. Bazı bilgisayarlar, entegre bir grafik kartı ve ayrı bir ekran kartı bulundurabilir. Eğer öyleyse, monitör kablonuzun ayrı bir ekran kartına bağlı olup olmadığını kontrol edin.\r\n\r\nBIOS ayarlarını kontrol edin: Bilgisayarınızın BIOS ayarlarını kontrol edin ve ekran kartınızın doğru şekilde tanımlandığından emin olun. Eğer bir sorun varsa, varsayılan ayarlara geri dönebilirsiniz.\r\n\r\nDiğer çıkışlarınızı deneyin: Eğer yukarıdaki adımlar sorunu çözmediyse, başka bir monitörle veya TV'nizdeki HDMI bağlantısı gibi başka bir çıkışla deneyin. Bu şekilde, monitörünüz veya ekran kartınızla ilgili bir sorun olup olmadığını anlayabilirsiniz.\r\n\r\nServis merkezine başvurun: Yukarıdaki adımlar sorunu çözmediyse, bilgisayarınızın bir servis merkezinde kontrol ettirilmesi gerekebilir.\r\n\r\nBu adımların herhangi biri sorunu çözemezse, sorunun daha ciddi bir teknik sorun olabileceğini ve bir uzmanın yardımına ihtiyaç duyabileceğinizi unutmayın.";
                 }
@@ -119,11 +112,11 @@ namespace Bilgisayar_Toplama_Otomasyonu
                     bilgisayar_Bakim.rtxt_nasilBasladi.Text = "Teknik Servise Başvurmanızı Öneriyoruz";
 
                 }
-                if(cmbox_kacYil.Text.Contains("1"))
+                if (cmbox_kacYil.Text.Contains("1"))
                 {
                     bilgisayar_Bakim.rtxt_pcYas.Text = "Bilgisayarların ömrü kullanıma, marka ve modeline, kullanım koşullarına ve bakımına bağlı olarak değişebilir. Eğer garanti süreniz hala geçerliyse, cihazınızı garantiye göndererek ücretsiz olarak onarım hizmeti alabilirsiniz. Aksi takdirde, bir bilgisayar tamircisine başvurarak sorunu belirleyip onarım için fiyat teklifi alabilirsiniz.";
                 }
-                else if(cmbox_kacYil.Text.Contains("2"))
+                else if (cmbox_kacYil.Text.Contains("2"))
                 {
                     bilgisayar_Bakim.rtxt_pcYas.Text = "Bir bilgisayarın ömrü, kullanım sıklığı, marka/modeli, kalitesi ve bakımı gibi faktörlere bağlı olarak değişebilir. Normal şartlarda, bir bilgisayarın ömrü ortalama 5-6 yıl olabilir, ancak bazı durumlarda daha kısa veya daha uzun sürebilir.";
                 }
@@ -141,6 +134,23 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 }
                 this.Hide();
                 bilgisayar_Bakim.Show();
+            }
+    }
+
+        private void rjButton2_Click(object sender, EventArgs e)
+        {
+            if (Main.girisYapildiMi == 1)
+            {
+                Bakim_Toplama_ayrimi ayrimNesne = new Bakim_Toplama_ayrimi();
+                ayrimNesne.lbl_hesapInfo.Text = Main.Kullanici_eposta;
+                ayrimNesne.Show();
+                this.Hide();
+            }
+            else
+            {
+                Bakim_Toplama_ayrimi ayrimNesne = new Bakim_Toplama_ayrimi();
+                ayrimNesne.Show();
+                this.Hide();
             }
         }
     }
