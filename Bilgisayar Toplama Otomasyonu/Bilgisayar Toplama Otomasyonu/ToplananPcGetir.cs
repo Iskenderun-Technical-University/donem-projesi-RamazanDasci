@@ -115,10 +115,10 @@ namespace Bilgisayar_Toplama_Otomasyonu
             }
             else
             {
-                SqlCommand SilKomut = new SqlCommand("Delete From table_kullaniciSistem where Sistem_id = @sistemId", Sql_operation.sqlConnect);
+                SqlCommand SilKomut = new SqlCommand("Delete From table_kullaniciSistem where Kullanici_id = @sistem_id", Sql_operation.sqlConnect);
                 Sql_operation.checkedConnection(Sql_operation.sqlConnect);
 
-                SilKomut.Parameters.AddWithValue("@sistemId", SistemId);
+                SilKomut.Parameters.AddWithValue("@sistem_id", SistemId);
                 SilKomut.ExecuteNonQuery();
             }
             SqlCommand sqlCommand = new SqlCommand("SELECT * FROM table_kullaniciSistem WHERE Kullanici_eposta = @Email", Sql_operation.sqlConnect);
