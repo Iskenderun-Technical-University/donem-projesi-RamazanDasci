@@ -119,7 +119,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1068, 580);
+            this.tabControl1.Size = new System.Drawing.Size(1068, 440);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -133,7 +133,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1060, 547);
+            this.tabPage1.Size = new System.Drawing.Size(1060, 407);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Anakart";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -156,7 +156,7 @@
             // 
             // btn_anakart_kayitEkle
             // 
-            this.btn_anakart_kayitEkle.Location = new System.Drawing.Point(856, 408);
+            this.btn_anakart_kayitEkle.Location = new System.Drawing.Point(640, 333);
             this.btn_anakart_kayitEkle.Name = "btn_anakart_kayitEkle";
             this.btn_anakart_kayitEkle.Size = new System.Drawing.Size(172, 53);
             this.btn_anakart_kayitEkle.TabIndex = 1;
@@ -166,7 +166,7 @@
             // 
             // btn_anakart_kaydiSil
             // 
-            this.btn_anakart_kaydiSil.Location = new System.Drawing.Point(856, 467);
+            this.btn_anakart_kaydiSil.Location = new System.Drawing.Point(448, 335);
             this.btn_anakart_kaydiSil.Name = "btn_anakart_kaydiSil";
             this.btn_anakart_kaydiSil.Size = new System.Drawing.Size(172, 53);
             this.btn_anakart_kaydiSil.TabIndex = 1;
@@ -176,7 +176,7 @@
             // 
             // btn_anakart_kayitGetir
             // 
-            this.btn_anakart_kayitGetir.Location = new System.Drawing.Point(856, 349);
+            this.btn_anakart_kayitGetir.Location = new System.Drawing.Point(830, 335);
             this.btn_anakart_kayitGetir.Name = "btn_anakart_kayitGetir";
             this.btn_anakart_kayitGetir.Size = new System.Drawing.Size(172, 53);
             this.btn_anakart_kayitGetir.TabIndex = 1;
@@ -207,7 +207,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1060, 547);
+            this.tabPage2.Size = new System.Drawing.Size(1060, 550);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "İşlemci";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -230,7 +230,7 @@
             // 
             // btn_islemci_kayitEkle
             // 
-            this.btn_islemci_kayitEkle.Location = new System.Drawing.Point(854, 402);
+            this.btn_islemci_kayitEkle.Location = new System.Drawing.Point(656, 345);
             this.btn_islemci_kayitEkle.Name = "btn_islemci_kayitEkle";
             this.btn_islemci_kayitEkle.Size = new System.Drawing.Size(172, 53);
             this.btn_islemci_kayitEkle.TabIndex = 2;
@@ -240,7 +240,7 @@
             // 
             // btn_islemci_kayitSil
             // 
-            this.btn_islemci_kayitSil.Location = new System.Drawing.Point(854, 461);
+            this.btn_islemci_kayitSil.Location = new System.Drawing.Point(461, 345);
             this.btn_islemci_kayitSil.Name = "btn_islemci_kayitSil";
             this.btn_islemci_kayitSil.Size = new System.Drawing.Size(172, 53);
             this.btn_islemci_kayitSil.TabIndex = 3;
@@ -250,7 +250,7 @@
             // 
             // btn_islemci_kayitGetir
             // 
-            this.btn_islemci_kayitGetir.Location = new System.Drawing.Point(854, 343);
+            this.btn_islemci_kayitGetir.Location = new System.Drawing.Point(853, 345);
             this.btn_islemci_kayitGetir.Name = "btn_islemci_kayitGetir";
             this.btn_islemci_kayitGetir.Size = new System.Drawing.Size(172, 53);
             this.btn_islemci_kayitGetir.TabIndex = 4;
@@ -281,7 +281,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1060, 547);
+            this.tabPage3.Size = new System.Drawing.Size(1060, 550);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Ram";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -304,7 +304,7 @@
             // 
             // btn_ram_kayitEkle
             // 
-            this.btn_ram_kayitEkle.Location = new System.Drawing.Point(857, 405);
+            this.btn_ram_kayitEkle.Location = new System.Drawing.Point(664, 346);
             this.btn_ram_kayitEkle.Name = "btn_ram_kayitEkle";
             this.btn_ram_kayitEkle.Size = new System.Drawing.Size(172, 53);
             this.btn_ram_kayitEkle.TabIndex = 2;
@@ -314,7 +314,7 @@
             // 
             // btn_ram_kayitSil
             // 
-            this.btn_ram_kayitSil.Location = new System.Drawing.Point(857, 464);
+            this.btn_ram_kayitSil.Location = new System.Drawing.Point(476, 344);
             this.btn_ram_kayitSil.Name = "btn_ram_kayitSil";
             this.btn_ram_kayitSil.Size = new System.Drawing.Size(172, 53);
             this.btn_ram_kayitSil.TabIndex = 3;
@@ -324,7 +324,7 @@
             // 
             // btn_ram_kayitGetir
             // 
-            this.btn_ram_kayitGetir.Location = new System.Drawing.Point(857, 346);
+            this.btn_ram_kayitGetir.Location = new System.Drawing.Point(853, 346);
             this.btn_ram_kayitGetir.Name = "btn_ram_kayitGetir";
             this.btn_ram_kayitGetir.Size = new System.Drawing.Size(172, 53);
             this.btn_ram_kayitGetir.TabIndex = 4;
@@ -354,7 +354,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1060, 547);
+            this.tabPage4.Size = new System.Drawing.Size(1060, 550);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Ekran Kartı";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -377,7 +377,7 @@
             // 
             // btn_ekranK_kayitEkle
             // 
-            this.btn_ekranK_kayitEkle.Location = new System.Drawing.Point(857, 411);
+            this.btn_ekranK_kayitEkle.Location = new System.Drawing.Point(659, 337);
             this.btn_ekranK_kayitEkle.Name = "btn_ekranK_kayitEkle";
             this.btn_ekranK_kayitEkle.Size = new System.Drawing.Size(172, 53);
             this.btn_ekranK_kayitEkle.TabIndex = 2;
@@ -387,7 +387,7 @@
             // 
             // btn_ekranK_kayitSil
             // 
-            this.btn_ekranK_kayitSil.Location = new System.Drawing.Point(857, 470);
+            this.btn_ekranK_kayitSil.Location = new System.Drawing.Point(460, 337);
             this.btn_ekranK_kayitSil.Name = "btn_ekranK_kayitSil";
             this.btn_ekranK_kayitSil.Size = new System.Drawing.Size(172, 53);
             this.btn_ekranK_kayitSil.TabIndex = 3;
@@ -397,7 +397,7 @@
             // 
             // btn_ekranK_kayitGetir
             // 
-            this.btn_ekranK_kayitGetir.Location = new System.Drawing.Point(857, 352);
+            this.btn_ekranK_kayitGetir.Location = new System.Drawing.Point(862, 339);
             this.btn_ekranK_kayitGetir.Name = "btn_ekranK_kayitGetir";
             this.btn_ekranK_kayitGetir.Size = new System.Drawing.Size(172, 53);
             this.btn_ekranK_kayitGetir.TabIndex = 4;
@@ -427,7 +427,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1060, 547);
+            this.tabPage5.Size = new System.Drawing.Size(1060, 550);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Monitör";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -450,7 +450,7 @@
             // 
             // btn_monitor_kayitEkle
             // 
-            this.btn_monitor_kayitEkle.Location = new System.Drawing.Point(854, 402);
+            this.btn_monitor_kayitEkle.Location = new System.Drawing.Point(659, 341);
             this.btn_monitor_kayitEkle.Name = "btn_monitor_kayitEkle";
             this.btn_monitor_kayitEkle.Size = new System.Drawing.Size(172, 53);
             this.btn_monitor_kayitEkle.TabIndex = 2;
@@ -460,7 +460,7 @@
             // 
             // btn_monitor_kayitSil
             // 
-            this.btn_monitor_kayitSil.Location = new System.Drawing.Point(854, 461);
+            this.btn_monitor_kayitSil.Location = new System.Drawing.Point(458, 341);
             this.btn_monitor_kayitSil.Name = "btn_monitor_kayitSil";
             this.btn_monitor_kayitSil.Size = new System.Drawing.Size(172, 53);
             this.btn_monitor_kayitSil.TabIndex = 3;
@@ -500,7 +500,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 29);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1060, 547);
+            this.tabPage6.Size = new System.Drawing.Size(1060, 550);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Kasa";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -523,7 +523,7 @@
             // 
             // btn_kasa_kayitEkle
             // 
-            this.btn_kasa_kayitEkle.Location = new System.Drawing.Point(862, 409);
+            this.btn_kasa_kayitEkle.Location = new System.Drawing.Point(662, 337);
             this.btn_kasa_kayitEkle.Name = "btn_kasa_kayitEkle";
             this.btn_kasa_kayitEkle.Size = new System.Drawing.Size(172, 53);
             this.btn_kasa_kayitEkle.TabIndex = 2;
@@ -533,7 +533,7 @@
             // 
             // btn_kasa_kayitSil
             // 
-            this.btn_kasa_kayitSil.Location = new System.Drawing.Point(862, 468);
+            this.btn_kasa_kayitSil.Location = new System.Drawing.Point(461, 337);
             this.btn_kasa_kayitSil.Name = "btn_kasa_kayitSil";
             this.btn_kasa_kayitSil.Size = new System.Drawing.Size(172, 53);
             this.btn_kasa_kayitSil.TabIndex = 3;
@@ -543,7 +543,7 @@
             // 
             // btn_kasa_kayitGetir
             // 
-            this.btn_kasa_kayitGetir.Location = new System.Drawing.Point(862, 350);
+            this.btn_kasa_kayitGetir.Location = new System.Drawing.Point(855, 337);
             this.btn_kasa_kayitGetir.Name = "btn_kasa_kayitGetir";
             this.btn_kasa_kayitGetir.Size = new System.Drawing.Size(172, 53);
             this.btn_kasa_kayitGetir.TabIndex = 4;
@@ -573,7 +573,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 29);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1060, 547);
+            this.tabPage7.Size = new System.Drawing.Size(1060, 550);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Ses Kartı";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -596,7 +596,7 @@
             // 
             // btn_sesK_kayitEkle
             // 
-            this.btn_sesK_kayitEkle.Location = new System.Drawing.Point(866, 412);
+            this.btn_sesK_kayitEkle.Location = new System.Drawing.Point(667, 340);
             this.btn_sesK_kayitEkle.Name = "btn_sesK_kayitEkle";
             this.btn_sesK_kayitEkle.Size = new System.Drawing.Size(172, 53);
             this.btn_sesK_kayitEkle.TabIndex = 2;
@@ -606,7 +606,7 @@
             // 
             // btn_sesK_kayitSil
             // 
-            this.btn_sesK_kayitSil.Location = new System.Drawing.Point(866, 471);
+            this.btn_sesK_kayitSil.Location = new System.Drawing.Point(475, 340);
             this.btn_sesK_kayitSil.Name = "btn_sesK_kayitSil";
             this.btn_sesK_kayitSil.Size = new System.Drawing.Size(172, 53);
             this.btn_sesK_kayitSil.TabIndex = 3;
@@ -616,7 +616,7 @@
             // 
             // btn_sesK_kayitGetir
             // 
-            this.btn_sesK_kayitGetir.Location = new System.Drawing.Point(866, 353);
+            this.btn_sesK_kayitGetir.Location = new System.Drawing.Point(860, 340);
             this.btn_sesK_kayitGetir.Name = "btn_sesK_kayitGetir";
             this.btn_sesK_kayitGetir.Size = new System.Drawing.Size(172, 53);
             this.btn_sesK_kayitGetir.TabIndex = 4;
@@ -647,7 +647,7 @@
             this.tabPage8.Location = new System.Drawing.Point(4, 29);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(1060, 547);
+            this.tabPage8.Size = new System.Drawing.Size(1060, 412);
             this.tabPage8.TabIndex = 7;
             this.tabPage8.Text = "Sıvı Soğutucu";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -670,7 +670,7 @@
             // 
             // btn_siviS_kayitEkle
             // 
-            this.btn_siviS_kayitEkle.Location = new System.Drawing.Point(870, 413);
+            this.btn_siviS_kayitEkle.Location = new System.Drawing.Point(679, 339);
             this.btn_siviS_kayitEkle.Name = "btn_siviS_kayitEkle";
             this.btn_siviS_kayitEkle.Size = new System.Drawing.Size(172, 53);
             this.btn_siviS_kayitEkle.TabIndex = 2;
@@ -680,7 +680,7 @@
             // 
             // btn_siviS_kayitSil
             // 
-            this.btn_siviS_kayitSil.Location = new System.Drawing.Point(870, 472);
+            this.btn_siviS_kayitSil.Location = new System.Drawing.Point(487, 339);
             this.btn_siviS_kayitSil.Name = "btn_siviS_kayitSil";
             this.btn_siviS_kayitSil.Size = new System.Drawing.Size(172, 53);
             this.btn_siviS_kayitSil.TabIndex = 3;
@@ -690,7 +690,7 @@
             // 
             // btn_siviS_kayitGetir
             // 
-            this.btn_siviS_kayitGetir.Location = new System.Drawing.Point(870, 354);
+            this.btn_siviS_kayitGetir.Location = new System.Drawing.Point(870, 339);
             this.btn_siviS_kayitGetir.Name = "btn_siviS_kayitGetir";
             this.btn_siviS_kayitGetir.Size = new System.Drawing.Size(172, 53);
             this.btn_siviS_kayitGetir.TabIndex = 4;
@@ -713,7 +713,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1068, 580);
+            this.ClientSize = new System.Drawing.Size(1068, 440);
             this.Controls.Add(this.tabControl1);
             this.Name = "admin_panel";
             this.Text = "admin_panel";

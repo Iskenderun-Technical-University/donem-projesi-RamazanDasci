@@ -36,8 +36,8 @@
             this.cmbox_anaSorun = new System.Windows.Forms.ComboBox();
             this.cmbox_nasilBasladi = new System.Windows.Forms.ComboBox();
             this.cmbox_kacYil = new System.Windows.Forms.ComboBox();
-            this.rjButton1 = new Bilgisayar_Toplama_Otomasyonu.RJButton();
-            this.rjButton2 = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.btn_sorunBul = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.btn_anaSayfa = new Bilgisayar_Toplama_Otomasyonu.RJButton();
             this.SuspendLayout();
             // 
             // label1
@@ -54,7 +54,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(228, 56);
+            this.label2.Location = new System.Drawing.Point(228, 62);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(360, 54);
             this.label2.TabIndex = 2;
@@ -65,7 +65,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(74, 183);
+            this.label3.Location = new System.Drawing.Point(74, 178);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(225, 20);
             this.label3.TabIndex = 3;
@@ -75,7 +75,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(74, 232);
+            this.label4.Location = new System.Drawing.Point(74, 227);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(155, 20);
             this.label4.TabIndex = 3;
@@ -142,45 +142,45 @@
             this.cmbox_kacYil.Size = new System.Drawing.Size(400, 28);
             this.cmbox_kacYil.TabIndex = 4;
             // 
-            // rjButton1
+            // btn_sorunBul
             // 
-            this.rjButton1.BackColor = System.Drawing.SystemColors.Menu;
-            this.rjButton1.BackgroundColor = System.Drawing.SystemColors.Menu;
-            this.rjButton1.BorderColor = System.Drawing.Color.Black;
-            this.rjButton1.BorderRadius = 15;
-            this.rjButton1.BorderSize = 1;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rjButton1.ForeColor = System.Drawing.Color.Black;
-            this.rjButton1.Location = new System.Drawing.Point(365, 376);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(121, 46);
-            this.rjButton1.TabIndex = 6;
-            this.rjButton1.Text = "Sorunumu Bul";
-            this.rjButton1.TextColor = System.Drawing.Color.Black;
-            this.rjButton1.UseVisualStyleBackColor = false;
-            this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click);
+            this.btn_sorunBul.BackColor = System.Drawing.SystemColors.Menu;
+            this.btn_sorunBul.BackgroundColor = System.Drawing.SystemColors.Menu;
+            this.btn_sorunBul.BorderColor = System.Drawing.Color.Black;
+            this.btn_sorunBul.BorderRadius = 15;
+            this.btn_sorunBul.BorderSize = 1;
+            this.btn_sorunBul.FlatAppearance.BorderSize = 0;
+            this.btn_sorunBul.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_sorunBul.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_sorunBul.ForeColor = System.Drawing.Color.Black;
+            this.btn_sorunBul.Location = new System.Drawing.Point(365, 376);
+            this.btn_sorunBul.Name = "btn_sorunBul";
+            this.btn_sorunBul.Size = new System.Drawing.Size(121, 46);
+            this.btn_sorunBul.TabIndex = 6;
+            this.btn_sorunBul.Text = "Sorunumu Bul";
+            this.btn_sorunBul.TextColor = System.Drawing.Color.Black;
+            this.btn_sorunBul.UseVisualStyleBackColor = false;
+            this.btn_sorunBul.Click += new System.EventHandler(this.rjButton1_Click);
             // 
-            // rjButton2
+            // btn_anaSayfa
             // 
-            this.rjButton2.BackColor = System.Drawing.SystemColors.Control;
-            this.rjButton2.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.rjButton2.BorderColor = System.Drawing.Color.Black;
-            this.rjButton2.BorderRadius = 12;
-            this.rjButton2.BorderSize = 1;
-            this.rjButton2.FlatAppearance.BorderSize = 0;
-            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rjButton2.ForeColor = System.Drawing.Color.Black;
-            this.rjButton2.Location = new System.Drawing.Point(727, 18);
-            this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(61, 42);
-            this.rjButton2.TabIndex = 7;
-            this.rjButton2.Text = "Ana Sayfa";
-            this.rjButton2.TextColor = System.Drawing.Color.Black;
-            this.rjButton2.UseVisualStyleBackColor = false;
-            this.rjButton2.Click += new System.EventHandler(this.rjButton2_Click);
+            this.btn_anaSayfa.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_anaSayfa.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.btn_anaSayfa.BorderColor = System.Drawing.Color.Black;
+            this.btn_anaSayfa.BorderRadius = 12;
+            this.btn_anaSayfa.BorderSize = 1;
+            this.btn_anaSayfa.FlatAppearance.BorderSize = 0;
+            this.btn_anaSayfa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_anaSayfa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_anaSayfa.ForeColor = System.Drawing.Color.Black;
+            this.btn_anaSayfa.Location = new System.Drawing.Point(727, 18);
+            this.btn_anaSayfa.Name = "btn_anaSayfa";
+            this.btn_anaSayfa.Size = new System.Drawing.Size(61, 42);
+            this.btn_anaSayfa.TabIndex = 7;
+            this.btn_anaSayfa.Text = "Ana Sayfa";
+            this.btn_anaSayfa.TextColor = System.Drawing.Color.Black;
+            this.btn_anaSayfa.UseVisualStyleBackColor = false;
+            this.btn_anaSayfa.Click += new System.EventHandler(this.rjButton2_Click);
             // 
             // Bilgisayar_bakim_main
             // 
@@ -188,8 +188,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
-            this.Controls.Add(this.rjButton2);
-            this.Controls.Add(this.rjButton1);
+            this.Controls.Add(this.btn_anaSayfa);
+            this.Controls.Add(this.btn_sorunBul);
             this.Controls.Add(this.cmbox_kacYil);
             this.Controls.Add(this.cmbox_nasilBasladi);
             this.Controls.Add(this.cmbox_anaSorun);
@@ -217,7 +217,7 @@
         private System.Windows.Forms.ComboBox cmbox_anaSorun;
         private System.Windows.Forms.ComboBox cmbox_nasilBasladi;
         private System.Windows.Forms.ComboBox cmbox_kacYil;
-        private RJButton rjButton1;
-        private RJButton rjButton2;
+        private RJButton btn_sorunBul;
+        private RJButton btn_anaSayfa;
     }
 }

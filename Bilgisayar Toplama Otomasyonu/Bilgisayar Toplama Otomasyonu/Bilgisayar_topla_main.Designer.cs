@@ -107,7 +107,7 @@
             // btn_robotclstr
             // 
             this.btn_robotclstr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_robotclstr.Location = new System.Drawing.Point(469, 369);
+            this.btn_robotclstr.Location = new System.Drawing.Point(472, 304);
             this.btn_robotclstr.Name = "btn_robotclstr";
             this.btn_robotclstr.Size = new System.Drawing.Size(190, 42);
             this.btn_robotclstr.TabIndex = 4;
@@ -125,7 +125,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(147, 193);
+            this.label3.Location = new System.Drawing.Point(147, 162);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(346, 20);
             this.label3.TabIndex = 5;
@@ -140,7 +140,7 @@
             "1- Her Şeyi En Üst Seviye İstiyorum",
             "2- Orta Segment Bir Bilgisayar İstiyorum",
             "3- Bütçe Dostu Bir Bilgisayar İstiyorum"});
-            this.cmbox_seviyeBelirt.Location = new System.Drawing.Point(499, 190);
+            this.cmbox_seviyeBelirt.Location = new System.Drawing.Point(499, 162);
             this.cmbox_seviyeBelirt.Name = "cmbox_seviyeBelirt";
             this.cmbox_seviyeBelirt.Size = new System.Drawing.Size(362, 28);
             this.cmbox_seviyeBelirt.TabIndex = 6;
@@ -175,8 +175,8 @@
             this.splitContainer1.Panel2.Controls.Add(this.chc_sivisogutucu);
             this.splitContainer1.Panel2.Controls.Add(this.label4);
             this.splitContainer1.Panel2.Controls.Add(this.btn_robotclstr);
-            this.splitContainer1.Size = new System.Drawing.Size(1073, 832);
-            this.splitContainer1.SplitterDistance = 385;
+            this.splitContainer1.Size = new System.Drawing.Size(1073, 683);
+            this.splitContainer1.SplitterDistance = 275;
             this.splitContainer1.TabIndex = 7;
             // 
             // cmbox_monitorSecim
@@ -189,7 +189,7 @@
             "2- Sistemde Normal Bir Monitör İstiyorum",
             "3- Sistemde Ofis Monitorü İstiyorum",
             "4- Sistemde Monitör İstemiyorum"});
-            this.cmbox_monitorSecim.Location = new System.Drawing.Point(499, 267);
+            this.cmbox_monitorSecim.Location = new System.Drawing.Point(499, 208);
             this.cmbox_monitorSecim.Name = "cmbox_monitorSecim";
             this.cmbox_monitorSecim.Size = new System.Drawing.Size(362, 28);
             this.cmbox_monitorSecim.TabIndex = 6;
@@ -199,7 +199,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(147, 270);
+            this.label5.Location = new System.Drawing.Point(147, 208);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(244, 20);
             this.label5.TabIndex = 5;
@@ -207,7 +207,7 @@
             // 
             // btn_toplananPCgetir
             // 
-            this.btn_toplananPCgetir.Location = new System.Drawing.Point(40, 370);
+            this.btn_toplananPCgetir.Location = new System.Drawing.Point(43, 305);
             this.btn_toplananPCgetir.Name = "btn_toplananPCgetir";
             this.btn_toplananPCgetir.Size = new System.Drawing.Size(119, 42);
             this.btn_toplananPCgetir.TabIndex = 10;
@@ -277,7 +277,6 @@
             this.chc_sivisogutucu.TabIndex = 6;
             this.chc_sivisogutucu.Text = "Sıvı Soğutucu İstiyorum";
             this.chc_sivisogutucu.UseVisualStyleBackColor = true;
-
             // 
             // label4
             // 
@@ -293,7 +292,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1073, 832);
+            this.ClientSize = new System.Drawing.Size(1073, 683);
             this.Controls.Add(this.splitContainer1);
             this.Name = "Bilgisayar_topla_main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

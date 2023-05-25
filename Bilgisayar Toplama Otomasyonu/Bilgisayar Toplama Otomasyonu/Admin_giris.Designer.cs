@@ -33,11 +33,11 @@
             this.txt_password = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.rjButton1 = new Bilgisayar_Toplama_Otomasyonu.RJButton();
-            this.rjButton2 = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.btn_girisYap = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.btn_kullaniciGirisine = new Bilgisayar_Toplama_Otomasyonu.RJButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.rjButton3 = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.btn_ = new Bilgisayar_Toplama_Otomasyonu.RJButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -97,45 +97,45 @@
             this.checkBox1.UseVisualStyleBackColor = false;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // rjButton1
+            // btn_girisYap
             // 
-            this.rjButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
-            this.rjButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
-            this.rjButton1.BorderColor = System.Drawing.Color.White;
-            this.rjButton1.BorderRadius = 15;
-            this.rjButton1.BorderSize = 1;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rjButton1.ForeColor = System.Drawing.Color.Transparent;
-            this.rjButton1.Location = new System.Drawing.Point(180, 252);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(133, 48);
-            this.rjButton1.TabIndex = 5;
-            this.rjButton1.Text = "Giriş Yap";
-            this.rjButton1.TextColor = System.Drawing.Color.Transparent;
-            this.rjButton1.UseVisualStyleBackColor = false;
-            this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click);
+            this.btn_girisYap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
+            this.btn_girisYap.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
+            this.btn_girisYap.BorderColor = System.Drawing.Color.White;
+            this.btn_girisYap.BorderRadius = 15;
+            this.btn_girisYap.BorderSize = 1;
+            this.btn_girisYap.FlatAppearance.BorderSize = 0;
+            this.btn_girisYap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_girisYap.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_girisYap.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_girisYap.Location = new System.Drawing.Point(180, 252);
+            this.btn_girisYap.Name = "btn_girisYap";
+            this.btn_girisYap.Size = new System.Drawing.Size(133, 48);
+            this.btn_girisYap.TabIndex = 5;
+            this.btn_girisYap.Text = "Giriş Yap";
+            this.btn_girisYap.TextColor = System.Drawing.Color.Transparent;
+            this.btn_girisYap.UseVisualStyleBackColor = false;
+            this.btn_girisYap.Click += new System.EventHandler(this.rjButton1_Click);
             // 
-            // rjButton2
+            // btn_kullaniciGirisine
             // 
-            this.rjButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
-            this.rjButton2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
-            this.rjButton2.BorderColor = System.Drawing.Color.White;
-            this.rjButton2.BorderRadius = 15;
-            this.rjButton2.BorderSize = 1;
-            this.rjButton2.FlatAppearance.BorderSize = 0;
-            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rjButton2.ForeColor = System.Drawing.Color.Transparent;
-            this.rjButton2.Location = new System.Drawing.Point(329, 252);
-            this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(88, 48);
-            this.rjButton2.TabIndex = 6;
-            this.rjButton2.Text = "Kullanıcı Giriş Ekranına Dön";
-            this.rjButton2.TextColor = System.Drawing.Color.Transparent;
-            this.rjButton2.UseVisualStyleBackColor = false;
-            this.rjButton2.Click += new System.EventHandler(this.rjButton2_Click);
+            this.btn_kullaniciGirisine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
+            this.btn_kullaniciGirisine.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
+            this.btn_kullaniciGirisine.BorderColor = System.Drawing.Color.White;
+            this.btn_kullaniciGirisine.BorderRadius = 15;
+            this.btn_kullaniciGirisine.BorderSize = 1;
+            this.btn_kullaniciGirisine.FlatAppearance.BorderSize = 0;
+            this.btn_kullaniciGirisine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_kullaniciGirisine.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_kullaniciGirisine.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_kullaniciGirisine.Location = new System.Drawing.Point(329, 252);
+            this.btn_kullaniciGirisine.Name = "btn_kullaniciGirisine";
+            this.btn_kullaniciGirisine.Size = new System.Drawing.Size(88, 48);
+            this.btn_kullaniciGirisine.TabIndex = 6;
+            this.btn_kullaniciGirisine.Text = "Kullanıcı Giriş Ekranına Dön";
+            this.btn_kullaniciGirisine.TextColor = System.Drawing.Color.Transparent;
+            this.btn_kullaniciGirisine.UseVisualStyleBackColor = false;
+            this.btn_kullaniciGirisine.Click += new System.EventHandler(this.rjButton2_Click);
             // 
             // pictureBox2
             // 
@@ -159,33 +159,33 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // rjButton3
+            // btn_
             // 
-            this.rjButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
-            this.rjButton3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
-            this.rjButton3.BorderColor = System.Drawing.Color.White;
-            this.rjButton3.BorderRadius = 12;
-            this.rjButton3.BorderSize = 1;
-            this.rjButton3.FlatAppearance.BorderSize = 0;
-            this.rjButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton3.ForeColor = System.Drawing.Color.White;
-            this.rjButton3.Location = new System.Drawing.Point(457, 12);
-            this.rjButton3.Name = "rjButton3";
-            this.rjButton3.Size = new System.Drawing.Size(38, 31);
-            this.rjButton3.TabIndex = 8;
-            this.rjButton3.Text = "Exit";
-            this.rjButton3.TextColor = System.Drawing.Color.White;
-            this.rjButton3.UseVisualStyleBackColor = false;
-            this.rjButton3.Click += new System.EventHandler(this.rjButton3_Click);
+            this.btn_.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
+            this.btn_.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(130)))), ((int)(((byte)(190)))));
+            this.btn_.BorderColor = System.Drawing.Color.White;
+            this.btn_.BorderRadius = 12;
+            this.btn_.BorderSize = 1;
+            this.btn_.FlatAppearance.BorderSize = 0;
+            this.btn_.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_.ForeColor = System.Drawing.Color.White;
+            this.btn_.Location = new System.Drawing.Point(457, 12);
+            this.btn_.Name = "btn_";
+            this.btn_.Size = new System.Drawing.Size(38, 31);
+            this.btn_.TabIndex = 8;
+            this.btn_.Text = "Exit";
+            this.btn_.TextColor = System.Drawing.Color.White;
+            this.btn_.UseVisualStyleBackColor = false;
+            this.btn_.Click += new System.EventHandler(this.rjButton3_Click);
             // 
             // Admin_giris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(507, 339);
-            this.Controls.Add(this.rjButton3);
-            this.Controls.Add(this.rjButton2);
-            this.Controls.Add(this.rjButton1);
+            this.Controls.Add(this.btn_);
+            this.Controls.Add(this.btn_kullaniciGirisine);
+            this.Controls.Add(this.btn_girisYap);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label2);
@@ -212,9 +212,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private RJButton rjButton1;
-        private RJButton rjButton2;
+        private RJButton btn_girisYap;
+        private RJButton btn_kullaniciGirisine;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private RJButton rjButton3;
+        private RJButton btn_;
     }
 }

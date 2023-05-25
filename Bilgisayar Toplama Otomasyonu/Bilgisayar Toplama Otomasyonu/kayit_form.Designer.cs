@@ -39,9 +39,9 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.rjButton1 = new Bilgisayar_Toplama_Otomasyonu.RJButton();
-            this.rjButton2 = new Bilgisayar_Toplama_Otomasyonu.RJButton();
-            this.rjButton3 = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.btn_kapat = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.btn_giris = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.btn_kayitOl = new Bilgisayar_Toplama_Otomasyonu.RJButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -151,73 +151,73 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // rjButton1
+            // btn_kapat
             // 
-            this.rjButton1.BackColor = System.Drawing.Color.Transparent;
-            this.rjButton1.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rjButton1.BorderColor = System.Drawing.Color.Black;
-            this.rjButton1.BorderRadius = 15;
-            this.rjButton1.BorderSize = 1;
-            this.rjButton1.FlatAppearance.BorderSize = 0;
-            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rjButton1.ForeColor = System.Drawing.Color.Black;
-            this.rjButton1.Location = new System.Drawing.Point(274, 346);
-            this.rjButton1.Name = "rjButton1";
-            this.rjButton1.Size = new System.Drawing.Size(150, 40);
-            this.rjButton1.TabIndex = 7;
-            this.rjButton1.Text = "Kayıt Ol";
-            this.rjButton1.TextColor = System.Drawing.Color.Black;
-            this.rjButton1.UseVisualStyleBackColor = false;
-            this.rjButton1.Click += new System.EventHandler(this.rjButton1_Click);
+            this.btn_kapat.BackColor = System.Drawing.SystemColors.Control;
+            this.btn_kapat.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.btn_kapat.BorderColor = System.Drawing.Color.Black;
+            this.btn_kapat.BorderRadius = 15;
+            this.btn_kapat.BorderSize = 1;
+            this.btn_kapat.FlatAppearance.BorderSize = 0;
+            this.btn_kapat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_kapat.ForeColor = System.Drawing.Color.Black;
+            this.btn_kapat.Location = new System.Drawing.Point(590, 12);
+            this.btn_kapat.Name = "btn_kapat";
+            this.btn_kapat.Size = new System.Drawing.Size(51, 38);
+            this.btn_kapat.TabIndex = 9;
+            this.btn_kapat.Text = "Kapat";
+            this.btn_kapat.TextColor = System.Drawing.Color.Black;
+            this.btn_kapat.UseVisualStyleBackColor = false;
+            this.btn_kapat.Click += new System.EventHandler(this.rjButton3_Click);
             // 
-            // rjButton2
+            // btn_giris
             // 
-            this.rjButton2.BackColor = System.Drawing.Color.Transparent;
-            this.rjButton2.BackgroundColor = System.Drawing.Color.Transparent;
-            this.rjButton2.BorderColor = System.Drawing.Color.Black;
-            this.rjButton2.BorderRadius = 15;
-            this.rjButton2.BorderSize = 1;
-            this.rjButton2.FlatAppearance.BorderSize = 0;
-            this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rjButton2.ForeColor = System.Drawing.Color.Black;
-            this.rjButton2.Location = new System.Drawing.Point(12, 376);
-            this.rjButton2.Name = "rjButton2";
-            this.rjButton2.Size = new System.Drawing.Size(91, 35);
-            this.rjButton2.TabIndex = 8;
-            this.rjButton2.Text = "Giriş Ekranı";
-            this.rjButton2.TextColor = System.Drawing.Color.Black;
-            this.rjButton2.UseVisualStyleBackColor = false;
-            this.rjButton2.Click += new System.EventHandler(this.rjButton2_Click);
+            this.btn_giris.BackColor = System.Drawing.Color.Transparent;
+            this.btn_giris.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btn_giris.BorderColor = System.Drawing.Color.Black;
+            this.btn_giris.BorderRadius = 15;
+            this.btn_giris.BorderSize = 1;
+            this.btn_giris.FlatAppearance.BorderSize = 0;
+            this.btn_giris.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_giris.ForeColor = System.Drawing.Color.Black;
+            this.btn_giris.Location = new System.Drawing.Point(12, 376);
+            this.btn_giris.Name = "btn_giris";
+            this.btn_giris.Size = new System.Drawing.Size(91, 35);
+            this.btn_giris.TabIndex = 8;
+            this.btn_giris.Text = "Giriş Ekranı";
+            this.btn_giris.TextColor = System.Drawing.Color.Black;
+            this.btn_giris.UseVisualStyleBackColor = false;
+            this.btn_giris.Click += new System.EventHandler(this.rjButton2_Click);
             // 
-            // rjButton3
+            // btn_kayitOl
             // 
-            this.rjButton3.BackColor = System.Drawing.SystemColors.Control;
-            this.rjButton3.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.rjButton3.BorderColor = System.Drawing.Color.Black;
-            this.rjButton3.BorderRadius = 15;
-            this.rjButton3.BorderSize = 1;
-            this.rjButton3.FlatAppearance.BorderSize = 0;
-            this.rjButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton3.ForeColor = System.Drawing.Color.Black;
-            this.rjButton3.Location = new System.Drawing.Point(590, 12);
-            this.rjButton3.Name = "rjButton3";
-            this.rjButton3.Size = new System.Drawing.Size(51, 38);
-            this.rjButton3.TabIndex = 9;
-            this.rjButton3.Text = "Kapat";
-            this.rjButton3.TextColor = System.Drawing.Color.Black;
-            this.rjButton3.UseVisualStyleBackColor = false;
-            this.rjButton3.Click += new System.EventHandler(this.rjButton3_Click);
+            this.btn_kayitOl.BackColor = System.Drawing.Color.Transparent;
+            this.btn_kayitOl.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btn_kayitOl.BorderColor = System.Drawing.Color.Black;
+            this.btn_kayitOl.BorderRadius = 15;
+            this.btn_kayitOl.BorderSize = 1;
+            this.btn_kayitOl.FlatAppearance.BorderSize = 0;
+            this.btn_kayitOl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_kayitOl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_kayitOl.ForeColor = System.Drawing.Color.Black;
+            this.btn_kayitOl.Location = new System.Drawing.Point(274, 346);
+            this.btn_kayitOl.Name = "btn_kayitOl";
+            this.btn_kayitOl.Size = new System.Drawing.Size(150, 40);
+            this.btn_kayitOl.TabIndex = 7;
+            this.btn_kayitOl.Text = "Kayıt Ol";
+            this.btn_kayitOl.TextColor = System.Drawing.Color.Black;
+            this.btn_kayitOl.UseVisualStyleBackColor = false;
+            this.btn_kayitOl.Click += new System.EventHandler(this.rjButton1_Click);
             // 
             // kayit_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(653, 425);
-            this.Controls.Add(this.rjButton3);
-            this.Controls.Add(this.rjButton2);
-            this.Controls.Add(this.rjButton1);
+            this.Controls.Add(this.btn_kapat);
+            this.Controls.Add(this.btn_giris);
+            this.Controls.Add(this.btn_kayitOl);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.pictureBox1);
@@ -254,8 +254,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private RJButton rjButton1;
-        private RJButton rjButton2;
-        private RJButton rjButton3;
+        private RJButton btn_kayitOl;
+        private RJButton btn_giris;
+        private RJButton btn_kapat;
     }
 }
