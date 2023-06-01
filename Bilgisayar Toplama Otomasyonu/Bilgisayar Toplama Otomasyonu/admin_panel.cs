@@ -270,6 +270,11 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 MessageBox.Show("Başarıyla Silindi");
             }
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

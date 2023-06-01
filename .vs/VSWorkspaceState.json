@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Bilgisayar Toplama Otomasyonu",
+    "\\Bilgisayar Toplama Otomasyonu\\Bilgisayar Toplama Otomasyonu"
   ],
-  "SelectedNode": "\\Bilgisayar Toplama Otomasyonu.sln",
+  "SelectedNode": "\\Bilgisayar Toplama Otomasyonu\\Bilgisayar Toplama Otomasyonu\\Bilgisayar_topla_main.cs",
   "PreviewInSolutionExplorer": false
 }
