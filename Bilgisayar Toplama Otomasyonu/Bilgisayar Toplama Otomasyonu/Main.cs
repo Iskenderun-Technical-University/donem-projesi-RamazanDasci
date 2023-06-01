@@ -23,17 +23,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
             InitializeComponent();
         }
 
-
-        private void btn_misafirGiris_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void Main_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void Main_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
@@ -59,11 +48,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
             this.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void lnklbl_sifremiUnuttum_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             sifremiUnuttum sifremiUnuttum = new sifremiUnuttum();
@@ -71,20 +55,9 @@ namespace Bilgisayar_Toplama_Otomasyonu
             sifremiUnuttum.Show();
         }
 
-        private void btn_adminLogin_Click(object sender, EventArgs e)
-        {
-            
-
-        }
-
         private void rjButton1_Click(object sender, EventArgs e)
         {
             Application.Exit();
-
-        }
-
-        private void rjButton2_Click(object sender, EventArgs e)
-        {
 
         }
 
@@ -143,11 +116,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
             Admin_giris admin_Giris = new Admin_giris();
             admin_Giris.Show();
             this.Hide();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

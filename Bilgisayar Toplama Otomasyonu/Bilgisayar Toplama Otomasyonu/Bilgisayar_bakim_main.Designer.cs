@@ -44,7 +44,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(226, 18);
+            this.label1.Location = new System.Drawing.Point(257, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(329, 29);
             this.label1.TabIndex = 0;
@@ -54,12 +54,13 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(228, 62);
+            this.label2.Location = new System.Drawing.Point(62, 63);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(360, 54);
+            this.label2.Size = new System.Drawing.Size(710, 36);
             this.label2.TabIndex = 2;
-            this.label2.Text = "UYARI !!! Öncelikle Burada Yapılacak İşemler Tehlikeli \r\nOlabilir, Belirli Seviye" +
-    "de Elektronik Bilgisi Olmayanlar \r\nLütfen En Yakın Teknik Servise Başvurunuz\r\n";
+            this.label2.Text = "UYARI !!! Öncelikle Burada Yapılacak İşemler Tehlikeli  Olabilir, Belirli Seviyed" +
+    "e Elektronik Bilgisi Olmayanlar \r\nLütfen En Yakın Teknik Servise Başvurunuz\r\n";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
@@ -144,8 +145,8 @@
             // 
             // btn_sorunBul
             // 
-            this.btn_sorunBul.BackColor = System.Drawing.SystemColors.Menu;
-            this.btn_sorunBul.BackgroundColor = System.Drawing.SystemColors.Menu;
+            this.btn_sorunBul.BackColor = System.Drawing.Color.LightYellow;
+            this.btn_sorunBul.BackgroundColor = System.Drawing.Color.LightYellow;
             this.btn_sorunBul.BorderColor = System.Drawing.Color.Black;
             this.btn_sorunBul.BorderRadius = 15;
             this.btn_sorunBul.BorderSize = 1;
@@ -164,8 +165,8 @@
             // 
             // btn_anaSayfa
             // 
-            this.btn_anaSayfa.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_anaSayfa.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.btn_anaSayfa.BackColor = System.Drawing.Color.LightYellow;
+            this.btn_anaSayfa.BackgroundColor = System.Drawing.Color.LightYellow;
             this.btn_anaSayfa.BorderColor = System.Drawing.Color.Black;
             this.btn_anaSayfa.BorderRadius = 12;
             this.btn_anaSayfa.BorderSize = 1;
@@ -186,6 +187,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightYellow;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
             this.Controls.Add(this.btn_anaSayfa);

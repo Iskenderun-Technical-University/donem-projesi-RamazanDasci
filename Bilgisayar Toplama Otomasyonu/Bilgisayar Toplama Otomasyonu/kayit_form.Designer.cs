@@ -153,8 +153,8 @@
             // 
             // btn_kapat
             // 
-            this.btn_kapat.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_kapat.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.btn_kapat.BackColor = System.Drawing.Color.Transparent;
+            this.btn_kapat.BackgroundColor = System.Drawing.Color.Transparent;
             this.btn_kapat.BorderColor = System.Drawing.Color.Black;
             this.btn_kapat.BorderRadius = 15;
             this.btn_kapat.BorderSize = 1;
@@ -214,6 +214,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(653, 425);
             this.Controls.Add(this.btn_kapat);
             this.Controls.Add(this.btn_giris);

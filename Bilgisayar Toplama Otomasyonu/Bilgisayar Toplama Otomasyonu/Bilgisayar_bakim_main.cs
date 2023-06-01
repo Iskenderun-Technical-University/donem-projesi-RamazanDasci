@@ -22,16 +22,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
             Application.Exit();
         }
 
-        private void btn_mainButon_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btn_sorunBul_Click(object sender, EventArgs e)
-        {
-           
-            }
-
         private void rjButton1_Click(object sender, EventArgs e)
         {
             Bilgisayar_bakim bilgisayar_Bakim = new Bilgisayar_bakim();
@@ -153,5 +143,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 this.Hide();
             }
         }
+
     }
 }

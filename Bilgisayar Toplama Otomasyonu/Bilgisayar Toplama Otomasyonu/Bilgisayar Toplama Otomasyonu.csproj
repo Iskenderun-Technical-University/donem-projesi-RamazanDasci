@@ -191,7 +191,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Proje hakkında aklımdan geçenler.txt" />
     <None Include="Resources\asdsadsadawd.png" />
     <None Include="Resources\q34t5tuyerw1.png" />
     <None Include="Resources\Başlıkcfrdhgdrghdrhdhsız-1.png" />
@@ -218,6 +217,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="RjButtons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-icons.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -19,32 +19,11 @@ namespace Bilgisayar_Toplama_Otomasyonu
 
         }
         
-        
-        private void btn_bilgisayar_topla_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btn_bakim_yap_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void Bakim_Toplama_ayrimi_Load(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void Bakim_Toplama_ayrimi_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-            
-            
         }
 
         private void rjButton1_Click(object sender, EventArgs e)

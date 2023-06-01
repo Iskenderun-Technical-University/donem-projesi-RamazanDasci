@@ -271,10 +271,14 @@ namespace Bilgisayar_Toplama_Otomasyonu
             }
         }
 
-        private void label9_Click(object sender, EventArgs e)
-        {
 
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Admin_giris admin_Giris = new Admin_giris();
+            admin_Giris.Show();
+            this.Hide();
         }
+
     }
 }
 

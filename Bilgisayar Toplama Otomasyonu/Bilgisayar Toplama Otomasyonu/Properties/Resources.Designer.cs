@@ -133,6 +133,16 @@ namespace Bilgisayar_Toplama_Otomasyonu.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap giphy1 {
+            get {
+                object obj = ResourceManager.GetObject("giphy1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap gpu {
             get {
                 object obj = ResourceManager.GetObject("gpu", resourceCulture);
@@ -256,6 +266,16 @@ namespace Bilgisayar_Toplama_Otomasyonu.Properties {
         internal static System.Drawing.Bitmap tv {
             get {
                 object obj = ResourceManager.GetObject("tv", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_icons {
+            get {
+                object obj = ResourceManager.GetObject("user-icons", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

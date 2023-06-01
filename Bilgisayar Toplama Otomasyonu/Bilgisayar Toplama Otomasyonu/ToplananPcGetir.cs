@@ -21,11 +21,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
         }
         String SistemId = "0";
 
-        private void btn_panelkapat_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void ToplananPcGetir_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
@@ -133,5 +128,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
             SistemId = "0";
 
         }
+
     }
 }

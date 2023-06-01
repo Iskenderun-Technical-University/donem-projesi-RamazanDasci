@@ -30,11 +30,11 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_hesapInfo = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_topla = new Bilgisayar_Toplama_Otomasyonu.RJButton();
             this.btn_sorunBul = new Bilgisayar_Toplama_Otomasyonu.RJButton();
             this.btn_login = new Bilgisayar_Toplama_Otomasyonu.RJButton();
             this.btn_kapat = new Bilgisayar_Toplama_Otomasyonu.RJButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,22 +51,12 @@
             // lbl_hesapInfo
             // 
             this.lbl_hesapInfo.AutoSize = true;
-            this.lbl_hesapInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_hesapInfo.Location = new System.Drawing.Point(64, 29);
+            this.lbl_hesapInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_hesapInfo.Location = new System.Drawing.Point(82, 32);
             this.lbl_hesapInfo.Name = "lbl_hesapInfo";
-            this.lbl_hesapInfo.Size = new System.Drawing.Size(195, 16);
+            this.lbl_hesapInfo.Size = new System.Drawing.Size(230, 20);
             this.lbl_hesapInfo.TabIndex = 8;
             this.lbl_hesapInfo.Text = "Hesap Bilgileri İçin Giriş Yapınız";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.USER_PHOTO;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(46, 45);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
             // 
             // btn_topla
             // 
@@ -148,10 +138,21 @@
             this.btn_kapat.UseVisualStyleBackColor = false;
             this.btn_kapat.Click += new System.EventHandler(this.rjButton4_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.user_icons;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 62);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
             // Bakim_Toplama_ayrimi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(989, 562);
             this.Controls.Add(this.btn_kapat);
             this.Controls.Add(this.btn_login);
@@ -165,7 +166,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bakim_Toplama_ayrimi";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Bakim_Toplama_ayrimi_FormClosed);
-            this.Load += new System.EventHandler(this.Bakim_Toplama_ayrimi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

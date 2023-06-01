@@ -60,10 +60,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(356, 32);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(340, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(328, 25);
+            this.label1.Size = new System.Drawing.Size(404, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Bilgisayar Toplama Ana Sayfa";
             // 
@@ -106,10 +106,10 @@
             // 
             // btn_robotclstr
             // 
-            this.btn_robotclstr.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btn_robotclstr.Location = new System.Drawing.Point(472, 304);
+            this.btn_robotclstr.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_robotclstr.Location = new System.Drawing.Point(393, 305);
             this.btn_robotclstr.Name = "btn_robotclstr";
-            this.btn_robotclstr.Size = new System.Drawing.Size(190, 42);
+            this.btn_robotclstr.Size = new System.Drawing.Size(291, 60);
             this.btn_robotclstr.TabIndex = 4;
             this.btn_robotclstr.Text = "Bana Bilgisayar Bul";
             this.btn_robotclstr.UseVisualStyleBackColor = true;
@@ -207,9 +207,10 @@
             // 
             // btn_toplananPCgetir
             // 
-            this.btn_toplananPCgetir.Location = new System.Drawing.Point(43, 305);
+            this.btn_toplananPCgetir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_toplananPCgetir.Location = new System.Drawing.Point(12, 339);
             this.btn_toplananPCgetir.Name = "btn_toplananPCgetir";
-            this.btn_toplananPCgetir.Size = new System.Drawing.Size(119, 42);
+            this.btn_toplananPCgetir.Size = new System.Drawing.Size(149, 53);
             this.btn_toplananPCgetir.TabIndex = 10;
             this.btn_toplananPCgetir.Text = "Topladığım Bilgisayarları Göster";
             this.btn_toplananPCgetir.UseVisualStyleBackColor = true;

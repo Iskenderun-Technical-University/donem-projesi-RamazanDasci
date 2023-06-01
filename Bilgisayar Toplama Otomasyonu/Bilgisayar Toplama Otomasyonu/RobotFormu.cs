@@ -84,6 +84,7 @@ namespace Bilgisayar_Toplama_Otomasyonu
             }
         }
 
+
         private void btn_robotKayit_Click(object sender, EventArgs e)
         {
             if (cmbox_ram.Text.Equals("") || cmbox_islemci.Text.Equals("") || cmbox_anakart.Text.Equals(""))
@@ -114,8 +115,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 
             }
 
-            
-            
         }
     }
 }

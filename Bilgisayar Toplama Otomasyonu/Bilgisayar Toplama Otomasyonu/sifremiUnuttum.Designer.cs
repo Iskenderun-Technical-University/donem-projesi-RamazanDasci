@@ -85,8 +85,8 @@
             // 
             // rjButton1
             // 
-            this.rjButton1.BackColor = System.Drawing.SystemColors.Control;
-            this.rjButton1.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.rjButton1.BackColor = System.Drawing.Color.Transparent;
+            this.rjButton1.BackgroundColor = System.Drawing.Color.Transparent;
             this.rjButton1.BorderColor = System.Drawing.Color.Black;
             this.rjButton1.BorderRadius = 15;
             this.rjButton1.BorderSize = 1;
@@ -105,8 +105,8 @@
             // 
             // rjButton2
             // 
-            this.rjButton2.BackColor = System.Drawing.SystemColors.Control;
-            this.rjButton2.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.rjButton2.BackColor = System.Drawing.Color.Transparent;
+            this.rjButton2.BackgroundColor = System.Drawing.Color.Transparent;
             this.rjButton2.BorderColor = System.Drawing.Color.Black;
             this.rjButton2.BorderRadius = 15;
             this.rjButton2.BorderSize = 1;
@@ -127,6 +127,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(420, 521);
             this.Controls.Add(this.rjButton2);
             this.Controls.Add(this.rjButton1);
@@ -140,7 +141,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "sifremiUnuttum";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.sifremiUnuttum_FormClosed);
-            this.Load += new System.EventHandler(this.sifremiUnuttum_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

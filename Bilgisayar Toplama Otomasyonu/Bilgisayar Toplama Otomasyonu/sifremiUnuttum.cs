@@ -21,17 +21,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-
-        }
-
-        private void btn_girisEkrani_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void sifremiUnuttum_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
@@ -64,11 +53,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
             Main main = new Main();
             this.Hide();
             main.Show();
-        }
-
-        private void sifremiUnuttum_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

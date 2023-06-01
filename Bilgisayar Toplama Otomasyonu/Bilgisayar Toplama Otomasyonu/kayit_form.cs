@@ -26,11 +26,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
             Application.Exit();
         }
 
-        private void btn_kayitOl_Click(object sender, EventArgs e)
-        {
-               
-        }
-
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             //Parolayı Görünür veya Gizlemeye Yarar
@@ -46,10 +41,6 @@ namespace Bilgisayar_Toplama_Otomasyonu
             }
         }
 
-        private void btn_girisEkrani_Click(object sender, EventArgs e)
-        {
-            
-        }
 
         private void rjButton1_Click(object sender, EventArgs e)
         {
