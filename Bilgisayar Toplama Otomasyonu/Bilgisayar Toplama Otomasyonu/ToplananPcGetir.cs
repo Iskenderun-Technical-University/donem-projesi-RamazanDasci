@@ -54,13 +54,12 @@ namespace Bilgisayar_Toplama_Otomasyonu
             else
             {
                 SqlCommand EklemeIslemi = new SqlCommand("INSERT INTO table_kullaniciSistem (Kullanici_eposta,Kullanici_anakart,Kullanici_islemci," +
-                    "Kullanici_ekrank,Kullanici_ram,Kullanici_power,Kullanici_kasa,Kullanici_sound,Kullanici_sivi) VALUES (@eposta,@anakart,@islemci,@ekrank,@ram,@power,@kasa,@sound,@sivi)", Sql_operation.sqlConnect);
+                    "Kullanici_ekrank,Kullanici_ram,Kullanici_kasa,Kullanici_sound,Kullanici_sivi) VALUES (@eposta,@anakart,@islemci,@ekrank,@ram,@kasa,@sound,@sivi)", Sql_operation.sqlConnect);
                 EklemeIslemi.Parameters.AddWithValue("@eposta", txt_eposta.Text);
                 EklemeIslemi.Parameters.AddWithValue("@anakart", txt_anakart.Text);
                 EklemeIslemi.Parameters.AddWithValue("@islemci", txt_islemci.Text);
                 EklemeIslemi.Parameters.AddWithValue("@ekrank", txt_ekranK.Text);
                 EklemeIslemi.Parameters.AddWithValue("@ram", txt_ram.Text);
-                EklemeIslemi.Parameters.AddWithValue("@power", txt_power.Text);
                 EklemeIslemi.Parameters.AddWithValue("@kasa", txt_kasa.Text);
                 EklemeIslemi.Parameters.AddWithValue("@sound", txt_sound.Text);
                 EklemeIslemi.Parameters.AddWithValue("@sivi", txt_sivi.Text);
