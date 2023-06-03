@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bakim_Toplama_ayrimi));
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_hesapInfo = new System.Windows.Forms.Label();
             this.btn_topla = new Bilgisayar_Toplama_Otomasyonu.RJButton();
@@ -189,6 +190,7 @@
             this.Controls.Add(this.lbl_hesapInfo);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Bakim_Toplama_ayrimi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bakim_Toplama_ayrimi";

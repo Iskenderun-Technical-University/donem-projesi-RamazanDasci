@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.txt_password = new System.Windows.Forms.TextBox();
             this.txt_userEposta = new System.Windows.Forms.TextBox();
@@ -148,7 +149,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.Başlıkcfrdhgdrghdrhdhsız_1;
-            this.pictureBox2.Location = new System.Drawing.Point(-22, -153);
+            this.pictureBox2.Location = new System.Drawing.Point(-13, -133);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(816, 656);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -266,6 +267,7 @@
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

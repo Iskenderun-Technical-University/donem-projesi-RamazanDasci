@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bilgisayar_bakim_main));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -201,9 +202,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Bilgisayar_bakim_main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Bilgisayar_bakim_main";
+            this.Text = "Bilgisayarına Bakım Yap";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Bilgisayar_bakim_main_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();

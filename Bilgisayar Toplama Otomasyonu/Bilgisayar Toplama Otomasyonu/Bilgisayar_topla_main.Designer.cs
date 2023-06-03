@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bilgisayar_topla_main));
             this.label1 = new System.Windows.Forms.Label();
             this.btn_mainButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -41,13 +42,13 @@
             this.cmbox_monitorSecim = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btn_toplananPCgetir = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.chc_rgb = new System.Windows.Forms.CheckBox();
             this.chc_music = new System.Windows.Forms.CheckBox();
             this.chc_sivisogutucu = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -217,6 +218,36 @@
             this.btn_toplananPCgetir.UseVisualStyleBackColor = true;
             this.btn_toplananPCgetir.Click += new System.EventHandler(this.btn_toplananPCgetir_Click);
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.pngwing_com__2_;
+            this.pictureBox3.Location = new System.Drawing.Point(724, 93);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(328, 148);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 9;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.pngwing1;
+            this.pictureBox2.Location = new System.Drawing.Point(382, 93);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(328, 148);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.pngwing_com;
+            this.pictureBox1.Location = new System.Drawing.Point(40, 93);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(328, 148);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
             // chc_rgb
             // 
             this.chc_rgb.AutoSize = true;
@@ -260,36 +291,6 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Bilgisayarınızı Biraz Detaylandıralım";
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.pngwing_com__2_;
-            this.pictureBox3.Location = new System.Drawing.Point(724, 93);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(328, 148);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 9;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.pngwing1;
-            this.pictureBox2.Location = new System.Drawing.Point(382, 93);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(328, 148);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 8;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.pngwing_com;
-            this.pictureBox1.Location = new System.Drawing.Point(40, 93);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(328, 148);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            // 
             // Bilgisayar_topla_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -297,9 +298,10 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1073, 683);
             this.Controls.Add(this.splitContainer1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Bilgisayar_topla_main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "Bilgisayarını Topla";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Bilgisayar_topla_main_FormClosing);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();

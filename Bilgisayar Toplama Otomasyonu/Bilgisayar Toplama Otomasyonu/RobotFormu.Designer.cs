@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RobotFormu));
             this.cmbox_islemci = new System.Windows.Forms.ComboBox();
             this.cmbox_anakart = new System.Windows.Forms.ComboBox();
             this.cmbox_ram = new System.Windows.Forms.ComboBox();
@@ -387,9 +388,10 @@
             this.Controls.Add(this.btn_robotKayit);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btn_toplaMain);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "RobotFormu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "RobotFormu";
+            this.Text = "Robot";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RobotFormu_FormClosed);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picture_islemci)).EndInit();
