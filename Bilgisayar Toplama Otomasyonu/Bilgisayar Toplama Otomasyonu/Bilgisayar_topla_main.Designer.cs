@@ -41,13 +41,13 @@
             this.cmbox_monitorSecim = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btn_toplananPCgetir = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.chc_rgb = new System.Windows.Forms.CheckBox();
             this.chc_music = new System.Windows.Forms.CheckBox();
             this.chc_sivisogutucu = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -60,15 +60,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(340, 26);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(310, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(404, 31);
+            this.label1.Size = new System.Drawing.Size(461, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "Bilgisayar Toplama Ana Sayfa";
             // 
             // btn_mainButton
             // 
+            this.btn_mainButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_mainButton.Location = new System.Drawing.Point(1006, 12);
             this.btn_mainButton.Name = "btn_mainButton";
             this.btn_mainButton.Size = new System.Drawing.Size(55, 45);
@@ -80,16 +81,16 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(147, 115);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(139, 112);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(339, 20);
+            this.label2.Size = new System.Drawing.Size(407, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Bilgisayarı Ne Amaçla Kullanmak İstiyorsunuz ?\r\n";
             // 
             // cmbox_anaIstek
             // 
-            this.cmbox_anaIstek.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_anaIstek.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbox_anaIstek.ForeColor = System.Drawing.Color.Black;
             this.cmbox_anaIstek.FormattingEnabled = true;
             this.cmbox_anaIstek.Items.AddRange(new object[] {
@@ -98,15 +99,15 @@
             "3- Oyun Amaçlı Kullanmak İstiyorum",
             "4- Sunucu Olarak Kullanmak İstiyorum",
             "5- Grafik-Render Tasarımları İçin İstiyorum"});
-            this.cmbox_anaIstek.Location = new System.Drawing.Point(499, 112);
+            this.cmbox_anaIstek.Location = new System.Drawing.Point(564, 109);
             this.cmbox_anaIstek.Name = "cmbox_anaIstek";
-            this.cmbox_anaIstek.Size = new System.Drawing.Size(362, 28);
+            this.cmbox_anaIstek.Size = new System.Drawing.Size(362, 33);
             this.cmbox_anaIstek.TabIndex = 3;
             this.cmbox_anaIstek.Text = "Lütfen Bir Seçim Yapınız...";
             // 
             // btn_robotclstr
             // 
-            this.btn_robotclstr.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_robotclstr.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_robotclstr.Location = new System.Drawing.Point(393, 305);
             this.btn_robotclstr.Name = "btn_robotclstr";
             this.btn_robotclstr.Size = new System.Drawing.Size(291, 60);
@@ -124,25 +125,25 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(147, 162);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(139, 159);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(346, 20);
+            this.label3.Size = new System.Drawing.Size(411, 25);
             this.label3.TabIndex = 5;
             this.label3.Text = "Hangi Seviyede Bir Bilgisayar Düşünüyorsunuz?\r\n";
             // 
             // cmbox_seviyeBelirt
             // 
-            this.cmbox_seviyeBelirt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_seviyeBelirt.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbox_seviyeBelirt.ForeColor = System.Drawing.Color.Black;
             this.cmbox_seviyeBelirt.FormattingEnabled = true;
             this.cmbox_seviyeBelirt.Items.AddRange(new object[] {
             "1- Her Şeyi En Üst Seviye İstiyorum",
             "2- Orta Segment Bir Bilgisayar İstiyorum",
             "3- Bütçe Dostu Bir Bilgisayar İstiyorum"});
-            this.cmbox_seviyeBelirt.Location = new System.Drawing.Point(499, 162);
+            this.cmbox_seviyeBelirt.Location = new System.Drawing.Point(564, 159);
             this.cmbox_seviyeBelirt.Name = "cmbox_seviyeBelirt";
-            this.cmbox_seviyeBelirt.Size = new System.Drawing.Size(362, 28);
+            this.cmbox_seviyeBelirt.Size = new System.Drawing.Size(362, 33);
             this.cmbox_seviyeBelirt.TabIndex = 6;
             this.cmbox_seviyeBelirt.Text = "Lütfen Bir Seçim Yapınız...";
             // 
@@ -181,7 +182,7 @@
             // 
             // cmbox_monitorSecim
             // 
-            this.cmbox_monitorSecim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_monitorSecim.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbox_monitorSecim.ForeColor = System.Drawing.Color.Black;
             this.cmbox_monitorSecim.FormattingEnabled = true;
             this.cmbox_monitorSecim.Items.AddRange(new object[] {
@@ -189,25 +190,25 @@
             "2- Sistemde Normal Bir Monitör İstiyorum",
             "3- Sistemde Ofis Monitorü İstiyorum",
             "4- Sistemde Monitör İstemiyorum"});
-            this.cmbox_monitorSecim.Location = new System.Drawing.Point(499, 208);
+            this.cmbox_monitorSecim.Location = new System.Drawing.Point(564, 205);
             this.cmbox_monitorSecim.Name = "cmbox_monitorSecim";
-            this.cmbox_monitorSecim.Size = new System.Drawing.Size(362, 28);
+            this.cmbox_monitorSecim.Size = new System.Drawing.Size(362, 33);
             this.cmbox_monitorSecim.TabIndex = 6;
             this.cmbox_monitorSecim.Text = "Lütfen Bir Seçim Yapınız...";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(147, 208);
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(139, 205);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(244, 20);
+            this.label5.Size = new System.Drawing.Size(294, 25);
             this.label5.TabIndex = 5;
             this.label5.Text = "Sisteme Monitör Dahil Olsun mu?";
             // 
             // btn_toplananPCgetir
             // 
-            this.btn_toplananPCgetir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_toplananPCgetir.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_toplananPCgetir.Location = new System.Drawing.Point(12, 339);
             this.btn_toplananPCgetir.Name = "btn_toplananPCgetir";
             this.btn_toplananPCgetir.Size = new System.Drawing.Size(149, 53);
@@ -215,6 +216,49 @@
             this.btn_toplananPCgetir.Text = "Topladığım Bilgisayarları Göster";
             this.btn_toplananPCgetir.UseVisualStyleBackColor = true;
             this.btn_toplananPCgetir.Click += new System.EventHandler(this.btn_toplananPCgetir_Click);
+            // 
+            // chc_rgb
+            // 
+            this.chc_rgb.AutoSize = true;
+            this.chc_rgb.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.chc_rgb.Location = new System.Drawing.Point(764, 247);
+            this.chc_rgb.Name = "chc_rgb";
+            this.chc_rgb.Size = new System.Drawing.Size(256, 29);
+            this.chc_rgb.TabIndex = 6;
+            this.chc_rgb.Text = "RGB Işıklandırma İstiyorum";
+            this.chc_rgb.UseVisualStyleBackColor = true;
+            // 
+            // chc_music
+            // 
+            this.chc_music.AutoSize = true;
+            this.chc_music.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.chc_music.Location = new System.Drawing.Point(440, 247);
+            this.chc_music.Name = "chc_music";
+            this.chc_music.Size = new System.Drawing.Size(225, 29);
+            this.chc_music.TabIndex = 6;
+            this.chc_music.Text = "Müzik ile İlgileneceğim";
+            this.chc_music.UseVisualStyleBackColor = true;
+            // 
+            // chc_sivisogutucu
+            // 
+            this.chc_sivisogutucu.AutoSize = true;
+            this.chc_sivisogutucu.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.chc_sivisogutucu.Location = new System.Drawing.Point(94, 247);
+            this.chc_sivisogutucu.Name = "chc_sivisogutucu";
+            this.chc_sivisogutucu.Size = new System.Drawing.Size(228, 29);
+            this.chc_sivisogutucu.TabIndex = 6;
+            this.chc_sivisogutucu.Text = "Sıvı Soğutucu İstiyorum";
+            this.chc_sivisogutucu.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(39, 28);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(291, 20);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Bilgisayarınızı Biraz Detaylandıralım";
             // 
             // pictureBox3
             // 
@@ -246,53 +290,11 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // chc_rgb
-            // 
-            this.chc_rgb.AutoSize = true;
-            this.chc_rgb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.chc_rgb.Location = new System.Drawing.Point(778, 247);
-            this.chc_rgb.Name = "chc_rgb";
-            this.chc_rgb.Size = new System.Drawing.Size(220, 24);
-            this.chc_rgb.TabIndex = 6;
-            this.chc_rgb.Text = "RGB Işıklandırma İstiyorum";
-            this.chc_rgb.UseVisualStyleBackColor = true;
-            // 
-            // chc_music
-            // 
-            this.chc_music.AutoSize = true;
-            this.chc_music.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.chc_music.Location = new System.Drawing.Point(454, 247);
-            this.chc_music.Name = "chc_music";
-            this.chc_music.Size = new System.Drawing.Size(184, 24);
-            this.chc_music.TabIndex = 6;
-            this.chc_music.Text = "Müzik ile İlgileneceğim";
-            this.chc_music.UseVisualStyleBackColor = true;
-            // 
-            // chc_sivisogutucu
-            // 
-            this.chc_sivisogutucu.AutoSize = true;
-            this.chc_sivisogutucu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.chc_sivisogutucu.Location = new System.Drawing.Point(108, 247);
-            this.chc_sivisogutucu.Name = "chc_sivisogutucu";
-            this.chc_sivisogutucu.Size = new System.Drawing.Size(193, 24);
-            this.chc_sivisogutucu.TabIndex = 6;
-            this.chc_sivisogutucu.Text = "Sıvı Soğutucu İstiyorum";
-            this.chc_sivisogutucu.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(39, 28);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(291, 20);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Bilgisayarınızı Biraz Detaylandıralım";
-            // 
             // Bilgisayar_topla_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1073, 683);
             this.Controls.Add(this.splitContainer1);
             this.Name = "Bilgisayar_topla_main";

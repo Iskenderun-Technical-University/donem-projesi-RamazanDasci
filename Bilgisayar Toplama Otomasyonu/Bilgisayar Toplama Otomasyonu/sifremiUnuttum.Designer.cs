@@ -40,27 +40,27 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(166, 162);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(146, 162);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 20);
+            this.label1.Size = new System.Drawing.Size(130, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Adınızı Giriniz";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(125, 246);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(99, 246);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(185, 20);
+            this.label2.Size = new System.Drawing.Size(224, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "E-posta Adresinizi Giriniz";
             // 
             // txt_isim
             // 
             this.txt_isim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_isim.Location = new System.Drawing.Point(109, 185);
+            this.txt_isim.Location = new System.Drawing.Point(103, 190);
             this.txt_isim.Name = "txt_isim";
             this.txt_isim.Size = new System.Drawing.Size(216, 26);
             this.txt_isim.TabIndex = 3;
@@ -68,7 +68,7 @@
             // txt_eposta
             // 
             this.txt_eposta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_eposta.Location = new System.Drawing.Point(109, 269);
+            this.txt_eposta.Location = new System.Drawing.Point(103, 274);
             this.txt_eposta.Name = "txt_eposta";
             this.txt_eposta.Size = new System.Drawing.Size(216, 26);
             this.txt_eposta.TabIndex = 4;
@@ -76,10 +76,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(107, 29);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(94, 31);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(220, 24);
+            this.label3.Size = new System.Drawing.Size(235, 30);
             this.label3.TabIndex = 5;
             this.label3.Text = "PAROLAMI UNUTTUM";
             // 
@@ -92,9 +92,9 @@
             this.rjButton1.BorderSize = 1;
             this.rjButton1.FlatAppearance.BorderSize = 0;
             this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rjButton1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rjButton1.ForeColor = System.Drawing.Color.Black;
-            this.rjButton1.Location = new System.Drawing.Point(153, 411);
+            this.rjButton1.Location = new System.Drawing.Point(147, 416);
             this.rjButton1.Name = "rjButton1";
             this.rjButton1.Size = new System.Drawing.Size(129, 50);
             this.rjButton1.TabIndex = 7;
@@ -112,9 +112,9 @@
             this.rjButton2.BorderSize = 1;
             this.rjButton2.FlatAppearance.BorderSize = 0;
             this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rjButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.rjButton2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rjButton2.ForeColor = System.Drawing.Color.Black;
-            this.rjButton2.Location = new System.Drawing.Point(153, 344);
+            this.rjButton2.Location = new System.Drawing.Point(147, 349);
             this.rjButton2.Name = "rjButton2";
             this.rjButton2.Size = new System.Drawing.Size(129, 50);
             this.rjButton2.TabIndex = 8;

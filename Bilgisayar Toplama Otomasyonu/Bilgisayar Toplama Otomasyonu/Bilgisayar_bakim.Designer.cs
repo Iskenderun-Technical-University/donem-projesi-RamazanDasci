@@ -44,7 +44,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.rtxt_anaProblem);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(556, 587);
@@ -54,6 +54,7 @@
             // 
             // rtxt_anaProblem
             // 
+            this.rtxt_anaProblem.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rtxt_anaProblem.Location = new System.Drawing.Point(30, 46);
             this.rtxt_anaProblem.Name = "rtxt_anaProblem";
             this.rtxt_anaProblem.Size = new System.Drawing.Size(499, 517);
@@ -63,7 +64,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.rtxt_nasilBasladi);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox2.Location = new System.Drawing.Point(574, 12);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(603, 286);
@@ -73,6 +74,7 @@
             // 
             // rtxt_nasilBasladi
             // 
+            this.rtxt_nasilBasladi.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rtxt_nasilBasladi.Location = new System.Drawing.Point(23, 46);
             this.rtxt_nasilBasladi.Name = "rtxt_nasilBasladi";
             this.rtxt_nasilBasladi.Size = new System.Drawing.Size(563, 234);
@@ -82,7 +84,7 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.rtxt_pcYas);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox3.Location = new System.Drawing.Point(574, 304);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(603, 295);
@@ -92,6 +94,7 @@
             // 
             // rtxt_pcYas
             // 
+            this.rtxt_pcYas.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rtxt_pcYas.Location = new System.Drawing.Point(23, 51);
             this.rtxt_pcYas.Name = "rtxt_pcYas";
             this.rtxt_pcYas.Size = new System.Drawing.Size(563, 209);
@@ -113,6 +116,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.LightGoldenrodYellow;
             this.ClientSize = new System.Drawing.Size(1189, 668);
             this.Controls.Add(this.btn_back);

@@ -30,6 +30,7 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label17 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.txt_anakartIsim = new System.Windows.Forms.TextBox();
@@ -39,6 +40,7 @@
             this.btn_anakart_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_anakart = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label18 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.txt_islemciIsim = new System.Windows.Forms.TextBox();
@@ -48,6 +50,7 @@
             this.btn_islemci_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_islemci = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label19 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.txt_ramIsim = new System.Windows.Forms.TextBox();
@@ -57,6 +60,7 @@
             this.btn_ram_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_ram = new System.Windows.Forms.DataGridView();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label20 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.txt_ekranKIsım = new System.Windows.Forms.TextBox();
@@ -66,6 +70,7 @@
             this.btn_ekranK_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_ekranK = new System.Windows.Forms.DataGridView();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.label21 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.txt_monitorIsım = new System.Windows.Forms.TextBox();
@@ -75,6 +80,7 @@
             this.btn_monitor_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_monitor = new System.Windows.Forms.DataGridView();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.label22 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.txt_kasaIsim = new System.Windows.Forms.TextBox();
@@ -84,6 +90,7 @@
             this.btn_kasa_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_kasa = new System.Windows.Forms.DataGridView();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.label23 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.txt_sesKIsim = new System.Windows.Forms.TextBox();
@@ -93,6 +100,8 @@
             this.btn_sesK_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_sesK = new System.Windows.Forms.DataGridView();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label24 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
             this.txt_coolingIsim = new System.Windows.Forms.TextBox();
@@ -101,15 +110,13 @@
             this.btn_siviS_kayitSil = new System.Windows.Forms.Button();
             this.btn_siviS_kayitGetir = new System.Windows.Forms.Button();
             this.dataG_siviS = new System.Windows.Forms.DataGridView();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_anakart)).BeginInit();
@@ -126,8 +133,15 @@
             this.tabPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataG_sesK)).BeginInit();
             this.tabPage8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataG_siviS)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataG_siviS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -150,6 +164,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.pictureBox8);
             this.tabPage1.Controls.Add(this.label17);
             this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.label9);
@@ -166,6 +181,16 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Anakart";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label17.Location = new System.Drawing.Point(703, 68);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(166, 25);
+            this.label17.TabIndex = 6;
+            this.label17.Text = "Anakart Deposu";
             // 
             // button1
             // 
@@ -249,6 +274,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.pictureBox7);
             this.tabPage2.Controls.Add(this.label18);
             this.tabPage2.Controls.Add(this.button2);
             this.tabPage2.Controls.Add(this.label10);
@@ -265,6 +291,16 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "İşlemci";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label18.Location = new System.Drawing.Point(707, 68);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(158, 25);
+            this.label18.TabIndex = 9;
+            this.label18.Text = "İşlemci Deposu";
             // 
             // button2
             // 
@@ -348,6 +384,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.pictureBox6);
             this.tabPage3.Controls.Add(this.label19);
             this.tabPage3.Controls.Add(this.button3);
             this.tabPage3.Controls.Add(this.label11);
@@ -364,6 +401,16 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Ram";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label19.Location = new System.Drawing.Point(725, 68);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(136, 25);
+            this.label19.TabIndex = 11;
+            this.label19.Text = "Ram Deposu";
             // 
             // button3
             // 
@@ -446,6 +493,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.pictureBox5);
             this.tabPage4.Controls.Add(this.label20);
             this.tabPage4.Controls.Add(this.button4);
             this.tabPage4.Controls.Add(this.label12);
@@ -462,6 +510,16 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Ekran Kartı";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label20.Location = new System.Drawing.Point(690, 68);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(198, 25);
+            this.label20.TabIndex = 11;
+            this.label20.Text = "Ekran Kartı Deposu";
             // 
             // button4
             // 
@@ -544,6 +602,7 @@
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.pictureBox4);
             this.tabPage5.Controls.Add(this.label21);
             this.tabPage5.Controls.Add(this.button5);
             this.tabPage5.Controls.Add(this.label13);
@@ -560,6 +619,16 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Monitör";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label21.Location = new System.Drawing.Point(711, 68);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(164, 25);
+            this.label21.TabIndex = 11;
+            this.label21.Text = "Monitör Deposu";
             // 
             // button5
             // 
@@ -642,6 +711,7 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.pictureBox3);
             this.tabPage6.Controls.Add(this.label22);
             this.tabPage6.Controls.Add(this.button6);
             this.tabPage6.Controls.Add(this.label14);
@@ -658,6 +728,16 @@
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Kasa";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label22.Location = new System.Drawing.Point(725, 68);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(141, 25);
+            this.label22.TabIndex = 11;
+            this.label22.Text = "Kasa Deposu";
             // 
             // button6
             // 
@@ -740,6 +820,7 @@
             // 
             // tabPage7
             // 
+            this.tabPage7.Controls.Add(this.pictureBox2);
             this.tabPage7.Controls.Add(this.label23);
             this.tabPage7.Controls.Add(this.button7);
             this.tabPage7.Controls.Add(this.label16);
@@ -756,6 +837,16 @@
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "Ses Kartı";
             this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label23.Location = new System.Drawing.Point(699, 68);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(179, 25);
+            this.label23.TabIndex = 11;
+            this.label23.Text = "Ses Kartı Deposu";
             // 
             // button7
             // 
@@ -857,6 +948,26 @@
             this.tabPage8.Text = "Sıvı Soğutucu";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.USER_PHOTO;
+            this.pictureBox1.Location = new System.Drawing.Point(1001, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(53, 48);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label24.Location = new System.Drawing.Point(676, 68);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(224, 25);
+            this.label24.TabIndex = 11;
+            this.label24.Text = "Sıvı Soğutucu Deposu";
+            // 
             // button8
             // 
             this.button8.Location = new System.Drawing.Point(946, 548);
@@ -936,100 +1047,81 @@
             this.dataG_siviS.TabIndex = 1;
             this.dataG_siviS.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataG_siviS_MouseClick);
             // 
-            // label17
+            // pictureBox2
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label17.Location = new System.Drawing.Point(703, 68);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(166, 25);
-            this.label17.TabIndex = 6;
-            this.label17.Text = "Anakart Deposu";
+            this.pictureBox2.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.USER_PHOTO;
+            this.pictureBox2.Location = new System.Drawing.Point(999, 6);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(53, 48);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
             // 
-            // label18
+            // pictureBox3
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label18.Location = new System.Drawing.Point(707, 68);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(158, 25);
-            this.label18.TabIndex = 9;
-            this.label18.Text = "İşlemci Deposu";
+            this.pictureBox3.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.USER_PHOTO;
+            this.pictureBox3.Location = new System.Drawing.Point(1001, 6);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(53, 48);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 13;
+            this.pictureBox3.TabStop = false;
             // 
-            // label19
+            // pictureBox4
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label19.Location = new System.Drawing.Point(725, 68);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(136, 25);
-            this.label19.TabIndex = 11;
-            this.label19.Text = "Ram Deposu";
+            this.pictureBox4.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.USER_PHOTO;
+            this.pictureBox4.Location = new System.Drawing.Point(999, 6);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(53, 48);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 13;
+            this.pictureBox4.TabStop = false;
             // 
-            // label20
+            // pictureBox5
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label20.Location = new System.Drawing.Point(690, 68);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(198, 25);
-            this.label20.TabIndex = 11;
-            this.label20.Text = "Ekran Kartı Deposu";
+            this.pictureBox5.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.USER_PHOTO;
+            this.pictureBox5.Location = new System.Drawing.Point(999, 6);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(53, 48);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 13;
+            this.pictureBox5.TabStop = false;
             // 
-            // label21
+            // pictureBox6
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label21.Location = new System.Drawing.Point(711, 68);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(164, 25);
-            this.label21.TabIndex = 11;
-            this.label21.Text = "Monitör Deposu";
+            this.pictureBox6.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.USER_PHOTO;
+            this.pictureBox6.Location = new System.Drawing.Point(999, 6);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(53, 48);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 13;
+            this.pictureBox6.TabStop = false;
             // 
-            // label22
+            // pictureBox7
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label22.Location = new System.Drawing.Point(725, 68);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(141, 25);
-            this.label22.TabIndex = 11;
-            this.label22.Text = "Kasa Deposu";
+            this.pictureBox7.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.USER_PHOTO;
+            this.pictureBox7.Location = new System.Drawing.Point(999, 6);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(53, 48);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 13;
+            this.pictureBox7.TabStop = false;
             // 
-            // label23
+            // pictureBox8
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label23.Location = new System.Drawing.Point(699, 68);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(179, 25);
-            this.label23.TabIndex = 11;
-            this.label23.Text = "Ses Kartı Deposu";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label24.Location = new System.Drawing.Point(676, 68);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(224, 25);
-            this.label24.TabIndex = 11;
-            this.label24.Text = "Sıvı Soğutucu Deposu";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.USER_PHOTO;
-            this.pictureBox1.Location = new System.Drawing.Point(1001, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(53, 48);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox8.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.USER_PHOTO;
+            this.pictureBox8.Location = new System.Drawing.Point(999, 6);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(53, 48);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 13;
+            this.pictureBox8.TabStop = false;
             // 
             // admin_panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1068, 632);
             this.Controls.Add(this.tabControl1);
             this.Name = "admin_panel";
@@ -1059,8 +1151,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataG_sesK)).EndInit();
             this.tabPage8.ResumeLayout(false);
             this.tabPage8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataG_siviS)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataG_siviS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1149,5 +1248,12 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

@@ -142,7 +142,7 @@
             this.pictureBox2.Image = global::Bilgisayar_Toplama_Otomasyonu.Properties.Resources.q34t5tuyerw1;
             this.pictureBox2.Location = new System.Drawing.Point(-176, -182);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1102, 872);
+            this.pictureBox2.Size = new System.Drawing.Size(1019, 860);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
@@ -182,6 +182,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(507, 339);
             this.Controls.Add(this.btn_);
             this.Controls.Add(this.btn_kullaniciGirisine);

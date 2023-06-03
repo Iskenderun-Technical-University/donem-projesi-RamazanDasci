@@ -224,5 +224,11 @@
   <ItemGroup>
     <None Include="Resources\user-icons.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cpu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laptop.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -49,75 +49,75 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(144, 188);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(144, 183);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 20);
+            this.label1.Size = new System.Drawing.Size(117, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Kullanıcı Adı";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(144, 219);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(144, 222);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 20);
+            this.label2.Size = new System.Drawing.Size(65, 25);
             this.label2.TabIndex = 0;
             this.label2.Text = "Parola";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(144, 250);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(144, 261);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 20);
+            this.label3.Size = new System.Drawing.Size(121, 25);
             this.label3.TabIndex = 0;
             this.label3.Text = "Parola Tekrar";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(144, 281);
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(144, 300);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 20);
+            this.label4.Size = new System.Drawing.Size(76, 25);
             this.label4.TabIndex = 0;
             this.label4.Text = "E-posta";
             // 
             // txt_kullaniciAdi
             // 
-            this.txt_kullaniciAdi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_kullaniciAdi.Location = new System.Drawing.Point(274, 188);
+            this.txt_kullaniciAdi.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_kullaniciAdi.Location = new System.Drawing.Point(274, 180);
             this.txt_kullaniciAdi.Name = "txt_kullaniciAdi";
-            this.txt_kullaniciAdi.Size = new System.Drawing.Size(225, 26);
+            this.txt_kullaniciAdi.Size = new System.Drawing.Size(225, 33);
             this.txt_kullaniciAdi.TabIndex = 0;
             // 
             // txt_parola
             // 
-            this.txt_parola.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_parola.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txt_parola.Location = new System.Drawing.Point(274, 219);
             this.txt_parola.Name = "txt_parola";
-            this.txt_parola.Size = new System.Drawing.Size(225, 26);
+            this.txt_parola.Size = new System.Drawing.Size(225, 33);
             this.txt_parola.TabIndex = 1;
             this.txt_parola.UseSystemPasswordChar = true;
             // 
             // txt_parolaYeniden
             // 
-            this.txt_parolaYeniden.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_parolaYeniden.Location = new System.Drawing.Point(274, 250);
+            this.txt_parolaYeniden.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_parolaYeniden.Location = new System.Drawing.Point(274, 258);
             this.txt_parolaYeniden.Name = "txt_parolaYeniden";
-            this.txt_parolaYeniden.Size = new System.Drawing.Size(225, 26);
+            this.txt_parolaYeniden.Size = new System.Drawing.Size(225, 33);
             this.txt_parolaYeniden.TabIndex = 2;
             this.txt_parolaYeniden.UseSystemPasswordChar = true;
             // 
             // txt_ePosta
             // 
-            this.txt_ePosta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txt_ePosta.Location = new System.Drawing.Point(274, 281);
+            this.txt_ePosta.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txt_ePosta.Location = new System.Drawing.Point(274, 297);
             this.txt_ePosta.Name = "txt_ePosta";
-            this.txt_ePosta.Size = new System.Drawing.Size(225, 26);
+            this.txt_ePosta.Size = new System.Drawing.Size(225, 33);
             this.txt_ePosta.TabIndex = 3;
             // 
             // checkBox1
@@ -160,10 +160,11 @@
             this.btn_kapat.BorderSize = 1;
             this.btn_kapat.FlatAppearance.BorderSize = 0;
             this.btn_kapat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_kapat.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_kapat.ForeColor = System.Drawing.Color.Black;
-            this.btn_kapat.Location = new System.Drawing.Point(590, 12);
+            this.btn_kapat.Location = new System.Drawing.Point(584, 12);
             this.btn_kapat.Name = "btn_kapat";
-            this.btn_kapat.Size = new System.Drawing.Size(51, 38);
+            this.btn_kapat.Size = new System.Drawing.Size(57, 38);
             this.btn_kapat.TabIndex = 9;
             this.btn_kapat.Text = "Kapat";
             this.btn_kapat.TextColor = System.Drawing.Color.Black;
@@ -179,11 +180,11 @@
             this.btn_giris.BorderSize = 1;
             this.btn_giris.FlatAppearance.BorderSize = 0;
             this.btn_giris.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_giris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_giris.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_giris.ForeColor = System.Drawing.Color.Black;
             this.btn_giris.Location = new System.Drawing.Point(12, 376);
             this.btn_giris.Name = "btn_giris";
-            this.btn_giris.Size = new System.Drawing.Size(91, 35);
+            this.btn_giris.Size = new System.Drawing.Size(108, 35);
             this.btn_giris.TabIndex = 8;
             this.btn_giris.Text = "Giriş Ekranı";
             this.btn_giris.TextColor = System.Drawing.Color.Black;
@@ -199,7 +200,7 @@
             this.btn_kayitOl.BorderSize = 1;
             this.btn_kayitOl.FlatAppearance.BorderSize = 0;
             this.btn_kayitOl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_kayitOl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_kayitOl.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_kayitOl.ForeColor = System.Drawing.Color.Black;
             this.btn_kayitOl.Location = new System.Drawing.Point(274, 346);
             this.btn_kayitOl.Name = "btn_kayitOl";
@@ -214,6 +215,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(653, 425);
             this.Controls.Add(this.btn_kapat);

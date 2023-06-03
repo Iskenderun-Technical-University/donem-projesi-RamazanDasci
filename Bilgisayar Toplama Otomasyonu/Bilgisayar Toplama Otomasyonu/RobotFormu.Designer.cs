@@ -71,41 +71,41 @@
             // 
             // cmbox_islemci
             // 
-            this.cmbox_islemci.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_islemci.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbox_islemci.FormattingEnabled = true;
             this.cmbox_islemci.Location = new System.Drawing.Point(148, 48);
             this.cmbox_islemci.Name = "cmbox_islemci";
-            this.cmbox_islemci.Size = new System.Drawing.Size(685, 28);
+            this.cmbox_islemci.Size = new System.Drawing.Size(685, 33);
             this.cmbox_islemci.TabIndex = 0;
             this.cmbox_islemci.SelectedIndexChanged += new System.EventHandler(this.cmbox_islemci_SelectedIndexChanged);
             // 
             // cmbox_anakart
             // 
-            this.cmbox_anakart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_anakart.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbox_anakart.FormattingEnabled = true;
             this.cmbox_anakart.Location = new System.Drawing.Point(148, 136);
             this.cmbox_anakart.Name = "cmbox_anakart";
-            this.cmbox_anakart.Size = new System.Drawing.Size(685, 28);
+            this.cmbox_anakart.Size = new System.Drawing.Size(685, 33);
             this.cmbox_anakart.TabIndex = 0;
             // 
             // cmbox_ram
             // 
-            this.cmbox_ram.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_ram.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbox_ram.FormattingEnabled = true;
             this.cmbox_ram.Location = new System.Drawing.Point(148, 224);
             this.cmbox_ram.Name = "cmbox_ram";
-            this.cmbox_ram.Size = new System.Drawing.Size(685, 28);
+            this.cmbox_ram.Size = new System.Drawing.Size(685, 33);
             this.cmbox_ram.TabIndex = 0;
             // 
             // cmbox_seskarti
             // 
             this.cmbox_seskarti.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cmbox_seskarti.Enabled = false;
-            this.cmbox_seskarti.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_seskarti.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbox_seskarti.FormattingEnabled = true;
             this.cmbox_seskarti.Location = new System.Drawing.Point(148, 400);
             this.cmbox_seskarti.Name = "cmbox_seskarti";
-            this.cmbox_seskarti.Size = new System.Drawing.Size(685, 28);
+            this.cmbox_seskarti.Size = new System.Drawing.Size(685, 33);
             this.cmbox_seskarti.TabIndex = 0;
             this.cmbox_seskarti.Text = "Sisteminize Ses Kartı Tanımlanmamıştır";
             // 
@@ -113,45 +113,45 @@
             // 
             this.cmbox_sivisogutucu.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.cmbox_sivisogutucu.Enabled = false;
-            this.cmbox_sivisogutucu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_sivisogutucu.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbox_sivisogutucu.FormattingEnabled = true;
             this.cmbox_sivisogutucu.Location = new System.Drawing.Point(148, 488);
             this.cmbox_sivisogutucu.Name = "cmbox_sivisogutucu";
-            this.cmbox_sivisogutucu.Size = new System.Drawing.Size(685, 28);
+            this.cmbox_sivisogutucu.Size = new System.Drawing.Size(685, 33);
             this.cmbox_sivisogutucu.TabIndex = 0;
             this.cmbox_sivisogutucu.Text = "Sisteminize Sıvı Soğutucu Tanımlanmamıştır";
             // 
             // cmbox_monitor
             // 
-            this.cmbox_monitor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_monitor.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbox_monitor.FormattingEnabled = true;
             this.cmbox_monitor.Location = new System.Drawing.Point(148, 576);
             this.cmbox_monitor.Name = "cmbox_monitor";
-            this.cmbox_monitor.Size = new System.Drawing.Size(685, 28);
+            this.cmbox_monitor.Size = new System.Drawing.Size(685, 33);
             this.cmbox_monitor.TabIndex = 0;
             // 
             // cmbox_ekrankarti
             // 
-            this.cmbox_ekrankarti.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_ekrankarti.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbox_ekrankarti.FormattingEnabled = true;
             this.cmbox_ekrankarti.Location = new System.Drawing.Point(148, 312);
             this.cmbox_ekrankarti.Name = "cmbox_ekrankarti";
-            this.cmbox_ekrankarti.Size = new System.Drawing.Size(685, 28);
+            this.cmbox_ekrankarti.Size = new System.Drawing.Size(685, 33);
             this.cmbox_ekrankarti.TabIndex = 0;
             this.cmbox_ekrankarti.SelectedIndexChanged += new System.EventHandler(this.cmbox_ekrankarti_SelectedIndexChanged);
             // 
             // cmbox_kasa
             // 
-            this.cmbox_kasa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_kasa.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbox_kasa.FormattingEnabled = true;
             this.cmbox_kasa.Location = new System.Drawing.Point(148, 664);
             this.cmbox_kasa.Name = "cmbox_kasa";
-            this.cmbox_kasa.Size = new System.Drawing.Size(685, 28);
+            this.cmbox_kasa.Size = new System.Drawing.Size(685, 33);
             this.cmbox_kasa.TabIndex = 0;
             // 
             // btn_toplaMain
             // 
-            this.btn_toplaMain.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_toplaMain.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_toplaMain.Location = new System.Drawing.Point(1029, 716);
             this.btn_toplaMain.Name = "btn_toplaMain";
             this.btn_toplaMain.Size = new System.Drawing.Size(270, 57);
@@ -178,6 +178,7 @@
             this.groupBox1.Controls.Add(this.picture_sivisogutucu);
             this.groupBox1.Controls.Add(this.cmbox_monitor);
             this.groupBox1.Controls.Add(this.cmbox_ram);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox1.Location = new System.Drawing.Point(40, 44);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(877, 730);
@@ -267,18 +268,22 @@
             // 
             // lbl_uyari
             // 
+            this.lbl_uyari.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_uyari.AutoSize = true;
-            this.lbl_uyari.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lbl_uyari.ForeColor = System.Drawing.Color.Olive;
-            this.lbl_uyari.Location = new System.Drawing.Point(39, 48);
+            this.lbl_uyari.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_uyari.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.lbl_uyari.Location = new System.Drawing.Point(36, 54);
             this.lbl_uyari.Name = "lbl_uyari";
-            this.lbl_uyari.Size = new System.Drawing.Size(324, 20);
+            this.lbl_uyari.Size = new System.Drawing.Size(311, 21);
             this.lbl_uyari.TabIndex = 4;
             this.lbl_uyari.Text = "Bilgisayarın Durumu Burada Görünecek";
+            this.lbl_uyari.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btn_robotKayit
             // 
-            this.btn_robotKayit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_robotKayit.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_robotKayit.Location = new System.Drawing.Point(1029, 637);
             this.btn_robotKayit.Name = "btn_robotKayit";
             this.btn_robotKayit.Size = new System.Drawing.Size(270, 57);
@@ -289,7 +294,11 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.lbl_uyari);
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox2.Location = new System.Drawing.Point(951, 44);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(412, 126);
@@ -303,6 +312,7 @@
             this.groupBox3.Controls.Add(this.cmbox_rgbFan);
             this.groupBox3.Controls.Add(this.pictureBox2);
             this.groupBox3.Controls.Add(this.pictureBox1);
+            this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupBox3.Location = new System.Drawing.Point(951, 196);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(412, 242);
@@ -312,7 +322,7 @@
             // 
             // cmbox_rbgController
             // 
-            this.cmbox_rbgController.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_rbgController.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbox_rbgController.FormattingEnabled = true;
             this.cmbox_rbgController.Items.AddRange(new object[] {
             "Corsair Lighting Node Pro",
@@ -322,12 +332,12 @@
             "Phanteks RGB LED Strip Combo Set."});
             this.cmbox_rbgController.Location = new System.Drawing.Point(118, 160);
             this.cmbox_rbgController.Name = "cmbox_rbgController";
-            this.cmbox_rbgController.Size = new System.Drawing.Size(261, 28);
+            this.cmbox_rbgController.Size = new System.Drawing.Size(261, 33);
             this.cmbox_rbgController.TabIndex = 1;
             // 
             // cmbox_rgbFan
             // 
-            this.cmbox_rgbFan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cmbox_rgbFan.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbox_rgbFan.FormattingEnabled = true;
             this.cmbox_rgbFan.Items.AddRange(new object[] {
             "Elgato LL120 RGB",
@@ -342,7 +352,7 @@
             "Lian Li Bora Digital"});
             this.cmbox_rgbFan.Location = new System.Drawing.Point(118, 54);
             this.cmbox_rgbFan.Name = "cmbox_rgbFan";
-            this.cmbox_rgbFan.Size = new System.Drawing.Size(261, 28);
+            this.cmbox_rgbFan.Size = new System.Drawing.Size(261, 33);
             this.cmbox_rgbFan.TabIndex = 1;
             // 
             // pictureBox2
@@ -369,6 +379,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(1384, 805);
             this.Controls.Add(this.groupBox3);

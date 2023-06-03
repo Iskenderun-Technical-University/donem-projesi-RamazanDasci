@@ -76,10 +76,12 @@ namespace Bilgisayar_Toplama_Otomasyonu
                 if(islemciId - EkrankartiId > 5 || islemciId - EkrankartiId < -5)
                 {
                     lbl_uyari.Text = "İşlemci ve Ekran Kartı Uyumlu Çalışmayabilir!!!";
+                    lbl_uyari.ForeColor = Color.Red;
                 }
                 else
                 {
                     lbl_uyari.Text = "Sorun Görünmüyor";
+                    lbl_uyari.ForeColor = Color.Green;
                 }
             }
         }

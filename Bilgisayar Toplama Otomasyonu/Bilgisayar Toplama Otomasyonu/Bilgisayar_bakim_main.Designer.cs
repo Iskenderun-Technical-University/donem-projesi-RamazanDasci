@@ -43,20 +43,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(257, 18);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(236, 14);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(329, 29);
+            this.label1.Size = new System.Drawing.Size(364, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Bilgisayar Bakım Ana Sayfa";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(62, 63);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(49, 67);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(710, 36);
+            this.label2.Size = new System.Drawing.Size(719, 40);
             this.label2.TabIndex = 2;
             this.label2.Text = "UYARI !!! Öncelikle Burada Yapılacak İşemler Tehlikeli  Olabilir, Belirli Seviyed" +
     "e Elektronik Bilgisi Olmayanlar \r\nLütfen En Yakın Teknik Servise Başvurunuz\r\n";
@@ -152,11 +152,11 @@
             this.btn_sorunBul.BorderSize = 1;
             this.btn_sorunBul.FlatAppearance.BorderSize = 0;
             this.btn_sorunBul.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_sorunBul.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_sorunBul.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_sorunBul.ForeColor = System.Drawing.Color.Black;
-            this.btn_sorunBul.Location = new System.Drawing.Point(365, 376);
+            this.btn_sorunBul.Location = new System.Drawing.Point(353, 392);
             this.btn_sorunBul.Name = "btn_sorunBul";
-            this.btn_sorunBul.Size = new System.Drawing.Size(121, 46);
+            this.btn_sorunBul.Size = new System.Drawing.Size(144, 46);
             this.btn_sorunBul.TabIndex = 6;
             this.btn_sorunBul.Text = "Sorunumu Bul";
             this.btn_sorunBul.TextColor = System.Drawing.Color.Black;
@@ -172,11 +172,11 @@
             this.btn_anaSayfa.BorderSize = 1;
             this.btn_anaSayfa.FlatAppearance.BorderSize = 0;
             this.btn_anaSayfa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_anaSayfa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_anaSayfa.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_anaSayfa.ForeColor = System.Drawing.Color.Black;
-            this.btn_anaSayfa.Location = new System.Drawing.Point(727, 18);
+            this.btn_anaSayfa.Location = new System.Drawing.Point(721, 12);
             this.btn_anaSayfa.Name = "btn_anaSayfa";
-            this.btn_anaSayfa.Size = new System.Drawing.Size(61, 42);
+            this.btn_anaSayfa.Size = new System.Drawing.Size(67, 52);
             this.btn_anaSayfa.TabIndex = 7;
             this.btn_anaSayfa.Text = "Ana Sayfa";
             this.btn_anaSayfa.TextColor = System.Drawing.Color.Black;
@@ -187,6 +187,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.LightYellow;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.ControlBox = false;
